@@ -1,0 +1,5 @@
+<map id="IMeshTools_Context" name="IMeshTools_Context">
+<area shape="rect" id="node4" href="$class_b_rep_mesh___context.html" title="Class implemeting default context of BRepMesh algorithm. Initializes context by default algorithms..." alt="" coords="6,229,145,256"/>
+<area shape="rect" id="node2" href="$class_i_mesh_data___shape.html" title="Interface class representing model with associated TopoDS_Shape. Intended for inheritance by structur..." alt="" coords="11,80,139,107"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="8,5,143,32"/>
+</map>

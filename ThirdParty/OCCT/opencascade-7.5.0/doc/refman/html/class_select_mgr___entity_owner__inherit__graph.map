@@ -1,0 +1,11 @@
+<map id="SelectMgr_EntityOwner" name="SelectMgr_EntityOwner">
+<area shape="rect" id="node3" href="$class_a_i_s___manipulator_owner.html" title="Entity owner for selection management of AIS_Manipulator object. " alt="" coords="409,5,563,32"/>
+<area shape="rect" id="node4" href="$class_a_i_s___point_cloud_owner.html" title="Custom owner for highlighting selected points. " alt="" coords="411,56,561,83"/>
+<area shape="rect" id="node5" href="$class_a_i_s___trihedron_owner.html" title="Entity owner for selection management of AIS_Trihedron object. " alt="" coords="416,107,556,133"/>
+<area shape="rect" id="node6" href="$class_a_i_s___view_cube_owner.html" title="Redefined entity owner that is highlighted when owner is detected, even if Interactive Context highli..." alt="" coords="413,157,559,184"/>
+<area shape="rect" id="node7" href="$class_mesh_v_s___mesh_entity_owner.html" title="The custom owner. This class provides methods to store owner information: 1) An address of element or..." alt="" coords="395,208,577,235"/>
+<area shape="rect" id="node8" href="$class_mesh_v_s___mesh_owner.html" title="The custom mesh owner used for advanced mesh selection. This class provides methods to store informat..." alt="" coords="412,259,560,285"/>
+<area shape="rect" id="node9" href="$class_prs_dim___dimension_owner.html" title="The owner is the entity which makes it possible to link the sensitive primitives and the reference sh..." alt="" coords="401,309,571,336"/>
+<area shape="rect" id="node10" href="$class_std_select___b_rep_owner.html" title="Defines Specific Owners for Sensitive Primitives (Sensitive Segments,Circles...). Used in Dynamic Sel..." alt="" coords="409,360,563,387"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="5,183,140,209"/>
+</map>

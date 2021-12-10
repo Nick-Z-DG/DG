@@ -1,0 +1,7 @@
+<map id="IMeshData_Edge" name="IMeshData_Edge">
+<area shape="rect" id="node6" href="$class_b_rep_mesh_data___edge.html" title="Default implementation of edge data model entity. " alt="" coords="130,304,281,331"/>
+<area shape="rect" id="node2" href="$class_i_mesh_data___tessellated_shape.html" title="Interface class representing shaped model with deflection. " alt="" coords="5,155,200,181"/>
+<area shape="rect" id="node3" href="$class_i_mesh_data___shape.html" title="Interface class representing model with associated TopoDS_Shape. Intended for inheritance by structur..." alt="" coords="39,80,167,107"/>
+<area shape="rect" id="node4" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="35,5,170,32"/>
+<area shape="rect" id="node5" href="$class_i_mesh_data___status_owner.html" title="Extension interface class providing status functionality. " alt="" coords="225,155,391,181"/>
+</map>

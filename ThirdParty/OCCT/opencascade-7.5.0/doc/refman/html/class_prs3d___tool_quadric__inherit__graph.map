@@ -1,0 +1,7 @@
+<map id="Prs3d_ToolQuadric" name="Prs3d_ToolQuadric">
+<area shape="rect" id="node2" href="$class_prs3d___tool_cylinder.html" title="Standard presentation algorithm that outputs graphical primitives for cylindrical surface..." alt="" coords="5,80,140,107"/>
+<area shape="rect" id="node3" href="$class_prs3d___tool_disk.html" title="Standard presentation algorithm that outputs graphical primitives for disk surface. " alt="" coords="164,80,277,107"/>
+<area shape="rect" id="node4" href="$class_prs3d___tool_sector.html" title="Standard presentation algorithm that outputs graphical primitives for disk surface. " alt="" coords="302,80,427,107"/>
+<area shape="rect" id="node5" href="$class_prs3d___tool_sphere.html" title="Standard presentation algorithm that outputs graphical primitives for spherical surface. " alt="" coords="451,80,579,107"/>
+<area shape="rect" id="node6" href="$class_prs3d___tool_torus.html" title="Standard presentation algorithm that outputs graphical primitives for torus surface. " alt="" coords="604,80,723,107"/>
+</map>

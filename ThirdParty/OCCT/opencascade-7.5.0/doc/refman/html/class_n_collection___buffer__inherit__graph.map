@@ -1,0 +1,15 @@
+<map id="NCollection_Buffer" name="NCollection_Buffer">
+<area shape="rect" id="node3" href="$class_graphic3d___bound_buffer.html" title="Bounds buffer. " alt="" coords="364,31,523,57"/>
+<area shape="rect" id="node4" href="$class_graphic3d___buffer.html" title="Buffer of vertex attributes. " alt="" coords="383,81,504,108"/>
+<area shape="rect" id="node9" href="$class_image___pix_map_data.html" title="Structure to manage image buffer. " alt="" coords="376,263,511,289"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="5,81,140,108"/>
+<area shape="rect" id="node5" href="$class_graphic3d___attrib_buffer.html" title="Buffer of vertex attributes. This class is intended for advanced usage allowing invalidation of entir..." alt="" coords="595,5,747,32"/>
+<area shape="rect" id="node6" href="$class_graphic3d___index_buffer.html" title="Index buffer. " alt="" coords="595,56,747,83"/>
+<area shape="rect" id="node8" href="$class_select3_d___b_v_h_index_buffer.html" title="Index buffer for BVH tree. " alt="" coords="585,107,758,133"/>
+<area shape="rect" id="node7" href="$class_graphic3d___mutable_index_buffer.html" title="Mutable index buffer. " alt="" coords="820,56,1019,83"/>
+<area shape="rect" id="node10" href="$class_image___pix_map_typed_data.html" title="Structure to manage image buffer with predefined pixel type. " alt="" coords="586,158,757,199"/>
+<area shape="rect" id="node11" href="$class_image___pix_map_typed_data.html" title="Image_PixMapTypedData\l\&lt; float \&gt;" alt="" coords="586,223,757,265"/>
+<area shape="rect" id="node12" href="$class_image___pix_map_typed_data.html" title="Image_PixMapTypedData\l\&lt; int \&gt;" alt="" coords="586,289,757,330"/>
+<area shape="rect" id="node13" href="$class_image___pix_map_typed_data.html" title="Image_PixMapTypedData\l\&lt; NCollection_Vec2\&lt; Standard\l_Integer \&gt; \&gt;" alt="" coords="571,355,772,411"/>
+<area shape="rect" id="node14" href="$class_image___pix_map_typed_data.html" title="Image_PixMapTypedData\l\&lt; unsigned int \&gt;" alt="" coords="586,435,757,477"/>
+</map>

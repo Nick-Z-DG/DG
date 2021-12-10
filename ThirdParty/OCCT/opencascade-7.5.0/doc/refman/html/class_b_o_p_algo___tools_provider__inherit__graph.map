@@ -1,0 +1,10 @@
+<map id="BOPAlgo_ToolsProvider" name="BOPAlgo_ToolsProvider">
+<area shape="rect" id="node6" href="$class_b_o_p_algo___b_o_p.html" title="The class represents the Building part of the Boolean Operations algorithm. &#160;The arguments of the alg..." alt="" coords="53,379,163,405"/>
+<area shape="rect" id="node9" href="$class_b_o_p_algo___splitter.html" title="The Splitter algorithm is the algorithm for splitting a group of arbitrary shapes by the other group ..." alt="" coords="187,379,311,405"/>
+<area shape="rect" id="node2" href="$class_b_o_p_algo___builder.html" title="The class is a General Fuse algorithm &#45; base algorithm for the algorithms in the Boolean Component..." alt="" coords="117,229,240,256"/>
+<area shape="rect" id="node3" href="$class_b_o_p_algo___builder_shape.html" title="Root class for algorithms that has shape as result. " alt="" coords="99,155,259,181"/>
+<area shape="rect" id="node4" href="$class_b_o_p_algo___algo.html" title="The class provides the root interface for the algorithms in Boolean Component. &#160;" alt="" coords="124,80,233,107"/>
+<area shape="rect" id="node5" href="$class_b_o_p_algo___options.html" title="The class provides the following options for the algorithms in Boolean Component: ..." alt="" coords="115,5,243,32"/>
+<area shape="rect" id="node7" href="$class_b_rep_feat___builder.html" title="Provides a basic tool to implement features topological operations. The main goal of the algorithm is..." alt="" coords="45,453,171,480"/>
+<area shape="rect" id="node8" href="$class_b_rep_feat___make_cylindrical_hole.html" title="Provides a tool to make cylindrical holes on a shape. " alt="" coords="5,528,211,555"/>
+</map>

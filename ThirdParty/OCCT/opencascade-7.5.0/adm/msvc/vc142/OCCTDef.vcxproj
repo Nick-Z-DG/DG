@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>HAVE_FREEIMAGE;HAVE_GL2PS;HAVE_TBB;CHECK_QT4;CHECK_JDK;%(PreprocessorDefinitions)</PreprocessorDefinitions>      
+    </Midl>
+  </ItemDefinitionGroup>
+ <PropertyGroup Label="OpenCASCADE" Condition="'$(CASRoot)'==''"> 
+    <CASRoot>$(ProjectDir)..\..\..\..\..\OCCT\opencascade-7.5.0</CASRoot> 
+    <CASProducts>$(ProjectDir)..\..\..\..</CASProducts>
+    <CASInc>$(CASRoot)\inc</CASInc>	
+    <CSF_SHMessage>$(CASRoot)\src\SHMessage"</CSF_SHMessage> 
+    <CSF_MDTVTexturesDirectory>$(CASRoot)\src\Textures"</CSF_MDTVTexturesDirectory>
+    <CSF_ShadersDirectory>$(CASRoot)\src\Shaders"</CSF_ShadersDirectory>
+    <CSF_XSMessage>$(CASRoot)\src\XSMessage"</CSF_XSMessage> 
+    <CSF_TObjMessage>$(CASRoot)\src\TObj"</CSF_TObjMessage>
+    <CSF_StandardDefaults>$(CASRoot)\src\StdResource"</CSF_StandardDefaults>
+    <CSF_PluginDefaults>$(CASRoot)\src\StdResource"</CSF_PluginDefaults>
+    <CSF_XCAFDefaults>$(CASRoot)\src\StdResource"</CSF_XCAFDefaults>
+    <CSF_TObjDefaults>$(CASRoot)\src\StdResource"</CSF_TObjDefaults>
+    <CSF_StandardLiteDefaults>$(CASRoot)\src\StdResource"</CSF_StandardLiteDefaults>
+    <CSF_UnitsLexicon>$(CASRoot)\src\UnitsAPI\Lexi_Expr.dat"</CSF_UnitsLexicon>
+    <CSF_UnitsDefinition>$(CASRoot)\src\UnitsAPI\Units.dat"</CSF_UnitsDefinition>
+    <CSF_IGESDefaults>$(CASRoot)\src\XSTEPResource"</CSF_IGESDefaults>
+    <CSF_STEPDefaults>$(CASRoot)\src\XSTEPResource"</CSF_STEPDefaults>
+    <CSF_XmlOcafResource>$(CASRoot)\src\XmlOcafResource"</CSF_XmlOcafResource>
+    <CSF_MIGRATION_TYPES>$(CASRoot)\src\StdResource\MigrationSheet.txt"</CSF_MIGRATION_TYPES>
+    <CSF_OPT_INC>$(CASProducts)\freetype-2.10.4\include;$(CASProducts)\tcltk-86-64\include;$(CASProducts)\tcltk-86-64\include;$(CASProducts)\vtk-6.1.0-vc14-64\include\vtk-6.1</CSF_OPT_INC>
+    <CSF_OPT_INC32>$(CASProducts)\freetype-2.10.4_vc14_32\include;$(CASProducts)\tcltk-86-64\include;$(CASProducts)\tcltk-86-64\include;$(CASProducts)\VTK-6.1.0-vc14-32\include\vtk-6.1</CSF_OPT_INC32>
+    <CSF_OPT_LIB32D>$(CASProducts)\freetype-2.10.4_vc14_32\lib;$(CASProducts)\freeimage-3.17.0-vc14-32\lib;$(CASProducts)\vtk-6.1.0-vc14-32\lib;$(CASProducts)\tcltk-86-32\lib;$(CASProducts)\openvr-1.14.15-32\lib\win32;$(CASProducts)\ffmpeg-3.3.4-32\lib;$(CASProducts)\tbb_2017.0.100\lib\intel64\vc14;$(CASProducts)\qt5.11.2-vc14-32\lib</CSF_OPT_LIB32D>
+    <CSF_OPT_LIB64D>$(CASProducts)\freetype-2.10.4\lib;$(CASProducts)\freeimage-3.17.0-vc14-64\lib;$(CASProducts)\vtk-6.1.0-vc14-64\lib;$(CASProducts)\tcltk-86-64\lib;$(CASProducts)\openvr-1.14.15-64\lib\win64;$(CASProducts)\ffmpeg-3.3.4-64\lib;$(CASProducts)\tbb_2017.0.100\lib\intel64\vc14;$(CASProducts)\qt5.11.2-vc14-64\lib</CSF_OPT_LIB64D>
+    <CSF_OPT_BIN32D>$(CASRoot)\..\Bin\Debug</CSF_OPT_BIN32D>
+    <CSF_OPT_BIN64D>$(CASRoot)\..\Bin\x64\Debug</CSF_OPT_BIN64D>
+    <CSF_OPT_LIB32>$(CASProducts)\freetype-2.10.4_vc14_32\lib;$(CASProducts)\freeimage-3.17.0-vc14-32\lib;$(CASProducts)\VTK-6.1.0-vc14-32\lib;$(CASProducts)\tcltk-86-32\lib;$(CASProducts)\openvr-1.14.15-32\lib\win32;$(CASProducts)\ffmpeg-3.3.4-32\lib;$(CASProducts)\tbb_2017.0.100\lib\intel64\vc14;$(CASProducts)\qt5.11.2-vc14-32\lib</CSF_OPT_LIB32>
+    <CSF_OPT_LIB64>$(CASProducts)\freetype-2.10.4\lib;$(CASProducts)\freeimage-3.17.0-vc14-64\lib;$(CASProducts)\VTK-6.1.0-vc14-64\lib;$(CASProducts)\tcltk-86-64\lib;$(CASProducts)\openvr-1.14.15-64\lib\win64;$(CASProducts)\ffmpeg-3.3.4-64\lib;$(CASProducts)\tbb_2017.0.100\lib\intel64\vc14;$(CASProducts)\qt5.11.2-vc14-64\lib</CSF_OPT_LIB64>
+    <CSF_OPT_BIN32>$(CASRoot)\..\Bin</CSF_OPT_BIN32>
+    <CSF_OPT_BIN64>$(CASRoot)\..\Bin\x64</CSF_OPT_BIN64>	
+  </PropertyGroup>
+</Project>

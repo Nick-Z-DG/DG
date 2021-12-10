@@ -1,0 +1,60 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  dir.c
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\__dirent.h(179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\__dirent.h(185): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\__dirent.h(189): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\__dirent.h(239): warning C4244: '=': conversion from 'intptr_t' to 'long', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\dir.c(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\dir.c(84): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\dir.c(85): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\dir.c(283): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+  err.c
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\err.c(75): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(182): note: see declaration of 'strerror'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\err.c(80): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(182): note: see declaration of 'strerror'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\err.c(92): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(182): note: see declaration of 'strerror'
+  file.c
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\file.c(412): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\file.c(452): warning C4267: 'return': conversion from 'size_t' to 'zzip_ssize_t', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\file.c(808): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\file.c(855): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(536): note: see declaration of 'strdup'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\file.c(1023): warning C4267: '=': conversion from 'size_t' to 'zzip_off_t', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\file.c(1127): warning C4267: 'return': conversion from 'size_t' to 'zzip_off_t', possible loss of data
+  info.c
+  plugin.c
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\plugin.c(47): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(516): note: see declaration of 'open'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\plugin.c(48): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(459): note: see declaration of 'close'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\plugin.c(46): warning C4028: formal parameter 3 different from declaration
+  stat.c
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\stat.c(101): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\stat.c(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  write.c
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\write.c(167): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\write.c(174): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\write.c(144): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(111): note: see declaration of 'mkdir'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\write.c(151): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\write.c(226): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(111): note: see declaration of 'mkdir'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\write.c(269): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\direct.h(111): note: see declaration of 'mkdir'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\write.c(327): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\write.c(327): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_io.h(558): note: see declaration of 'write'
+  zip.c
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\zip.c(328): warning C4244: '=': conversion from '__int64' to 'zzip_off_t', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\zip.c(385): warning C4311: 'type cast': pointer truncation from 'char *' to 'long'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\zip.c(386): warning C4311: 'type cast': pointer truncation from 'char *' to 'long'
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\zip.c(462): warning C4244: 'function': conversion from 'zzip_off64_t' to 'zzip_off_t', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\zip.c(506): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+e:\projects\6_1\kernelcad\thirdparty\ogre-1.10.12\build_x32\zziplib-master\zzip\zip.c(780): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  fetch.c
+  Generating Code...
+  zzip.vcxproj -> E:\Projects\6_1\KernelCAD\ThirdParty\ogre-1.10.12\build_x32\ZZIPlib-master\build\\..\..\Dep\x64\zzip.lib

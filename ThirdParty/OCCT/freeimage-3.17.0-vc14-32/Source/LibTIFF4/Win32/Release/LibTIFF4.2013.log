@@ -1,0 +1,54 @@
+﻿  tif_aux.c
+  tif_close.c
+  tif_codec.c
+  tif_color.c
+  tif_compress.c
+  tif_dir.c
+  tif_dirinfo.c
+  tif_dirread.c
+  tif_dirwrite.c
+  tif_dumpmode.c
+  tif_error.c
+  tif_extension.c
+  tif_fax3.c
+  tif_flush.c
+  tif_getimage.c
+  tif_jpeg.c
+  tif_luv.c
+  tif_lzma.c
+  tif_lzw.c
+  tif_next.c
+  Generating Code...
+  Compiling...
+  tif_ojpeg.c
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(618,14): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64'
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(618,14): message : consider using '%llu' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(618,14): message : consider using '%I64u' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(620,14): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64'
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(620,14): message : consider using '%llu' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(620,14): message : consider using '%I64u' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(625,15): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64'
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(625,15): message : consider using '%llu' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(625,15): message : consider using '%I64u' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(632,15): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64'
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(632,15): message : consider using '%llu' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(632,15): message : consider using '%I64u' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(639,15): warning C4477: 'fprintf' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64'
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(639,15): message : consider using '%llu' in the format string
+C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\tif_ojpeg.c(639,15): message : consider using '%I64u' in the format string
+  tif_open.c
+  tif_packbits.c
+  tif_pixarlog.c
+  tif_predict.c
+  tif_print.c
+  tif_read.c
+  tif_strip.c
+  tif_swab.c
+  tif_thunder.c
+  tif_tile.c
+  tif_version.c
+  tif_warning.c
+  tif_write.c
+  tif_zip.c
+  Generating Code...
+  LibTIFF4.2013.vcxproj -> C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibTIFF4\Win32\Release\LibTIFF4.lib

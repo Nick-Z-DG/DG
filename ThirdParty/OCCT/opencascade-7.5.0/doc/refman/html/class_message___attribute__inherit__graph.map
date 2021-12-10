@@ -1,0 +1,7 @@
+<map id="Message_Attribute" name="Message_Attribute">
+<area shape="rect" id="node3" href="$class_message___attribute_meter.html" title="Alert object storing alert metrics values. Start and stop values for each metric. ..." alt="" coords="5,155,169,181"/>
+<area shape="rect" id="node4" href="$class_message___attribute_object.html" title="Alert object storing a transient object. " alt="" coords="193,155,363,181"/>
+<area shape="rect" id="node5" href="$class_message___attribute_stream.html" title="Alert object storing stream value. " alt="" coords="387,155,561,181"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="211,5,345,32"/>
+<area shape="rect" id="node6" href="$class_topo_d_s___alert_attribute.html" title="Alert attribute object storing TopoDS shape in its field. " alt="" coords="399,229,549,256"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Message_Printer" name="Message_Printer">
+<area shape="rect" id="node3" href="$class_draw___printer.html" title="Implementation of Printer class with output (Message_Messenge) directed to Draw_Interpretor. " alt="" coords="401,5,497,32"/>
+<area shape="rect" id="node4" href="$class_message___printer_o_stream.html" title="Implementation of a message printer associated with an std::ostream The std::ostream may be either ex..." alt="" coords="363,56,535,83"/>
+<area shape="rect" id="node5" href="$class_message___printer_system_log.html" title="Implementation of a message printer associated with system log. Implemented for the following systems..." alt="" coords="356,107,543,133"/>
+<area shape="rect" id="node6" href="$class_message___printer_to_report.html" title="Implementation of a message printer associated with Message_Report Send will create a new alert of th..." alt="" coords="363,157,535,184"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="5,81,140,108"/>
+</map>

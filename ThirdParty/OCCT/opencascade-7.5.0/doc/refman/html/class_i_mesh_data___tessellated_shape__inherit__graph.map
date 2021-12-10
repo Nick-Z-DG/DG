@@ -1,0 +1,10 @@
+<map id="IMeshData_TessellatedShape" name="IMeshData_TessellatedShape">
+<area shape="rect" id="node4" href="$class_i_mesh_data___edge.html" title="Interface class representing discrete model of an edge. " alt="" coords="35,229,156,256"/>
+<area shape="rect" id="node6" href="$class_i_mesh_data___face.html" title="Interface class representing discrete model of a face. Face model contains one or several wires..." alt="" coords="195,229,315,256"/>
+<area shape="rect" id="node8" href="$class_i_mesh_data___wire.html" title="Interface class representing discrete model of a wire. Wire should represent an ordered set of edges..." alt="" coords="353,229,472,256"/>
+<area shape="rect" id="node2" href="$class_i_mesh_data___shape.html" title="Interface class representing model with associated TopoDS_Shape. Intended for inheritance by structur..." alt="" coords="191,80,319,107"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="188,5,323,32"/>
+<area shape="rect" id="node5" href="$class_b_rep_mesh_data___edge.html" title="Default implementation of edge data model entity. " alt="" coords="5,304,156,331"/>
+<area shape="rect" id="node7" href="$class_b_rep_mesh_data___face.html" title="Default implementation of face data model entity. " alt="" coords="181,304,330,331"/>
+<area shape="rect" id="node9" href="$class_b_rep_mesh_data___wire.html" title="Default implementation of wire data model entity. " alt="" coords="354,304,501,331"/>
+</map>

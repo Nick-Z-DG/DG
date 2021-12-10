@@ -1,0 +1,15 @@
+<map id="IMeshData_Shape" name="IMeshData_Shape">
+<area shape="rect" id="node3" href="$class_i_mesh_data___model.html" title="Interface class representing discrete model of a shape. " alt="" coords="398,31,525,57"/>
+<area shape="rect" id="node5" href="$class_i_mesh_data___tessellated_shape.html" title="Interface class representing shaped model with deflection. " alt="" coords="364,107,559,133"/>
+<area shape="rect" id="node12" href="$class_i_mesh_tools___context.html" title="Interface class representing context of BRepMesh algorithm. Intended to cache discrete model and inst..." alt="" coords="391,157,531,184"/>
+<area shape="rect" id="node14" href="$class_i_mesh_tools___shape_explorer.html" title="Explores TopoDS_Shape for parts to be meshed &#45; faces and free edges. " alt="" coords="371,208,551,235"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="5,132,140,159"/>
+<area shape="rect" id="node4" href="$class_b_rep_mesh_data___model.html" title="Default implementation of model entity. " alt="" coords="607,5,761,32"/>
+<area shape="rect" id="node6" href="$class_i_mesh_data___edge.html" title="Interface class representing discrete model of an edge. " alt="" coords="623,56,745,83"/>
+<area shape="rect" id="node8" href="$class_i_mesh_data___face.html" title="Interface class representing discrete model of a face. Face model contains one or several wires..." alt="" coords="624,107,744,133"/>
+<area shape="rect" id="node10" href="$class_i_mesh_data___wire.html" title="Interface class representing discrete model of a wire. Wire should represent an ordered set of edges..." alt="" coords="625,157,743,184"/>
+<area shape="rect" id="node7" href="$class_b_rep_mesh_data___edge.html" title="Default implementation of edge data model entity. " alt="" coords="809,56,960,83"/>
+<area shape="rect" id="node9" href="$class_b_rep_mesh_data___face.html" title="Default implementation of face data model entity. " alt="" coords="810,107,959,133"/>
+<area shape="rect" id="node11" href="$class_b_rep_mesh_data___wire.html" title="Default implementation of wire data model entity. " alt="" coords="811,157,958,184"/>
+<area shape="rect" id="node13" href="$class_b_rep_mesh___context.html" title="Class implemeting default context of BRepMesh algorithm. Initializes context by default algorithms..." alt="" coords="615,208,753,235"/>
+</map>

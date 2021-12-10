@@ -1,0 +1,5 @@
+<map id="BRepMeshData_PCurve" name="BRepMeshData_PCurve">
+<area shape="rect" id="node2" href="$class_i_mesh_data___p_curve.html" title="Interface class representing pcurve of edge associated with discrete face. Indexation of points start..." alt="" coords="29,155,161,181"/>
+<area shape="rect" id="node3" href="$class_i_mesh_data___parameters_list.html" title="Interface class representing list of parameters on curve. " alt="" coords="5,80,184,107"/>
+<area shape="rect" id="node4" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="27,5,162,32"/>
+</map>

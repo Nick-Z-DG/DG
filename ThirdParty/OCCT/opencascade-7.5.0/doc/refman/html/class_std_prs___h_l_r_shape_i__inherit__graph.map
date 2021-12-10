@@ -1,0 +1,5 @@
+<map id="StdPrs_HLRShapeI" name="StdPrs_HLRShapeI">
+<area shape="rect" id="node3" href="$class_std_prs___h_l_r_poly_shape.html" title="Instantiates Prs3d_PolyHLRShape to define a display of a shape where hidden and visible lines are ide..." alt="" coords="5,155,163,181"/>
+<area shape="rect" id="node4" href="$class_std_prs___h_l_r_shape.html" title="Computes the presentation of objects with removal of their hidden lines for a specific projector..." alt="" coords="187,155,317,181"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="101,5,235,32"/>
+</map>

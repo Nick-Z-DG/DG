@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{330D7F3B-032A-04E1-04F2-701A11BF6C79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{6A7E5E68-05BF-0593-0B2E-CBE95844D1F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\D3DHost">
+      <UniqueIdentifier>{33FCC641-05BD-0737-0176-36CDC5FF4AE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\D3DHost">
+      <UniqueIdentifier>{8D071C8C-04ED-0A33-0227-2D56908E1456}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\D3DHost\D3DHost_FrameBuffer.cxx">
+      <Filter>Source files\D3DHost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\D3DHost\D3DHost_GraphicDriver.cxx">
+      <Filter>Source files\D3DHost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\D3DHost\D3DHost_View.cxx">
+      <Filter>Source files\D3DHost</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\D3DHost\D3DHost_FrameBuffer.hxx">
+      <Filter>Header files\D3DHost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\D3DHost\D3DHost_GraphicDriver.hxx">
+      <Filter>Header files\D3DHost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\D3DHost\D3DHost_View.hxx">
+      <Filter>Header files\D3DHost</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKD3DHost.rc" />
+  </ItemGroup>
+</Project>

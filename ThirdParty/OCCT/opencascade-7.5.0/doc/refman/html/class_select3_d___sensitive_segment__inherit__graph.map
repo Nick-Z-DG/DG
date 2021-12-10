@@ -1,0 +1,5 @@
+<map id="Select3D_SensitiveSegment" name="Select3D_SensitiveSegment">
+<area shape="rect" id="node4" href="$class_mesh_v_s___sensitive_segment.html" title="This class provides custom sensitive face, which will be selected if it center is in rectangle..." alt="" coords="7,229,190,256"/>
+<area shape="rect" id="node2" href="$class_select3_d___sensitive_entity.html" title="Abstract framework to define 3D sensitive entities. " alt="" coords="15,80,183,107"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="31,5,166,32"/>
+</map>

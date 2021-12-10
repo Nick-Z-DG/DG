@@ -1,0 +1,5 @@
+<map id="Message_AttributeStream" name="Message_AttributeStream">
+<area shape="rect" id="node4" href="$class_topo_d_s___alert_attribute.html" title="Alert attribute object storing TopoDS shape in its field. " alt="" coords="17,229,167,256"/>
+<area shape="rect" id="node2" href="$class_message___attribute.html" title="Additional information of extended alert attribute To provide other custom attribute container..." alt="" coords="27,80,157,107"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="25,5,159,32"/>
+</map>

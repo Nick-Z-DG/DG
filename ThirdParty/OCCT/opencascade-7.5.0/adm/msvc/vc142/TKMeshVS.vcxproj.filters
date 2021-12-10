@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{0E9DE71A-0FC2-1931-00C3-88ED5F98136E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{23B3AEAE-07FE-1789-0183-92B85F86A5E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MeshVS">
+      <UniqueIdentifier>{F546100C-17DB-1780-0E8A-DFA1C8F65581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MeshVS">
+      <UniqueIdentifier>{67BF03A2-076B-118D-16BE-B443DBD2E3D7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_CommonSensitiveEntity.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_DataSource.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_DataSource3D.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_DeformedDataSource.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_Drawer.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_DummySensitiveEntity.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_ElementalColorPrsBuilder.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_Mesh.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_MeshEntityOwner.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_MeshOwner.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_MeshPrsBuilder.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_NodalColorPrsBuilder.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_PrsBuilder.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitiveFace.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitiveMesh.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitivePolyhedron.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitiveQuad.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitiveSegment.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_TextPrsBuilder.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_Tool.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_TwoColors.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_VectorPrsBuilder.cxx">
+      <Filter>Source files\MeshVS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Array1OfSequenceOfInteger.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Buffer.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_BuilderPriority.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_ColorHasher.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_CommonSensitiveEntity.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfColorMapOfInteger.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerMeshEntityOwner.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerOwner.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerVector.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfTwoColorsMapOfInteger.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfColorMapOfInteger.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfHArray1OfSequenceOfInteger.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerAsciiString.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerBoolean.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerColor.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerMaterial.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerMeshEntityOwner.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerOwner.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerTwoColors.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerVector.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfTwoColorsMapOfInteger.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataSource.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataSource3D.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DeformedDataSource.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DisplayModeFlags.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Drawer.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DrawerAttribute.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DummySensitiveEntity.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_ElementalColorPrsBuilder.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_EntityType.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_HArray1OfSequenceOfInteger.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MapIteratorOfMapOfTwoNodes.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MapOfTwoNodes.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Mesh.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshEntityOwner.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshOwner.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshPrsBuilder.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshPrsBuilder.lxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshPtr.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshSelectionMethod.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_NodalColorPrsBuilder.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_PrsBuilder.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SelectionModeFlags.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitiveFace.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitiveMesh.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitivePolyhedron.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitiveQuad.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitiveSegment.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SequenceOfPrsBuilder.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SymmetricPairHasher.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TextPrsBuilder.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Tool.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TwoColors.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TwoColorsHasher.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TwoNodes.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TwoNodesHasher.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_VectorPrsBuilder.hxx">
+      <Filter>Header files\MeshVS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKMeshVS.rc" />
+  </ItemGroup>
+</Project>

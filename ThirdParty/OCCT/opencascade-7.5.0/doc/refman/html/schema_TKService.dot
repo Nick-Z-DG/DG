@@ -1,0 +1,9 @@
+digraph schema_TKService
+{
+	TKService [ URL = "toolkit_tkservice.html", shape = box ]
+	TKernel [ URL = "toolkit_tkernel.html" , shape = box ]
+	TKService -> TKernel [ color = "midnightblue", style = "solid" ]
+	TKMath [ URL = "toolkit_tkmath.html" , shape = box ]
+	TKService -> TKMath [ color = "midnightblue", style = "solid" ]
+	aspect = 1
+}

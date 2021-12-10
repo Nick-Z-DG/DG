@@ -1,0 +1,8 @@
+<map id="IMeshTools_ModelAlgo" name="IMeshTools_ModelAlgo">
+<area shape="rect" id="node3" href="$class_b_rep_mesh___edge_discret.html" title="Class implements functionality of edge discret tool. Performs check of the edges for existing Poly_Po..." alt="" coords="417,5,581,32"/>
+<area shape="rect" id="node4" href="$class_b_rep_mesh___face_discret.html" title="Class implements functionality starting triangulation of model&#39;s faces. Each face is processed separa..." alt="" coords="418,56,581,83"/>
+<area shape="rect" id="node5" href="$class_b_rep_mesh___model_healer.html" title="Class implements functionality of model healer tool. Iterates over model&#39;s faces and checks consisten..." alt="" coords="417,107,582,133"/>
+<area shape="rect" id="node6" href="$class_b_rep_mesh___model_post_processor.html" title="Class implements functionality of model post&#45;processing tool. Stores polygons on triangulations to To..." alt="" coords="392,157,607,184"/>
+<area shape="rect" id="node7" href="$class_b_rep_mesh___model_pre_processor.html" title="Class implements functionality of model pre&#45;processing tool. Nullifies existing polygonal data in cas..." alt="" coords="396,208,603,235"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="5,107,140,133"/>
+</map>

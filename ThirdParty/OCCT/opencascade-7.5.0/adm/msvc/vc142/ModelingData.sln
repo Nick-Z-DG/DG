@@ -1,0 +1,67 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKG2d", "TKG2d.vcxproj", "{046011D3-0B19-13E7-0628-3A9AA37E52D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKG3d", "TKG3d.vcxproj", "{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6} = {046011D3-0B19-13E7-0628-3A9AA37E52D6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKGeomBase", "TKGeomBase.vcxproj", "{FC33F99B-056C-0916-0689-D57F1B8BD3E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6} = {046011D3-0B19-13E7-0628-3A9AA37E52D6}
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4} = {706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TKBRep", "TKBRep.vcxproj", "{040C100B-1577-06FD-1365-7A7024584F51}"
+	ProjectSection(ProjectDependencies) = postProject
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6} = {046011D3-0B19-13E7-0628-3A9AA37E52D6}
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4} = {706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3} = {FC33F99B-056C-0916-0689-D57F1B8BD3E3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6}.Debug|Win32.Build.0 = Debug|Win32
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6}.Release|Win32.ActiveCfg = Release|Win32
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6}.Release|Win32.Build.0 = Release|Win32
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6}.Debug|x64.ActiveCfg = Debug|x64
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6}.Debug|x64.Build.0 = Debug|x64
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6}.Release|x64.ActiveCfg = Release|x64
+		{046011D3-0B19-13E7-0628-3A9AA37E52D6}.Release|x64.Build.0 = Release|x64
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}.Debug|Win32.Build.0 = Debug|Win32
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}.Release|Win32.ActiveCfg = Release|Win32
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}.Release|Win32.Build.0 = Release|Win32
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}.Debug|x64.ActiveCfg = Debug|x64
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}.Debug|x64.Build.0 = Debug|x64
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}.Release|x64.ActiveCfg = Release|x64
+		{706CAD6E-18DD-0F73-1724-D3F2CDE99FD4}.Release|x64.Build.0 = Release|x64
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3}.Debug|Win32.Build.0 = Debug|Win32
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3}.Release|Win32.ActiveCfg = Release|Win32
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3}.Release|Win32.Build.0 = Release|Win32
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3}.Debug|x64.ActiveCfg = Debug|x64
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3}.Debug|x64.Build.0 = Debug|x64
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3}.Release|x64.ActiveCfg = Release|x64
+		{FC33F99B-056C-0916-0689-D57F1B8BD3E3}.Release|x64.Build.0 = Release|x64
+		{040C100B-1577-06FD-1365-7A7024584F51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{040C100B-1577-06FD-1365-7A7024584F51}.Debug|Win32.Build.0 = Debug|Win32
+		{040C100B-1577-06FD-1365-7A7024584F51}.Release|Win32.ActiveCfg = Release|Win32
+		{040C100B-1577-06FD-1365-7A7024584F51}.Release|Win32.Build.0 = Release|Win32
+		{040C100B-1577-06FD-1365-7A7024584F51}.Debug|x64.ActiveCfg = Debug|x64
+		{040C100B-1577-06FD-1365-7A7024584F51}.Debug|x64.Build.0 = Debug|x64
+		{040C100B-1577-06FD-1365-7A7024584F51}.Release|x64.ActiveCfg = Release|x64
+		{040C100B-1577-06FD-1365-7A7024584F51}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{84438F56-0F90-1021-138A-2540439E07EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{1996044C-00E7-15FB-03FE-B243D7841522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\OpenGl">
+      <UniqueIdentifier>{878493A1-166D-0A77-01BD-D30202290818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\OpenGl">
+      <UniqueIdentifier>{D2821A75-031A-168B-1972-37553CBCFB2E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Aspects.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_AspectsProgram.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_AspectsSprite.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_AspectsTextureSet.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_BackgroundArray.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_CappingAlgo.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_CappingPlaneResource.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Caps.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Clipping.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Context.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Element.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Flipper.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Font.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_FrameBuffer.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_FrameStats.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_FrameStatsPrs.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_GraduatedTrihedron.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_GraphicDriver.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Group.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_IndexBuffer.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_LayerList.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_LineAttributes.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_PBREnvironment.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_PointSprite.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_PrimitiveArray.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Resource.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Sampler.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_SceneGeometry.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_ShaderManager.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_ShaderObject.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_ShaderProgram.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_ShaderStates.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_StencilTest.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Structure.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_StructureShadow.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Text.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_TextBuilder.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Texture.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_TextureBufferArb.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_TextureFormat.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_TextureSet.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_TileSampler.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_VertexBuffer.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_VertexBufferCompat.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_View.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_View_Raytrace.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_View_Redraw.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Window.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGl\OpenGl_Workspace.cxx">
+      <Filter>Source files\OpenGl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ArbDbg.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ArbFBO.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ArbIns.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ArbSamplerObject.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ArbTBO.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ArbTexBindless.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Aspects.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_AspectsProgram.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_AspectsSprite.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_AspectsTextureSet.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_BackgroundArray.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_CappingAlgo.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_CappingPlaneResource.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Caps.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Clipping.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ClippingIterator.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Context.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Context_1.mm">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Element.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ExtGS.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Flipper.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Font.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_FrameBuffer.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_FrameStats.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_FrameStatsPrs.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GLESExtensions.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore11.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore11Fwd.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore12.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore13.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore14.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore15.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore20.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore21.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore30.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore31.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore32.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore33.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore40.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore41.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore42.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore43.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore44.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlCore45.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GlFunctions.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GraduatedTrihedron.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_GraphicDriver.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Group.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_HaltonSampler.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_IndexBuffer.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Layer.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_LayerFilter.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_LayerList.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_LineAttributes.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Material.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_MaterialState.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Matrix.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_MatrixState.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_NamedResource.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_PBREnvironment.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_PointSprite.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_PrimitiveArray.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_RenderFilter.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Resource.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Sampler.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_SceneGeometry.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_SetOfShaderPrograms.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ShaderManager.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ShaderObject.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ShaderProgram.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ShaderProgramDumpLevel.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_ShaderStates.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_StencilTest.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Structure.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_StructureShadow.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Text.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_TextBuilder.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Texture.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_TextureBufferArb.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_TextureFormat.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_TextureSet.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_TextureSetPairIterator.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_TileSampler.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Vec.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_VertexBuffer.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_VertexBuffer.lxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_VertexBufferCompat.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_VertexBufferEditor.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_View.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Window.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Window_1.mm">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\OpenGl_Workspace.hxx">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\OpenGl\glext.h">
+      <Filter>Header files\OpenGl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKOpenGl.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+<map id="IMeshTools_ShapeVisitor" name="IMeshTools_ShapeVisitor">
+<area shape="rect" id="node3" href="$class_b_rep_mesh___shape_visitor.html" title="Builds discrete model of a shape by adding faces and free edges. Computes deflection for corresponded..." alt="" coords="7,155,173,181"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="23,5,157,32"/>
+</map>

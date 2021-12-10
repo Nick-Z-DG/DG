@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DE7CD88D-1895-1096-073D-A9959D9DAB13}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\..\Bin\x86\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\win32\vc14\obj\TKLCAF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\..\..\..\Bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\win32\vc14\objd\TKLCAF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\..\..\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\win64\vc14\obj\TKLCAF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\..\..\..\Bin\x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\win64\vc14\objd\TKLCAF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bin\TKLCAF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC32);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\obj\TKLCAF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\obj\TKLCAF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\obj\TKLCAF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKCDF.lib;TKernel.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKLCAF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\lib;$(CSF_OPT_LIB32);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\..\win32\vc14\bin\TKLCAF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\lib\TKLCAF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bind\TKLCAF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\objd\TKLCAF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\objd\TKLCAF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\objd\TKLCAF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKCDF.lib;TKernel.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKLCAF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\libd;$(CSF_OPT_LIB32D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\..\..\win32\vc14\bind\TKLCAF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\libd\TKLCAF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bin\TKLCAF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\obj\TKLCAF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\obj\TKLCAF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\obj\TKLCAF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKCDF.lib;TKernel.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKLCAF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\lib;$(CSF_OPT_LIB64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\..\win64\vc14\bin\TKLCAF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\lib\TKLCAF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bind\TKLCAF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\objd\TKLCAF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\objd\TKLCAF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\objd\TKLCAF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKCDF.lib;TKernel.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKLCAF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\libd;$(CSF_OPT_LIB64D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKLCAF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\libd\TKLCAF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\TDF\TDF.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_Attribute.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_AttributeDelta.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_AttributeIterator.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_ChildIDIterator.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_ChildIterator.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_ClosureMode.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_ClosureTool.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_ComparisonTool.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_CopyLabel.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_CopyTool.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_Data.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DataSet.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DefaultDeltaOnModification.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DefaultDeltaOnRemoval.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_Delta.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DeltaOnAddition.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DeltaOnForget.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DeltaOnModification.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DeltaOnRemoval.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DeltaOnResume.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_DerivedAttribute.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_IDFilter.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_Label.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_LabelNode.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_Reference.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_RelocationTable.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_TagSource.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_Tool.cxx" />
+    <ClCompile Include="..\..\..\src\TDF\TDF_Transaction.cxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Attribute.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Attribute.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeArray1.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeDataMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeDelta.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeDeltaList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeDoubleMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeIndexedMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeIterator.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_AttributeSequence.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ChildIDIterator.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ChildIDIterator.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ChildIterator.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ChildIterator.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ClosureMode.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ClosureMode.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ClosureTool.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ComparisonTool.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_CopyLabel.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_CopyLabel.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_CopyTool.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Data.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Data.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DataMapIteratorOfAttributeDataMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DataMapIteratorOfLabelDataMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DataMapIteratorOfLabelIntegerMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DataSet.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DataSet.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DefaultDeltaOnModification.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DefaultDeltaOnRemoval.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Delta.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Delta.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DeltaList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DeltaOnAddition.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DeltaOnForget.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DeltaOnModification.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DeltaOnRemoval.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DeltaOnResume.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DerivedAttribute.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DoubleMapIteratorOfAttributeDoubleMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DoubleMapIteratorOfGUIDProgIDMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_DoubleMapIteratorOfLabelDoubleMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_GUIDProgIDMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_HAllocator.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_HAttributeArray1.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_IDFilter.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_IDFilter.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_IDList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_IDMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Label.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Label.lxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelDataMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelDoubleMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelIndexedMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelIntegerMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelMapHasher.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelNode.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelNodePtr.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_LabelSequence.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ListIteratorOfAttributeDeltaList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ListIteratorOfAttributeList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ListIteratorOfDeltaList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ListIteratorOfIDList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_ListIteratorOfLabelList.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_MapIteratorOfAttributeMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_MapIteratorOfIDMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_MapIteratorOfLabelMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Reference.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_RelocationTable.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_TagSource.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Tool.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Transaction.hxx" />
+    <ClInclude Include="..\..\..\src\TDF\TDF_Transaction.lxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_AsciiString.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_BooleanArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_BooleanList.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_ByteArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_ChildNodeIterator.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Comment.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Current.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfByteArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfExtStringArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfIntArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfIntPackedMap.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfRealArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Directory.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Expression.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_ExtStringArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_ExtStringList.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_GenericEmpty.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_GenericExtString.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringByte.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfInteger.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfReal.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringInteger.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringReal.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringString.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_IntPackedMap.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Integer.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_IntegerArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_IntegerList.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Name.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_NamedData.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_NoteBook.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Real.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_RealArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_RealList.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_ReferenceArray.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_ReferenceList.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Relation.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Tick.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_TreeNode.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_UAttribute.cxx" />
+    <ClCompile Include="..\..\..\src\TDataStd\TDataStd_Variable.cxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_AsciiString.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_BooleanArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_BooleanList.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ByteArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ChildNodeIterator.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Comment.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Current.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringByte.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringHArray1OfReal.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringReal.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapIteratorOfDataMapOfStringString.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapOfStringByte.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapOfStringHArray1OfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapOfStringHArray1OfReal.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapOfStringReal.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DataMapOfStringString.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfByteArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfExtStringArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfIntArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfIntPackedMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_DeltaOnModificationOfRealArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Directory.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Expression.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ExtStringArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ExtStringList.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_GenericEmpty.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_GenericExtString.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringByte.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringHArray1OfReal.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringInteger.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringReal.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_HDataMapOfStringString.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_HLabelArray1.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_IntPackedMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Integer.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_IntegerArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_IntegerList.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_LabelArray1.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ListIteratorOfListOfByte.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ListIteratorOfListOfExtendedString.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ListOfByte.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ListOfExtendedString.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Name.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_NamedData.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_NoteBook.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_PtrTreeNode.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Real.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_RealArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_RealEnum.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_RealList.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ReferenceArray.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_ReferenceList.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Relation.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Tick.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_TreeNode.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_TreeNode.lxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_UAttribute.hxx" />
+    <ClInclude Include="..\..\..\src\TDataStd\TDataStd_Variable.hxx" />
+    <ClCompile Include="..\..\..\src\TFunction\TFunction_Driver.cxx" />
+    <ClCompile Include="..\..\..\src\TFunction\TFunction_DriverTable.cxx" />
+    <ClCompile Include="..\..\..\src\TFunction\TFunction_Function.cxx" />
+    <ClCompile Include="..\..\..\src\TFunction\TFunction_GraphNode.cxx" />
+    <ClCompile Include="..\..\..\src\TFunction\TFunction_IFunction.cxx" />
+    <ClCompile Include="..\..\..\src\TFunction\TFunction_Iterator.cxx" />
+    <ClCompile Include="..\..\..\src\TFunction\TFunction_Logbook.cxx" />
+    <ClCompile Include="..\..\..\src\TFunction\TFunction_Scope.cxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_Array1OfDataMapOfGUIDDriver.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_DataMapIteratorOfDataMapOfGUIDDriver.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_DataMapIteratorOfDataMapOfLabelListOfLabel.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_DataMapOfGUIDDriver.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_DataMapOfLabelListOfLabel.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_DoubleMapIteratorOfDoubleMapOfIntegerLabel.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_DoubleMapOfIntegerLabel.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_Driver.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_Driver.lxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_DriverTable.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_ExecutionStatus.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_Function.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_GraphNode.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_HArray1OfDataMapOfGUIDDriver.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_IFunction.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_Iterator.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_Logbook.hxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_Logbook.lxx" />
+    <ClInclude Include="..\..\..\src\TFunction\TFunction_Scope.hxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_Application.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_ApplicationDelta.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_CompoundDelta.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_Context.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_Document.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_Modified.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_MultiTransactionManager.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_Owner.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_PathParser.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_XLink.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_XLinkIterator.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_XLinkRoot.cxx" />
+    <ClCompile Include="..\..\..\src\TDocStd\TDocStd_XLinkTool.cxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_Application.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_ApplicationDelta.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_ApplicationDelta.lxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_CompoundDelta.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_Context.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_DataMapIteratorOfLabelIDMapDataMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_Document.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_Document.lxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_LabelIDMapDataMap.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_Modified.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_MultiTransactionManager.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_MultiTransactionManager.lxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_Owner.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_PathParser.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_SequenceOfApplicationDelta.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_SequenceOfDocument.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_XLink.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_XLink.lxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_XLinkIterator.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_XLinkIterator.lxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_XLinkPtr.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_XLinkRoot.hxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_XLinkRoot.lxx" />
+    <ClInclude Include="..\..\..\src\TDocStd\TDocStd_XLinkTool.hxx" />
+    <ClCompile Include="..\..\..\src\AppStdL\AppStdL_Application.cxx" />
+    <ClInclude Include="..\..\..\src\AppStdL\AppStdL_Application.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKLCAF.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

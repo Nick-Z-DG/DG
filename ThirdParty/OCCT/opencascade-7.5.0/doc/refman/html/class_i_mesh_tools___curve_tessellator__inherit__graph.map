@@ -1,0 +1,5 @@
+<map id="IMeshTools_CurveTessellator" name="IMeshTools_CurveTessellator">
+<area shape="rect" id="node3" href="$class_b_rep_mesh___curve_tessellator.html" title="Auxiliary class performing tessellation of passed edge according to specified parameters. " alt="" coords="5,162,193,189"/>
+<area shape="rect" id="node4" href="$class_b_rep_mesh___edge_tessellation_extractor.html" title="Auxiliary class implements functionality retrieving tessellated representation of an edge stored in p..." alt="" coords="218,155,410,196"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="139,5,273,32"/>
+</map>

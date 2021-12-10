@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{1B867AE1-16F9-037F-0650-61FF42BD4BE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{C18E1ED5-17AF-17C3-18B3-19122EF8CB32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\V3d">
+      <UniqueIdentifier>{E46404E6-13F9-0643-18E6-1D8C7BF1ECA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Select3D">
+      <UniqueIdentifier>{E684C7D1-0996-168C-0803-7C46AA034A54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Prs3d">
+      <UniqueIdentifier>{04D150F4-0DCC-1671-0AC3-0E5FC5B1819E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdPrs">
+      <UniqueIdentifier>{B4B93FAE-173D-11B2-128D-620407F670FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SelectMgr">
+      <UniqueIdentifier>{74656DAA-1098-1412-04F0-EFAC7021FD71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\PrsMgr">
+      <UniqueIdentifier>{861E6703-061D-0AE8-11F9-903D95BB3444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AIS">
+      <UniqueIdentifier>{6465F786-0E63-1540-0AC2-74B15927680A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\StdSelect">
+      <UniqueIdentifier>{1F8AF7AD-04F8-056C-01E5-5203335017CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\DsgPrs">
+      <UniqueIdentifier>{4A379138-10AB-1402-04EC-4D0FFD54BEB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\PrsDim">
+      <UniqueIdentifier>{B31BA66D-1566-0A0D-0379-A219F85711A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\V3d">
+      <UniqueIdentifier>{462D65E4-1159-13CC-001E-C487AAA6E3BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Select3D">
+      <UniqueIdentifier>{B1887F87-0D3E-0A22-12ED-B2DF5163683B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Prs3d">
+      <UniqueIdentifier>{50016188-0274-18B3-0C41-2C3DDB90FFB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdPrs">
+      <UniqueIdentifier>{84D09DB9-1217-1682-0029-E9A90958AEA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SelectBasics">
+      <UniqueIdentifier>{3258AF05-17E0-06B4-11C7-1857F8376286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SelectMgr">
+      <UniqueIdentifier>{254F1D86-09D1-1352-0133-E3952B565DE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\PrsMgr">
+      <UniqueIdentifier>{2E96CC8A-1417-1102-0375-E46A28F57A80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AIS">
+      <UniqueIdentifier>{3D9F559A-04F1-10BB-1071-1405B4826C76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\StdSelect">
+      <UniqueIdentifier>{9EC8AD48-15CC-12DF-12C2-939903229440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\DsgPrs">
+      <UniqueIdentifier>{3323FB27-13BD-056E-1495-7EB61CE61EE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\PrsDim">
+      <UniqueIdentifier>{F5DC01F3-18A8-0FDF-0126-7BBFF4775D25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\V3d\V3d.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_AmbientLight.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_CircularGrid.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_DirectionalLight.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_Plane.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_PositionLight.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_PositionalLight.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_RectangularGrid.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_SpotLight.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_Trihedron.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_View.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_View_2.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_View_3.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_View_4.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_Viewer.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\V3d\V3d_Viewer_4.cxx">
+      <Filter>Source files\V3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_InteriorSensitivePointSet.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveBox.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveCircle.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveCurve.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveEntity.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveFace.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveGroup.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitivePoint.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitivePoly.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitivePrimitiveArray.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveSegment.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveSet.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveTriangle.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveTriangulation.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Select3D\Select3D_SensitiveWire.cxx">
+      <Filter>Source files\Select3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_Arrow.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_ArrowAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_BasicAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_BndBox.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_DatumAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_DimensionAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_Drawer.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_IsoAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_LineAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_PlaneAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_PointAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_PresentationShadow.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_ShadingAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_Text.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_TextAspect.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_ToolCylinder.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_ToolDisk.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_ToolQuadric.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_ToolSector.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_ToolSphere.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Prs3d\Prs3d_ToolTorus.cxx">
+      <Filter>Source files\Prs3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_BRepFont.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_BRepTextBuilder.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_Curve.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_DeflectionCurve.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_HLRPolyShape.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_HLRShape.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_HLRShapeI.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_HLRToolShape.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_Isolines.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_Plane.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_PoleCurve.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_ShadedShape.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_ShadedSurface.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_ShapeTool.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_ToolPoint.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_ToolRFace.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_ToolTriangulatedShape.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_ToolVertex.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_WFDeflectionRestrictedFace.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_WFDeflectionSurface.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_WFPoleSurface.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_WFRestrictedFace.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_WFShape.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdPrs\StdPrs_WFSurface.cxx">
+      <Filter>Source files\StdPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_AndFilter.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_AndOrFilter.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_BVHThreadPool.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_BaseFrustum.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_CompositionFilter.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_EntityOwner.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_Filter.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_FrustumBuilder.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_OrFilter.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_RectangularFrustum.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_SelectableObject.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_SelectableObjectSet.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_SelectingVolumeManager.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_Selection.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_SelectionImageFiller.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_SelectionManager.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_SensitiveEntity.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_SensitiveEntitySet.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_ToleranceMap.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_TriangularFrustum.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_TriangularFrustumSet.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_ViewClipRange.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_ViewerSelector.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\SelectMgr\SelectMgr_ViewerSelector3d.cxx">
+      <Filter>Source files\SelectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsMgr\PrsMgr_PresentableObject.cxx">
+      <Filter>Source files\PrsMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsMgr\PrsMgr_Presentation.cxx">
+      <Filter>Source files\PrsMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsMgr\PrsMgr_PresentationManager.cxx">
+      <Filter>Source files\PrsMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Animation.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_AnimationCamera.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_AnimationObject.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_AttributeFilter.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Axis.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_BadEdgeFilter.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_C0RegularityFilter.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_CameraFrustum.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Circle.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_ColorScale.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_ColoredShape.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_ConnectedInteractive.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_ExclusionFilter.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_GlobalStatus.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_GraphicTool.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_InteractiveContext.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_InteractiveContext_1.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_InteractiveContext_2.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_InteractiveContext_3.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_InteractiveObject.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Line.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Manipulator.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_ManipulatorOwner.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_MediaPlayer.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_MultipleConnectedInteractive.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Plane.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_PlaneTrihedron.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Point.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_PointCloud.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_RubberBand.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Selection.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Shape.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_SignatureFilter.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_TextLabel.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_TexturedShape.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Triangulation.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_Trihedron.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_TrihedronOwner.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_TypeFilter.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_ViewController.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_ViewCube.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AIS\AIS_XRTrackedDevice.cxx">
+      <Filter>Source files\AIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdSelect\StdSelect.cxx">
+      <Filter>Source files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdSelect\StdSelect_BRepOwner.cxx">
+      <Filter>Source files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdSelect\StdSelect_BRepSelectionTool.cxx">
+      <Filter>Source files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdSelect\StdSelect_EdgeFilter.cxx">
+      <Filter>Source files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdSelect\StdSelect_FaceFilter.cxx">
+      <Filter>Source files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdSelect\StdSelect_Shape.cxx">
+      <Filter>Source files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\StdSelect\StdSelect_ShapeTypeFilter.cxx">
+      <Filter>Source files\StdSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_AnglePresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_Chamf2dPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_ConcentricPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_DatumPrs.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_DiameterPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_EllipseRadiusPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_EqualDistancePresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_EqualRadiusPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_FilletRadiusPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_FixPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_IdenticPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_LengthPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_MidPointPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_OffsetPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_ParalPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_PerpenPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_RadiusPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_ShadedPlanePresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_ShapeDirPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_SymbPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_SymmetricPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_TangentPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_XYZAxisPresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\DsgPrs\DsgPrs_XYZPlanePresentation.cxx">
+      <Filter>Source files\DsgPrs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_AngleDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_Chamf2dDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_Chamf3dDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_ConcentricRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_DiameterDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_Dimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_DimensionOwner.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_EllipseRadiusDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_EqualDistanceRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_EqualRadiusRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_FixRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_IdenticRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_LengthDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_MaxRadiusDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_MidPointRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_MinRadiusDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_OffsetDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_ParallelRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_PerpendicularRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_RadiusDimension.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_Relation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_SymmetricRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\PrsDim\PrsDim_TangentRelation.cxx">
+      <Filter>Source files\PrsDim</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\V3d\V3d.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_AmbientLight.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_BadValue.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_CircularGrid.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_Coordinate.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_DirectionalLight.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_ImageDumpOptions.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_Light.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_ListOfLight.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_ListOfView.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_Parameter.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_Plane.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_PositionLight.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_PositionalLight.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_RectangularGrid.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_SpotLight.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_StereoDumpOptions.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_Trihedron.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfAxe.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfBackfacingModel.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfLight.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfOrientation.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfPickCamera.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfPickLight.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfRepresentation.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfShadingModel.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfView.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_TypeOfVisualization.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_UnMapped.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_View.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_ViewPointer.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_Viewer.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\V3d\V3d_ViewerPointer.hxx">
+      <Filter>Header files\V3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_BVHBuilder3d.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_BVHIndexBuffer.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_BndBox3d.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_EntitySequence.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_IndexedMapOfEntity.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_InteriorSensitivePointSet.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_Pnt.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_PointData.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveBox.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveCircle.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveCurve.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveEntity.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveFace.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveGroup.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitivePoint.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitivePoly.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitivePrimitiveArray.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveSegment.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveSet.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveTriangle.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveTriangulation.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_SensitiveWire.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Select3D\Select3D_TypeOfSensitivity.hxx">
+      <Filter>Header files\Select3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_Arrow.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ArrowAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_BasicAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_BndBox.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DatumAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DatumAttribute.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DatumAxes.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DatumMode.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DatumParts.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DimensionArrowOrientation.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DimensionAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DimensionTextHorizontalPosition.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DimensionTextVerticalPosition.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_DimensionUnits.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_Drawer.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_InvalidAngle.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_IsoAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_LineAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_NListIteratorOfListOfSequenceOfPnt.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_NListOfSequenceOfPnt.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_PlaneAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_Point.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_PointAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_Presentation.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_PresentationShadow.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_Root.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ShadingAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ShapeTool.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_Text.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_TextAspect.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ToolCylinder.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ToolDisk.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ToolQuadric.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ToolSector.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ToolSphere.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_ToolTorus.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_TypeOfHLR.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_TypeOfHighlight.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_TypeOfLinePicking.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Prs3d\Prs3d_VertexDrawMode.hxx">
+      <Filter>Header files\Prs3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_BRepFont.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_BRepTextBuilder.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_BndBox.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_Curve.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_DeflectionCurve.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_HLRPolyShape.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_HLRShape.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_HLRShapeI.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_HLRToolShape.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_Isolines.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_Plane.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_Point.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_PoleCurve.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_ShadedShape.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_ShadedSurface.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_ShapeTool.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_ToolPoint.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_ToolRFace.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_ToolTriangulatedShape.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_ToolVertex.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_Vertex.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_Volume.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_WFDeflectionRestrictedFace.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_WFDeflectionSurface.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_WFPoleSurface.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_WFRestrictedFace.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_WFShape.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdPrs\StdPrs_WFSurface.hxx">
+      <Filter>Header files\StdPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectBasics\SelectBasics.hxx">
+      <Filter>Header files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectBasics\SelectBasics_EntityOwner.hxx">
+      <Filter>Header files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectBasics\SelectBasics_PickResult.hxx">
+      <Filter>Header files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectBasics\SelectBasics_SelectingVolumeManager.hxx">
+      <Filter>Header files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectBasics\SelectBasics_SensitiveEntity.hxx">
+      <Filter>Header files\SelectBasics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_AndFilter.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_AndOrFilter.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_BVHThreadPool.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_BaseFrustum.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_CompositionFilter.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_CompositionFilter.lxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_EntityOwner.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_Filter.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_FilterType.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_Frustum.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_Frustum.lxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_FrustumBuilder.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_IndexedDataMapOfOwnerCriterion.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_IndexedMapOfOwner.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_ListIteratorOfListOfFilter.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_ListOfFilter.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_OrFilter.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_PickingStrategy.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_RectangularFrustum.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SelectableObject.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SelectableObjectSet.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SelectingVolumeManager.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_Selection.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SelectionImageFiller.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SelectionManager.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SensitiveEntity.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SensitiveEntitySet.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SequenceOfFilter.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SequenceOfOwner.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SequenceOfSelection.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_SortCriterion.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_StateOfSelection.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_ToleranceMap.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_TriangularFrustum.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_TriangularFrustumSet.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_TypeOfBVHUpdate.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_TypeOfDepthTolerance.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_TypeOfUpdate.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_VectorTypes.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_ViewClipRange.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_ViewerSelector.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SelectMgr\SelectMgr_ViewerSelector3d.hxx">
+      <Filter>Header files\SelectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_ListOfPresentableObjects.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_ListOfPresentations.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_PresentableObject.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_Presentation.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_Presentation3d.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_PresentationManager.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_PresentationManager3d.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_Presentations.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsMgr\PrsMgr_TypeOfPresentation3d.hxx">
+      <Filter>Header files\PrsMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_AngleDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Animation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_AnimationCamera.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_AnimationObject.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_AnimationTimer.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_AttributeFilter.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_AttributeFilter.lxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Axis.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_BadEdgeFilter.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_C0RegularityFilter.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_CameraFrustum.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Chamf2dDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Chamf3dDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Circle.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ClearMode.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ColorScale.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ColoredDrawer.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ColoredShape.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ConcentricRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ConnectStatus.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ConnectedInteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DataMapIteratorOfDataMapOfIOStatus.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DataMapIteratorOfDataMapOfSelStat.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DataMapIteratorOfDataMapofIntegerListOfinteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DataMapOfIOStatus.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DataMapOfSelStat.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DataMapOfShapeDrawer.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DataMapofIntegerListOfinteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DiameterDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Dimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DimensionOwner.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DisplayMode.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DisplayStatus.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_DragAction.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_EllipseRadiusDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_EqualDistanceRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_EqualRadiusRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ExclusionFilter.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ExclusionFilter.lxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_FixRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_GlobalStatus.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_GraphicTool.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_IdenticRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_IndexedDataMapOfOwnerPrs.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_InteractiveContext.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_InteractiveObject.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_KindOfInteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_LengthDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Line.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ListIteratorOfListOfInteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ListOfInteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Manipulator.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ManipulatorMode.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ManipulatorOwner.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MapIteratorOfMapOfInteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MapOfInteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MaxRadiusDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MediaPlayer.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MidPointRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MinRadiusDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MouseGesture.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MultipleConnectedInteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_MultipleConnectedInteractive.lxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_NListOfEntityOwner.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_NavigationMode.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_OffsetDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ParallelRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_PerpendicularRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Plane.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_PlaneTrihedron.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Point.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_PointCloud.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_RadiusDimension.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Relation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_RotationMode.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_RubberBand.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_SelectStatus.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Selection.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_SelectionModesConcurrency.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_SequenceOfInteractive.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Shape.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_SignatureFilter.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_StatusOfDetection.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_StatusOfPick.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_SymmetricRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TangentRelation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TextLabel.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TexturedShape.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Triangulation.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_Trihedron.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TrihedronOwner.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TrihedronSelectionMode.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TypeFilter.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TypeOfAttribute.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TypeOfAxis.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TypeOfIso.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_TypeOfPlane.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ViewController.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ViewCube.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_ViewInputBuffer.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_WalkDelta.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AIS\AIS_XRTrackedDevice.hxx">
+      <Filter>Header files\AIS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_BRepOwner.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_BRepSelectionTool.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_EdgeFilter.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_FaceFilter.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_Shape.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_ShapeTypeFilter.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_TypeOfEdge.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_TypeOfFace.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_TypeOfSelectionImage.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\StdSelect\StdSelect_ViewerSelector3d.hxx">
+      <Filter>Header files\StdSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_AnglePresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_ArrowSide.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_Chamf2dPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_ConcentricPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_DatumPrs.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_DiameterPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_EllipseRadiusPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_EqualDistancePresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_EqualRadiusPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_FilletRadiusPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_FixPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_IdenticPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_LengthPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_MidPointPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_OffsetPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_ParalPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_PerpenPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_RadiusPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_ShadedPlanePresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_ShapeDirPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_SymbPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_SymmetricPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_TangentPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_XYZAxisPresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\DsgPrs\DsgPrs_XYZPlanePresentation.hxx">
+      <Filter>Header files\DsgPrs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_AngleDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_Chamf2dDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_Chamf3dDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_ConcentricRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_DiameterDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_Dimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_DimensionOwner.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_DimensionSelectionMode.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_DisplaySpecialSymbol.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_EllipseRadiusDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_EqualDistanceRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_EqualRadiusRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_FixRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_IdenticRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_KindOfDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_KindOfRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_KindOfSurface.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_LengthDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_MaxRadiusDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_MidPointRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_MinRadiusDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_OffsetDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_ParallelRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_PerpendicularRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_RadiusDimension.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_Relation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_SymmetricRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_TangentRelation.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_TypeOfAngle.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_TypeOfAngleArrowVisibility.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\PrsDim\PrsDim_TypeOfDist.hxx">
+      <Filter>Header files\PrsDim</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKV3d.rc" />
+  </ItemGroup>
+</Project>

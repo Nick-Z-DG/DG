@@ -1,0 +1,4 @@
+<map id="BRepMesh_TorusRangeSplitter" name="BRepMesh_TorusRangeSplitter">
+<area shape="rect" id="node2" href="$class_b_rep_mesh___u_v_param_range_splitter.html" title="Intended to generate internal mesh nodes using UV parameters of boundary discrete points..." alt="" coords="5,80,232,107"/>
+<area shape="rect" id="node3" href="$class_b_rep_mesh___default_range_splitter.html" title="Default tool to define range of discrete face model and obtain grid points distributed within this ra..." alt="" coords="13,5,224,32"/>
+</map>

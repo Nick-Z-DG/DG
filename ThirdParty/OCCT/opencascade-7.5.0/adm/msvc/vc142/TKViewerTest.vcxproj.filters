@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{3901B249-0231-014C-0199-65E74F35192E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{083C740B-020F-083C-0CFC-47F363BC14D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ViewerTest">
+      <UniqueIdentifier>{FBF4A567-13F7-0B2E-116F-B4640913B236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ViewerTest">
+      <UniqueIdentifier>{1923E398-1526-11F0-0321-7A2EED9F05DC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_AutoUpdater.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_CmdParser.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_ContinuousRedrawer.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_EventManager.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_FilletCommands.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_ObjectCommands.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_OpenGlCommands.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_RelationCommands.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_V3dView.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ViewerTest\ViewerTest_ViewerCommands.cxx">
+      <Filter>Source files\ViewerTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest.hxx">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest_AutoUpdater.hxx">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest_CmdParser.hxx">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest_ContinuousRedrawer.hxx">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest_DoubleMapIteratorOfDoubleMapOfInteractiveAndName.hxx">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest_DoubleMapOfInteractiveAndName.hxx">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest_EventManager.hxx">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest_V3dView.hxx">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ViewerTest\ViewerTest_ViewerCommands_1.mm">
+      <Filter>Header files\ViewerTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKViewerTest.rc" />
+  </ItemGroup>
+</Project>

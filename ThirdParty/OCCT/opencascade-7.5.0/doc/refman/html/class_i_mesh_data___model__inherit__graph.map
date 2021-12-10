@@ -1,0 +1,5 @@
+<map id="IMeshData_Model" name="IMeshData_Model">
+<area shape="rect" id="node4" href="$class_b_rep_mesh_data___model.html" title="Default implementation of model entity. " alt="" coords="5,229,160,256"/>
+<area shape="rect" id="node2" href="$class_i_mesh_data___shape.html" title="Interface class representing model with associated TopoDS_Shape. Intended for inheritance by structur..." alt="" coords="19,80,147,107"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="15,5,150,32"/>
+</map>

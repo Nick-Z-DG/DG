@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A704D01-17A1-14C2-0150-F8BAACA79AB5}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\..\Bin\x86\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\win32\vc14\obj\TKCAF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\..\..\..\Bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\win32\vc14\objd\TKCAF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\..\..\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\win64\vc14\obj\TKCAF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\..\..\..\Bin\x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\win64\vc14\objd\TKCAF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bin\TKCAF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC32);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\obj\TKCAF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\obj\TKCAF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\obj\TKCAF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKGeomBase.lib;TKBRep.lib;TKTopAlgo.lib;TKMath.lib;TKG2d.lib;TKG3d.lib;TKCDF.lib;TKLCAF.lib;TKBO.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKCAF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\lib;$(CSF_OPT_LIB32);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\..\win32\vc14\bin\TKCAF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\lib\TKCAF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bind\TKCAF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\objd\TKCAF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\objd\TKCAF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\objd\TKCAF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKGeomBase.lib;TKBRep.lib;TKTopAlgo.lib;TKMath.lib;TKG2d.lib;TKG3d.lib;TKCDF.lib;TKLCAF.lib;TKBO.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKCAF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\libd;$(CSF_OPT_LIB32D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\..\..\win32\vc14\bind\TKCAF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\libd\TKCAF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bin\TKCAF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\obj\TKCAF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\obj\TKCAF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\obj\TKCAF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKGeomBase.lib;TKBRep.lib;TKTopAlgo.lib;TKMath.lib;TKG2d.lib;TKG3d.lib;TKCDF.lib;TKLCAF.lib;TKBO.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKCAF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\lib;$(CSF_OPT_LIB64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\..\win64\vc14\bin\TKCAF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\lib\TKCAF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bind\TKCAF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\objd\TKCAF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\objd\TKCAF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\objd\TKCAF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKGeomBase.lib;TKBRep.lib;TKTopAlgo.lib;TKMath.lib;TKG2d.lib;TKG3d.lib;TKCDF.lib;TKLCAF.lib;TKBO.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKCAF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\libd;$(CSF_OPT_LIB64D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKCAF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\libd\TKCAF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Axis.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Constraint.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Geometry.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Pattern.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_PatternStd.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Placement.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Plane.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Point.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Position.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Presentation.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Shape.cxx" />
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Triangulation.cxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Array1OfTrsf.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Axis.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Constraint.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_ConstraintEnum.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Geometry.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_GeometryEnum.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_HArray1OfTrsf.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Pattern.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_PatternStd.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_PatternStd.lxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Placement.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Plane.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Point.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Position.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Presentation.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Shape.hxx" />
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Triangulation.hxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_CopyShape.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_DeltaOnModification.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_DeltaOnRemoval.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Identifier.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Localizer.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Name.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_NamedShape.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Naming.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_NamingTool.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Scope.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Selector.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_ShapesSet.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Tool.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_TranslateTool.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Translator.cxx" />
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_UsedShapes.cxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Builder.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_CopyShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DataMapIteratorOfDataMapOfShapeShapesSet.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DataMapOfShapePtrRefShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DataMapOfShapeShapesSet.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DeltaOnModification.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DeltaOnRemoval.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Evolution.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Identifier.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Iterator.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Iterator.lxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_IteratorOnShapesSet.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_IteratorOnShapesSet.lxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListIteratorOfListOfMapOfShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListIteratorOfListOfNamedShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListOfMapOfShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListOfNamedShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Localizer.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_MapIteratorOfMapOfNamedShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_MapOfNamedShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NCollections.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Name.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NameType.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NamedShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NamedShape.lxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NamedShapeHasher.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Naming.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NamingTool.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NewShapeIterator.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NewShapeIterator.lxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_OldShapeIterator.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_OldShapeIterator.lxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_PtrAttribute.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_PtrNode.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_PtrRefShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_RefShape.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_RefShape.lxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_SameShapeIterator.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_SameShapeIterator.lxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Scope.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Selector.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ShapesSet.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ShapesSet.lxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Tool.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_TranslateTool.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Translator.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_UsedShapes.hxx" />
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_UsedShapes.lxx" />
+    <ClCompile Include="..\..\..\src\AppStd\AppStd_Application.cxx" />
+    <ClInclude Include="..\..\..\src\AppStd\AppStd_Application.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKCAF.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

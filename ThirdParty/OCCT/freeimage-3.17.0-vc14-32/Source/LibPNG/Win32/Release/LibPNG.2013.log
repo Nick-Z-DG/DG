@@ -1,0 +1,17 @@
+﻿  png.c
+  pngerror.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+  pngread.c
+  pngrio.c
+  pngrtran.c
+  pngrutil.c
+  pngset.c
+  pngtrans.c
+  pngwio.c
+  pngwrite.c
+  pngwtran.c
+  pngwutil.c
+  Generating Code...
+  LibPNG.2013.vcxproj -> C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibPNG\Win32\Release\LibPNG.lib

@@ -1,0 +1,8 @@
+<map id="IMeshData_StatusOwner" name="IMeshData_StatusOwner">
+<area shape="rect" id="node2" href="$class_i_mesh_data___edge.html" title="Interface class representing discrete model of an edge. " alt="" coords="35,80,156,107"/>
+<area shape="rect" id="node4" href="$class_i_mesh_data___face.html" title="Interface class representing discrete model of a face. Face model contains one or several wires..." alt="" coords="195,80,315,107"/>
+<area shape="rect" id="node6" href="$class_i_mesh_data___wire.html" title="Interface class representing discrete model of a wire. Wire should represent an ordered set of edges..." alt="" coords="353,80,472,107"/>
+<area shape="rect" id="node3" href="$class_b_rep_mesh_data___edge.html" title="Default implementation of edge data model entity. " alt="" coords="5,155,156,181"/>
+<area shape="rect" id="node5" href="$class_b_rep_mesh_data___face.html" title="Default implementation of face data model entity. " alt="" coords="181,155,330,181"/>
+<area shape="rect" id="node7" href="$class_b_rep_mesh_data___wire.html" title="Default implementation of wire data model entity. " alt="" coords="354,155,501,181"/>
+</map>

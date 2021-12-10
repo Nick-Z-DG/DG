@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{FA845B00-181F-0924-07C1-7F72DD4E1F6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{F13DACD0-10EF-046C-0560-6C30E8FF0A8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IMeshData">
+      <UniqueIdentifier>{0D4E8D3A-0051-1471-1680-600913F3E79E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IMeshTools">
+      <UniqueIdentifier>{EB5F977D-0C39-1231-1467-372FE72A0409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepMeshData">
+      <UniqueIdentifier>{6F1710C5-161A-18A2-15AB-569F28EB1B94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepMesh">
+      <UniqueIdentifier>{5FBA89AC-0015-0417-0046-21494751DA89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IMeshData">
+      <UniqueIdentifier>{E2883C55-10D0-089C-1283-B04C2D59452D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IMeshTools">
+      <UniqueIdentifier>{CC9F7C7F-00A7-176D-05D4-71C8E43C0C25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepMeshData">
+      <UniqueIdentifier>{4172989C-146C-0CC9-0048-679FE0316AEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepMesh">
+      <UniqueIdentifier>{636C6496-17B3-0190-0F0E-57675F43BAC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_Curve.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_Edge.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_Face.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_Model.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_PCurve.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_ParametersList.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_Shape.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_TessellatedShape.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshData\IMeshData_Wire.cxx">
+      <Filter>Source files\IMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_Context.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_CurveTessellator.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_MeshAlgo.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_MeshAlgoFactory.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_MeshBuilder.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_ModelAlgo.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_ModelBuilder.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_ShapeExplorer.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IMeshTools\IMeshTools_ShapeVisitor.cxx">
+      <Filter>Source files\IMeshTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMeshData\BRepMeshData_Curve.cxx">
+      <Filter>Source files\BRepMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMeshData\BRepMeshData_Edge.cxx">
+      <Filter>Source files\BRepMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMeshData\BRepMeshData_Face.cxx">
+      <Filter>Source files\BRepMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMeshData\BRepMeshData_Model.cxx">
+      <Filter>Source files\BRepMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMeshData\BRepMeshData_PCurve.cxx">
+      <Filter>Source files\BRepMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMeshData\BRepMeshData_Wire.cxx">
+      <Filter>Source files\BRepMeshData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_BaseMeshAlgo.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_CircleTool.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_Classifier.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_ConeRangeSplitter.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_ConstrainedBaseMeshAlgo.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_Context.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_CurveTessellator.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_CustomBaseMeshAlgo.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_CylinderRangeSplitter.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_DataStructureOfDelaun.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_DefaultRangeSplitter.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_Deflection.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_DelabellaBaseMeshAlgo.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_DelabellaMeshAlgoFactory.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_Delaun.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_DelaunayBaseMeshAlgo.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_DiscretFactory.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_DiscretRoot.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_EdgeDiscret.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_EdgeTessellationExtractor.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_FaceChecker.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_FaceDiscret.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_GeomTool.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_IncrementalMesh.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_MeshAlgoFactory.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_MeshTool.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_ModelBuilder.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_ModelHealer.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_ModelPostProcessor.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_ModelPreProcessor.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_NURBSRangeSplitter.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_SelectorOfDataStructureOfDelaun.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_ShapeTool.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_ShapeVisitor.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_SphereRangeSplitter.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_TorusRangeSplitter.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\BRepMesh_VertexTool.cxx">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMesh\delabella.cpp">
+      <Filter>Source files\BRepMesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_Curve.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_Edge.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_Face.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_Model.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_PCurve.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_ParametersList.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_ParametersListArrayAdaptor.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_Shape.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_Status.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_StatusOwner.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_TessellatedShape.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_Types.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshData\IMeshData_Wire.hxx">
+      <Filter>Header files\IMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_Context.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_CurveTessellator.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_MeshAlgo.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_MeshAlgoFactory.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_MeshAlgoType.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_MeshBuilder.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_ModelAlgo.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_ModelBuilder.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_Parameters.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_ShapeExplorer.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IMeshTools\IMeshTools_ShapeVisitor.hxx">
+      <Filter>Header files\IMeshTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMeshData\BRepMeshData_Curve.hxx">
+      <Filter>Header files\BRepMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMeshData\BRepMeshData_Edge.hxx">
+      <Filter>Header files\BRepMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMeshData\BRepMeshData_Face.hxx">
+      <Filter>Header files\BRepMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMeshData\BRepMeshData_Model.hxx">
+      <Filter>Header files\BRepMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMeshData\BRepMeshData_PCurve.hxx">
+      <Filter>Header files\BRepMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMeshData\BRepMeshData_Wire.hxx">
+      <Filter>Header files\BRepMeshData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_BaseMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_BoundaryParamsRangeSplitter.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_Circle.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_CircleInspector.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_CircleTool.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_Classifier.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_ConeRangeSplitter.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_ConstrainedBaseMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_Context.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_CurveTessellator.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_CustomBaseMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_CustomDelaunayBaseMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_CylinderRangeSplitter.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DataStructureOfDelaun.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DefaultRangeSplitter.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_Deflection.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DegreeOfFreedom.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DelabellaBaseMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DelabellaMeshAlgoFactory.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_Delaun.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DelaunayBaseMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DelaunayDeflectionControlMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DelaunayNodeInsertionMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DiscretFactory.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_DiscretRoot.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_Edge.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_EdgeDiscret.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_EdgeParameterProvider.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_EdgeTessellationExtractor.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_FaceChecker.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_FaceDiscret.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_FactoryError.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_FastDiscret.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_GeomTool.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_IncrementalMesh.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_MeshAlgoFactory.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_MeshTool.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_ModelBuilder.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_ModelHealer.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_ModelPostProcessor.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_ModelPreProcessor.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_NURBSRangeSplitter.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_NodeInsertionMeshAlgo.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_OrientedEdge.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_PairOfIndex.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_PluginEntryType.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_PluginMacro.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_SelectorOfDataStructureOfDelaun.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_ShapeTool.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_ShapeVisitor.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_SphereRangeSplitter.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_TorusRangeSplitter.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_Triangle.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_UVParamRangeSplitter.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_Vertex.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_VertexInspector.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\BRepMesh_VertexTool.hxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMesh\delabella.pxx">
+      <Filter>Header files\BRepMesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKMesh.rc" />
+  </ItemGroup>
+</Project>

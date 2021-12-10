@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Win32\Release\FreeImage.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Wrapper\FreeImagePlus\Win32\Release\FreeImagePlus.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

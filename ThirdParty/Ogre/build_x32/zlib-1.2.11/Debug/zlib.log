@@ -1,0 +1,18 @@
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+     Creating library C:\Projects\KernelCAD\ThirdParty\Ogre\build_x32\lib\Win32\Debug\zlibd.lib and object C:\Projects\KernelCAD\ThirdParty\Ogre\build_x32\lib\Win32\Debug\zlibd.exp
+  zlib.vcxproj -> C:\Projects\KernelCAD\Bin\Debug\zlibd.dll

@@ -1,0 +1,7 @@
+<map id="IMeshData_ParametersList" name="IMeshData_ParametersList">
+<area shape="rect" id="node3" href="$class_i_mesh_data___curve.html" title="Interface class representing discrete 3d curve of edge. Indexation of points starts from zero..." alt="" coords="27,155,149,181"/>
+<area shape="rect" id="node5" href="$class_i_mesh_data___p_curve.html" title="Interface class representing pcurve of edge associated with discrete face. Indexation of points start..." alt="" coords="189,155,321,181"/>
+<area shape="rect" id="node2" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="97,5,231,32"/>
+<area shape="rect" id="node4" href="$class_b_rep_mesh_data___curve.html" title="Default implementation of curve data model entity. " alt="" coords="5,229,157,256"/>
+<area shape="rect" id="node6" href="$class_b_rep_mesh_data___p_curve.html" title="Default implementation of pcurve data model entity. " alt="" coords="182,229,343,256"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Graphic3d_Buffer" name="Graphic3d_Buffer">
+<area shape="rect" id="node4" href="$class_graphic3d___attrib_buffer.html" title="Buffer of vertex attributes. This class is intended for advanced usage allowing invalidation of entir..." alt="" coords="5,229,157,256"/>
+<area shape="rect" id="node5" href="$class_graphic3d___index_buffer.html" title="Index buffer. " alt="" coords="181,229,333,256"/>
+<area shape="rect" id="node7" href="$class_select3_d___b_v_h_index_buffer.html" title="Index buffer for BVH tree. " alt="" coords="357,229,531,256"/>
+<area shape="rect" id="node2" href="$class_n_collection___buffer.html" title="Low&#45;level buffer object. " alt="" coords="193,80,321,107"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="190,5,325,32"/>
+<area shape="rect" id="node6" href="$class_graphic3d___mutable_index_buffer.html" title="Mutable index buffer. " alt="" coords="158,304,357,331"/>
+</map>

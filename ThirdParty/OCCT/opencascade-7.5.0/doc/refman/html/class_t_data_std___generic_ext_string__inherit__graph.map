@@ -1,0 +1,6 @@
+<map id="TDataStd_GenericExtString" name="TDataStd_GenericExtString">
+<area shape="rect" id="node4" href="$class_t_data_std___comment.html" title="Comment attribute. may be associated to any label to store user comment. " alt="" coords="5,229,144,256"/>
+<area shape="rect" id="node5" href="$class_t_data_std___name.html" title="Used to define a name attribute containing a string which specifies the name. " alt="" coords="168,229,285,256"/>
+<area shape="rect" id="node2" href="$class_t_d_f___attribute.html" title="A class each application has to implement. It is used to contain the application data. This abstract class, alongwith Label, is one of the cornerstones of Model Editor. The groundwork is to define the root of information. This information is to be attached to a Label, and could be of any of the following types: " alt="" coords="99,80,202,107"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="83,5,218,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="TDataStd_Name" name="TDataStd_Name">
+<area shape="rect" id="node2" href="$class_t_data_std___generic_ext_string.html" title="An ancestor attibute for all attributes which have TCollection_ExtendedString field. If an attribute inherits this one it should not have drivers for persistence. Also this attribute provides functionality to have on the same label same attributes with different IDs. " alt="" coords="5,155,188,181"/>
+<area shape="rect" id="node3" href="$class_t_d_f___attribute.html" title="A class each application has to implement. It is used to contain the application data. This abstract class, alongwith Label, is one of the cornerstones of Model Editor. The groundwork is to define the root of information. This information is to be attached to a Label, and could be of any of the following types: " alt="" coords="45,80,148,107"/>
+<area shape="rect" id="node4" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="29,5,164,32"/>
+</map>

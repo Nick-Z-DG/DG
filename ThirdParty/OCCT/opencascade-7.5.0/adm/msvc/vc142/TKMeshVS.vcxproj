@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{07A2CF45-0F11-0DED-15A4-02EC51E8F5DB}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\..\Bin\x86\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\win32\vc14\obj\TKMeshVS\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\..\..\..\Bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\win32\vc14\objd\TKMeshVS\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\..\..\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\win64\vc14\obj\TKMeshVS\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\..\..\..\Bin\x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\win64\vc14\objd\TKMeshVS\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bin\TKMeshVS.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC32);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\obj\TKMeshVS/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\obj\TKMeshVS/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\obj\TKMeshVS/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKV3d.lib;TKMath.lib;TKService.lib;TKernel.lib;TKG3d.lib;TKG2d.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKMeshVS.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\lib;$(CSF_OPT_LIB32);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\..\win32\vc14\bin\TKMeshVS.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\lib\TKMeshVS.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bind\TKMeshVS.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\objd\TKMeshVS/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\objd\TKMeshVS/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\objd\TKMeshVS/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKV3d.lib;TKMath.lib;TKService.lib;TKernel.lib;TKG3d.lib;TKG2d.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKMeshVS.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\libd;$(CSF_OPT_LIB32D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\..\..\win32\vc14\bind\TKMeshVS.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\libd\TKMeshVS.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bin\TKMeshVS.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\obj\TKMeshVS/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\obj\TKMeshVS/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\obj\TKMeshVS/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKV3d.lib;TKMath.lib;TKService.lib;TKernel.lib;TKG3d.lib;TKG2d.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKMeshVS.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\lib;$(CSF_OPT_LIB64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\..\..\..\win64\vc14\bin\TKMeshVS.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\lib\TKMeshVS.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bind\TKMeshVS.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\objd\TKMeshVS/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\objd\TKMeshVS/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\objd\TKMeshVS/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKV3d.lib;TKMath.lib;TKService.lib;TKernel.lib;TKG3d.lib;TKG2d.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKMeshVS.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\libd;$(CSF_OPT_LIB64D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKMeshVS.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\libd\TKMeshVS.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_CommonSensitiveEntity.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_DataSource.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_DataSource3D.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_DeformedDataSource.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_Drawer.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_DummySensitiveEntity.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_ElementalColorPrsBuilder.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_Mesh.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_MeshEntityOwner.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_MeshOwner.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_MeshPrsBuilder.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_NodalColorPrsBuilder.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_PrsBuilder.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitiveFace.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitiveMesh.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitivePolyhedron.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitiveQuad.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_SensitiveSegment.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_TextPrsBuilder.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_Tool.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_TwoColors.cxx" />
+    <ClCompile Include="..\..\..\src\MeshVS\MeshVS_VectorPrsBuilder.cxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Array1OfSequenceOfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Buffer.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_BuilderPriority.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_ColorHasher.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_CommonSensitiveEntity.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfColorMapOfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfHArray1OfSequenceOfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerAsciiString.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerBoolean.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerColor.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerMaterial.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerMeshEntityOwner.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerOwner.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerTwoColors.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfIntegerVector.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapIteratorOfDataMapOfTwoColorsMapOfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfColorMapOfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfHArray1OfSequenceOfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerAsciiString.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerBoolean.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerColor.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerMaterial.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerMeshEntityOwner.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerOwner.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerTwoColors.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfIntegerVector.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataMapOfTwoColorsMapOfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataSource.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DataSource3D.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DeformedDataSource.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DisplayModeFlags.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Drawer.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DrawerAttribute.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_DummySensitiveEntity.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_ElementalColorPrsBuilder.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_EntityType.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_HArray1OfSequenceOfInteger.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MapIteratorOfMapOfTwoNodes.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MapOfTwoNodes.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Mesh.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshEntityOwner.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshOwner.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshPrsBuilder.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshPrsBuilder.lxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshPtr.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_MeshSelectionMethod.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_NodalColorPrsBuilder.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_PrsBuilder.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SelectionModeFlags.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitiveFace.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitiveMesh.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitivePolyhedron.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitiveQuad.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SensitiveSegment.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SequenceOfPrsBuilder.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_SymmetricPairHasher.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TextPrsBuilder.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_Tool.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TwoColors.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TwoColorsHasher.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TwoNodes.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_TwoNodesHasher.hxx" />
+    <ClInclude Include="..\..\..\src\MeshVS\MeshVS_VectorPrsBuilder.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKMeshVS.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

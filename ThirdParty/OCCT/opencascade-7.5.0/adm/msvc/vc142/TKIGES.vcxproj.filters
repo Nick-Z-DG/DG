@@ -1,0 +1,3000 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{809996AE-157A-0679-0704-B1CE68662A68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{6A509F9D-178B-0AB2-07F2-2A9886839252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESData">
+      <UniqueIdentifier>{FB640476-0ACA-1250-14BC-581BF593B199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESFile">
+      <UniqueIdentifier>{70F3B488-007C-162F-0F99-7C043CFA0C36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESBasic">
+      <UniqueIdentifier>{37BC16C1-10BA-01AD-0C41-5BC61B2B3C3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESGraph">
+      <UniqueIdentifier>{7FDD655A-0201-0BFB-025E-4C9D84F96ECE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESGeom">
+      <UniqueIdentifier>{D9D67BB9-0E88-0228-1698-6B3E7AD2E037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESDimen">
+      <UniqueIdentifier>{7E64D8D0-0DB8-0D54-0C5D-E283C1382077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESDraw">
+      <UniqueIdentifier>{DB7DDFB2-1079-0B43-1219-0F9CD4012B0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESSolid">
+      <UniqueIdentifier>{B12D23E0-100B-11F6-0B81-1B63E03A12FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESDefs">
+      <UniqueIdentifier>{B3DECAEE-03C9-0C80-1359-F8CE89BFB829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESAppli">
+      <UniqueIdentifier>{D391426E-113D-001E-0EBE-EB4DAC3894B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESConvGeom">
+      <UniqueIdentifier>{AB353FE3-15D8-150A-06AF-9F2DC876C92D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESSelect">
+      <UniqueIdentifier>{91D530D4-0F4E-17D1-070B-E20CCFB6FB69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESToBRep">
+      <UniqueIdentifier>{33EC008C-0EE0-0FD4-13E6-78B1E6E77E0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GeomToIGES">
+      <UniqueIdentifier>{049B6F57-0F76-178E-1661-044513531B56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2dToIGES">
+      <UniqueIdentifier>{27ABC7E7-0766-0861-173D-82D75306B891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepToIGES">
+      <UniqueIdentifier>{3F5A7B24-134C-0C19-08D0-B6C83E146D2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepToIGESBRep">
+      <UniqueIdentifier>{0B763577-09B1-0337-0178-DB28E1590B4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IGESControl">
+      <UniqueIdentifier>{F5265E1A-136C-0E79-0AC8-CFF28A3C5778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESData">
+      <UniqueIdentifier>{929125B7-05F2-1101-09D8-A6C097AE072C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESFile">
+      <UniqueIdentifier>{58F749AD-0977-0B89-10A6-BA3AB0631EA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESBasic">
+      <UniqueIdentifier>{6FCC536C-0E37-0C7C-12CA-9712CD5376FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESGraph">
+      <UniqueIdentifier>{A8DE4309-14E8-036C-046B-68E4FD91D522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESGeom">
+      <UniqueIdentifier>{3FC5A15C-022E-0F84-0A13-84202A5BC3EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESDimen">
+      <UniqueIdentifier>{9BEBDD09-0484-154F-100E-F1368632A84F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESDraw">
+      <UniqueIdentifier>{C7F9694C-190B-10FE-05E8-EF11CD79D1B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESSolid">
+      <UniqueIdentifier>{B685CB80-12F5-169F-1470-42521D1CF227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESDefs">
+      <UniqueIdentifier>{5DFC3F85-008E-085D-05C3-75D6203CD43D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESAppli">
+      <UniqueIdentifier>{9210B718-143A-0F62-0B41-5065502B773F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESConvGeom">
+      <UniqueIdentifier>{A1F5CEC1-160C-063B-14CC-10FC552661B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESSelect">
+      <UniqueIdentifier>{D9B63224-13BE-0B97-046D-7A056AF9A8C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESToBRep">
+      <UniqueIdentifier>{B6928024-015F-15B6-12D6-09B5485C9B6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GeomToIGES">
+      <UniqueIdentifier>{E0275893-0F86-0B0F-027B-C0D39C84D343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Geom2dToIGES">
+      <UniqueIdentifier>{49DAA41B-105D-06CA-0CAA-33E1E3333AB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepToIGES">
+      <UniqueIdentifier>{53661B35-14AF-063A-0256-11120EB8780B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepToIGESBRep">
+      <UniqueIdentifier>{D13951E0-1382-0D3B-1813-E4C1494DABE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IGESControl">
+      <UniqueIdentifier>{4F1555F0-0425-00E9-066E-C6564148CA6A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_BasicEditor.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_ColorEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_DefSwitch.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_DefaultGeneral.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_DefaultSpecific.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_DirChecker.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_DirPart.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_FileProtocol.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_FileRecognizer_0.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_FreeFormatEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_GeneralModule.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_GlobalNodeOfSpecificLib_0.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_GlobalNodeOfWriterLib_0.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_GlobalSection.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_IGESDumper.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_IGESEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_IGESModel.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_IGESReaderData.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_IGESReaderTool.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_IGESType.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_IGESWriter.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_LabelDisplayEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_LevelListEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_LineFontEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_NameEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_NodeOfSpecificLib_0.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_NodeOfWriterLib_0.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_ParamCursor.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_ParamReader.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_Protocol.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_ReadWriteModule.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_SingleParentEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_SpecificLib_0.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_SpecificModule.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_ToolLocation.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_TransfEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_UndefinedEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_ViewKindEntity.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESData\IGESData_WriterLib_0.cxx">
+      <Filter>Source files\IGESData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESFile\IGESFile_Read.cxx">
+      <Filter>Source files\IGESFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESFile\analiges.c">
+      <Filter>Source files\IGESFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESFile\igesread.c">
+      <Filter>Source files\IGESFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESFile\liriges.c">
+      <Filter>Source files\IGESFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESFile\structiges.c">
+      <Filter>Source files\IGESFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_AssocGroupType.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefFile.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefFileIndex.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefFileName.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefLibName.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefName.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ExternalReferenceFile.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_GeneralModule.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_Group.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_GroupWithoutBackP.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfIGESEntity_0.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfInteger_0.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfReal_0.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfXYZ_0.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfXY_0.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_Hierarchy.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_Name.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_OrderedGroup.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_OrderedGroupWithoutBackP.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_Protocol.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ReadWriteModule.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_SingleParent.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_SingularSubfigure.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_SpecificModule.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_SubfigureDef.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolAssocGroupType.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefFile.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefFileIndex.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefFileName.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefLibName.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefName.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalReferenceFile.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolGroup.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolGroupWithoutBackP.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolHierarchy.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolName.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolOrderedGroup.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolOrderedGroupWithoutBackP.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolSingleParent.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolSingularSubfigure.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESBasic\IGESBasic_ToolSubfigureDef.cxx">
+      <Filter>Source files\IGESBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_Color.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_DefinitionLevel.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_DrawingSize.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_DrawingUnits.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_GeneralModule.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_HighLight.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_IntercharacterSpacing.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_LineFontDefPattern.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_LineFontDefTemplate.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_LineFontPredefined.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_NominalSize.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_Pick.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_Protocol.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ReadWriteModule.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_SpecificModule.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_TextDisplayTemplate.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_TextFontDef.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolColor.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolDefinitionLevel.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolDrawingSize.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolDrawingUnits.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolHighLight.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolIntercharacterSpacing.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolLineFontDefPattern.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolLineFontDefTemplate.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolLineFontPredefined.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolNominalSize.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolPick.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolTextDisplayTemplate.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolTextFontDef.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_ToolUniformRectGrid.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGraph\IGESGraph_UniformRectGrid.cxx">
+      <Filter>Source files\IGESGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_BSplineCurve.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_BSplineSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_Boundary.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_BoundedSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_CircularArc.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_CompositeCurve.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ConicArc.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_CopiousData.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_CurveOnSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_Direction.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_Flash.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_GeneralModule.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_Line.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_OffsetCurve.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_OffsetSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_Plane.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_Point.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_Protocol.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ReadWriteModule.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_RuledSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_SpecificModule.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_SplineCurve.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_SplineSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_SurfaceOfRevolution.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_TabulatedCylinder.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolBSplineCurve.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolBSplineSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolBoundary.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolBoundedSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolCircularArc.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolCompositeCurve.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolConicArc.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolCopiousData.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolCurveOnSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolDirection.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolFlash.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolLine.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolOffsetCurve.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolOffsetSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolPlane.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolPoint.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolRuledSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolSplineCurve.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolSplineSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolSurfaceOfRevolution.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolTabulatedCylinder.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolTransformationMatrix.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_ToolTrimmedSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_TransformationMatrix.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESGeom\IGESGeom_TrimmedSurface.cxx">
+      <Filter>Source files\IGESGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_AngularDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_BasicDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_CenterLine.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_CurveDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_DiameterDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_DimensionDisplayData.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_DimensionTolerance.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_DimensionUnits.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_DimensionedGeometry.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_FlagNote.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_GeneralLabel.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_GeneralModule.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_GeneralNote.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_GeneralSymbol.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_LeaderArrow.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_LinearDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_NewDimensionedGeometry.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_NewGeneralNote.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_OrdinateDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_PointDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_Protocol.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_RadiusDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ReadWriteModule.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_Section.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_SectionedArea.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_SpecificModule.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolAngularDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolBasicDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolCenterLine.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolCurveDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolDiameterDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolDimensionDisplayData.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolDimensionTolerance.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolDimensionUnits.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolDimensionedGeometry.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolFlagNote.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolGeneralLabel.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolGeneralNote.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolGeneralSymbol.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolLeaderArrow.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolLinearDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolNewDimensionedGeometry.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolNewGeneralNote.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolOrdinateDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolPointDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolRadiusDimension.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolSection.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolSectionedArea.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_ToolWitnessLine.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDimen\IGESDimen_WitnessLine.cxx">
+      <Filter>Source files\IGESDimen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_CircArraySubfigure.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ConnectPoint.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_Drawing.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_DrawingWithRotation.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_GeneralModule.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_LabelDisplay.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_NetworkSubfigure.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_NetworkSubfigureDef.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_PerspectiveView.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_Planar.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_Protocol.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ReadWriteModule.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_RectArraySubfigure.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_SegmentedViewsVisible.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_SpecificModule.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolCircArraySubfigure.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolConnectPoint.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolDrawing.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolDrawingWithRotation.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolLabelDisplay.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolNetworkSubfigure.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolNetworkSubfigureDef.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolPerspectiveView.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolPlanar.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolRectArraySubfigure.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolSegmentedViewsVisible.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolView.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolViewsVisible.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ToolViewsVisibleWithAttr.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_View.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ViewsVisible.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDraw\IGESDraw_ViewsVisibleWithAttr.cxx">
+      <Filter>Source files\IGESDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Block.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_BooleanTree.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ConeFrustum.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ConicalSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Cylinder.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_CylindricalSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_EdgeList.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Ellipsoid.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Face.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_GeneralModule.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Loop.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ManifoldSolid.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_PlaneSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Protocol.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ReadWriteModule.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_RightAngularWedge.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_SelectedComponent.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Shell.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_SolidAssembly.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_SolidInstance.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_SolidOfLinearExtrusion.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_SolidOfRevolution.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_SpecificModule.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Sphere.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_SphericalSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolBlock.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolBooleanTree.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolConeFrustum.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolConicalSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolCylinder.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolCylindricalSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolEdgeList.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolEllipsoid.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolFace.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolLoop.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolManifoldSolid.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolPlaneSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolRightAngularWedge.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolSelectedComponent.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolShell.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolSolidAssembly.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolSolidInstance.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolSolidOfLinearExtrusion.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolSolidOfRevolution.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolSphere.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolSphericalSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolToroidalSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolTorus.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToolVertexList.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_TopoBuilder.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_ToroidalSurface.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_Torus.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSolid\IGESSolid_VertexList.cxx">
+      <Filter>Source files\IGESSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_AssociativityDef.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_AttributeDef.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_AttributeTable.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_GeneralModule.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_GenericData.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_HArray1OfHArray1OfTextDisplayTemplate_0.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_MacroDef.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_Protocol.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_ReadWriteModule.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_SpecificModule.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_TabularData.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_ToolAssociativityDef.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_ToolAttributeDef.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_ToolAttributeTable.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_ToolGenericData.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_ToolMacroDef.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_ToolTabularData.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_ToolUnitsData.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESDefs\IGESDefs_UnitsData.cxx">
+      <Filter>Source files\IGESDefs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_DrilledHole.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ElementResults.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_FiniteElement.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_Flow.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_FlowLineSpec.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_GeneralModule.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_LevelFunction.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_LevelToPWBLayerMap.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_LineWidening.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_NodalConstraint.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_NodalDisplAndRot.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_NodalResults.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_Node.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_PWBArtworkStackup.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_PWBDrilledHole.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_PartNumber.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_PinNumber.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_PipingFlow.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_Protocol.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ReadWriteModule.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ReferenceDesignator.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_RegionRestriction.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_SpecificModule.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolDrilledHole.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolElementResults.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolFiniteElement.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolFlow.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolFlowLineSpec.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolLevelFunction.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolLevelToPWBLayerMap.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolLineWidening.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolNodalConstraint.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolNodalDisplAndRot.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolNodalResults.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolNode.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolPWBArtworkStackup.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolPWBDrilledHole.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolPartNumber.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolPinNumber.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolPipingFlow.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolReferenceDesignator.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESAppli\IGESAppli_ToolRegionRestriction.cxx">
+      <Filter>Source files\IGESAppli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESConvGeom\IGESConvGeom.cxx">
+      <Filter>Source files\IGESConvGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESConvGeom\IGESConvGeom_GeomBuilder.cxx">
+      <Filter>Source files\IGESConvGeom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_Activator.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_AddFileComment.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_AddGroup.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_AutoCorrect.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_ChangeLevelList.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_ChangeLevelNumber.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_ComputeStatus.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_CounterOfLevelNumber.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_DispPerDrawing.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_DispPerSingleView.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_Dumper.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_EditDirPart.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_EditHeader.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_FileModifier_0.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_FloatFormat.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_IGESName.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_IGESTypeForm.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_ModelModifier_0.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_RebuildDrawings.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_RebuildGroups.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_RemoveCurves.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectBasicGeom.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectBypassGroup.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectBypassSubfigure.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectDrawingFrom.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectFaces.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectFromDrawing.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectFromSingleView.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectLevelNumber.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectName.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectPCurves.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectSingleViewFrom.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectSubordinate.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SelectVisibleStatus.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SetGlobalParameter.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SetLabel.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SetVersion5.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SignColor.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SignLevelNumber.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SignStatus.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_SplineToBSpline.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_UpdateCreationDate.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_UpdateFileName.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_UpdateLastChange.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_ViewSorter.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESSelect\IGESSelect_WorkLibrary.cxx">
+      <Filter>Source files\IGESSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_Actor.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_AlgoContainer.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_BRepEntity.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_BasicCurve.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_BasicSurface.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_CurveAndSurface.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_IGESBoundary.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_Reader.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_ToolContainer.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_TopoCurve.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESToBRep\IGESToBRep_TopoSurface.cxx">
+      <Filter>Source files\IGESToBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomCurve.cxx">
+      <Filter>Source files\GeomToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomEntity.cxx">
+      <Filter>Source files\GeomToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomPoint.cxx">
+      <Filter>Source files\GeomToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomSurface.cxx">
+      <Filter>Source files\GeomToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomVector.cxx">
+      <Filter>Source files\GeomToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dToIGES\Geom2dToIGES_Geom2dCurve.cxx">
+      <Filter>Source files\Geom2dToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dToIGES\Geom2dToIGES_Geom2dEntity.cxx">
+      <Filter>Source files\Geom2dToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dToIGES\Geom2dToIGES_Geom2dPoint.cxx">
+      <Filter>Source files\Geom2dToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dToIGES\Geom2dToIGES_Geom2dVector.cxx">
+      <Filter>Source files\Geom2dToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepToIGES\BRepToIGES_BREntity.cxx">
+      <Filter>Source files\BRepToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepToIGES\BRepToIGES_BRShell.cxx">
+      <Filter>Source files\BRepToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepToIGES\BRepToIGES_BRSolid.cxx">
+      <Filter>Source files\BRepToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepToIGES\BRepToIGES_BRWire.cxx">
+      <Filter>Source files\BRepToIGES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepToIGESBRep\BRepToIGESBRep_Entity.cxx">
+      <Filter>Source files\BRepToIGESBRep</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESControl\IGESControl_ActorWrite.cxx">
+      <Filter>Source files\IGESControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESControl\IGESControl_AlgoContainer.cxx">
+      <Filter>Source files\IGESControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESControl\IGESControl_Controller.cxx">
+      <Filter>Source files\IGESControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESControl\IGESControl_IGESBoundary.cxx">
+      <Filter>Source files\IGESControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESControl\IGESControl_Reader.cxx">
+      <Filter>Source files\IGESControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESControl\IGESControl_ToolContainer.cxx">
+      <Filter>Source files\IGESControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IGESControl\IGESControl_Writer.cxx">
+      <Filter>Source files\IGESControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_Array1OfDirPart.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_Array1OfIGESEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_BasicEditor.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_ColorEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_DefList.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_DefSwitch.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_DefType.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_DefaultGeneral.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_DefaultSpecific.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_DirChecker.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_DirPart.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_Dump.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_FileProtocol.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_FileRecognizer.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_FreeFormatEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_GeneralModule.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_GlobalNodeOfSpecificLib.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_GlobalNodeOfWriterLib.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_GlobalSection.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_HArray1OfIGESEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_IGESDumper.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_IGESEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_IGESModel.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_IGESReaderData.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_IGESReaderTool.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_IGESType.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_IGESWriter.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_LabelDisplayEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_LevelListEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_LineFontEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_NameEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_NodeOfSpecificLib.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_NodeOfWriterLib.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_ParamCursor.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_ParamCursor.lxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_ParamReader.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_Protocol.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_ReadStage.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_ReadWriteModule.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_SingleParentEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_SpecificLib.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_SpecificModule.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_Status.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_ToolLocation.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_TransfEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_UndefinedEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_ViewKindEntity.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESData\IGESData_WriterLib.hxx">
+      <Filter>Header files\IGESData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESFile\IGESFile_Read.hxx">
+      <Filter>Header files\IGESFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESFile\igesread.h">
+      <Filter>Header files\IGESFile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_Array1OfLineFontEntity.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_Array2OfHArray1OfReal.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_AssocGroupType.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefFile.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefFileIndex.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefFileName.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefLibName.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ExternalRefName.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ExternalReferenceFile.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_GeneralModule.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_Group.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_GroupWithoutBackP.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfIGESEntity.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfInteger.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfReal.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfXY.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfHArray1OfXYZ.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_HArray1OfLineFontEntity.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_HArray2OfHArray1OfReal.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_Hierarchy.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_Name.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_OrderedGroup.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_OrderedGroupWithoutBackP.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_Protocol.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ReadWriteModule.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_SingleParent.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_SingularSubfigure.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_SpecificModule.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_SubfigureDef.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolAssocGroupType.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefFile.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefFileIndex.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefFileName.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefLibName.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalRefName.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolExternalReferenceFile.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolGroup.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolGroupWithoutBackP.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolHierarchy.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolName.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolOrderedGroup.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolOrderedGroupWithoutBackP.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolSingleParent.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolSingularSubfigure.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESBasic\IGESBasic_ToolSubfigureDef.hxx">
+      <Filter>Header files\IGESBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_Array1OfColor.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_Array1OfTextDisplayTemplate.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_Array1OfTextFontDef.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_Color.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_DefinitionLevel.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_DrawingSize.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_DrawingUnits.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_GeneralModule.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_HArray1OfColor.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_HArray1OfTextDisplayTemplate.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_HArray1OfTextFontDef.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_HighLight.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_IntercharacterSpacing.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_LineFontDefPattern.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_LineFontDefTemplate.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_LineFontPredefined.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_NominalSize.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_Pick.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_Protocol.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ReadWriteModule.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_SpecificModule.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_TextDisplayTemplate.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_TextFontDef.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolColor.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolDefinitionLevel.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolDrawingSize.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolDrawingUnits.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolHighLight.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolIntercharacterSpacing.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolLineFontDefPattern.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolLineFontDefTemplate.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolLineFontPredefined.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolNominalSize.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolPick.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolTextDisplayTemplate.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolTextFontDef.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_ToolUniformRectGrid.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGraph\IGESGraph_UniformRectGrid.hxx">
+      <Filter>Header files\IGESGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Array1OfBoundary.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Array1OfCurveOnSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Array1OfTransformationMatrix.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_BSplineCurve.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_BSplineSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Boundary.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_BoundedSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_CircularArc.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_CompositeCurve.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ConicArc.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_CopiousData.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_CurveOnSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Direction.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Flash.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_GeneralModule.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_HArray1OfBoundary.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_HArray1OfCurveOnSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_HArray1OfTransformationMatrix.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Line.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_OffsetCurve.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_OffsetSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Plane.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Point.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_Protocol.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ReadWriteModule.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_RuledSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_SpecificModule.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_SplineCurve.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_SplineSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_SurfaceOfRevolution.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_TabulatedCylinder.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolBSplineCurve.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolBSplineSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolBoundary.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolBoundedSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolCircularArc.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolCompositeCurve.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolConicArc.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolCopiousData.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolCurveOnSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolDirection.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolFlash.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolLine.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolOffsetCurve.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolOffsetSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolPlane.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolPoint.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolRuledSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolSplineCurve.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolSplineSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolSurfaceOfRevolution.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolTabulatedCylinder.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolTransformationMatrix.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_ToolTrimmedSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_TransformationMatrix.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESGeom\IGESGeom_TrimmedSurface.hxx">
+      <Filter>Header files\IGESGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_AngularDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_Array1OfGeneralNote.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_Array1OfLeaderArrow.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_BasicDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_CenterLine.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_CurveDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_DiameterDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_DimensionDisplayData.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_DimensionTolerance.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_DimensionUnits.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_DimensionedGeometry.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_FlagNote.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_GeneralLabel.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_GeneralModule.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_GeneralNote.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_GeneralSymbol.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_HArray1OfGeneralNote.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_HArray1OfLeaderArrow.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_LeaderArrow.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_LinearDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_NewDimensionedGeometry.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_NewGeneralNote.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_OrdinateDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_PointDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_Protocol.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_RadiusDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ReadWriteModule.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_Section.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_SectionedArea.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_SpecificModule.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolAngularDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolBasicDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolCenterLine.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolCurveDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolDiameterDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolDimensionDisplayData.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolDimensionTolerance.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolDimensionUnits.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolDimensionedGeometry.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolFlagNote.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolGeneralLabel.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolGeneralNote.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolGeneralSymbol.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolLeaderArrow.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolLinearDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolNewDimensionedGeometry.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolNewGeneralNote.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolOrdinateDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolPointDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolRadiusDimension.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolSection.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolSectionedArea.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_ToolWitnessLine.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDimen\IGESDimen_WitnessLine.hxx">
+      <Filter>Header files\IGESDimen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_Array1OfConnectPoint.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_Array1OfViewKindEntity.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_CircArraySubfigure.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ConnectPoint.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_Drawing.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_DrawingWithRotation.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_GeneralModule.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_HArray1OfConnectPoint.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_HArray1OfViewKindEntity.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_LabelDisplay.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_NetworkSubfigure.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_NetworkSubfigureDef.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_PerspectiveView.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_Planar.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_Protocol.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ReadWriteModule.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_RectArraySubfigure.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_SegmentedViewsVisible.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_SpecificModule.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolCircArraySubfigure.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolConnectPoint.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolDrawing.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolDrawingWithRotation.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolLabelDisplay.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolNetworkSubfigure.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolNetworkSubfigureDef.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolPerspectiveView.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolPlanar.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolRectArraySubfigure.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolSegmentedViewsVisible.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolView.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolViewsVisible.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ToolViewsVisibleWithAttr.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_View.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ViewsVisible.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDraw\IGESDraw_ViewsVisibleWithAttr.hxx">
+      <Filter>Header files\IGESDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Array1OfFace.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Array1OfLoop.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Array1OfShell.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Array1OfVertexList.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Block.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_BooleanTree.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ConeFrustum.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ConicalSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Cylinder.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_CylindricalSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_EdgeList.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Ellipsoid.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Face.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_GeneralModule.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_HArray1OfFace.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_HArray1OfLoop.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_HArray1OfShell.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_HArray1OfVertexList.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Loop.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ManifoldSolid.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_PlaneSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Protocol.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ReadWriteModule.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_RightAngularWedge.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_SelectedComponent.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Shell.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_SolidAssembly.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_SolidInstance.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_SolidOfLinearExtrusion.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_SolidOfRevolution.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_SpecificModule.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Sphere.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_SphericalSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolBlock.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolBooleanTree.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolConeFrustum.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolConicalSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolCylinder.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolCylindricalSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolEdgeList.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolEllipsoid.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolFace.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolLoop.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolManifoldSolid.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolPlaneSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolRightAngularWedge.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolSelectedComponent.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolShell.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolSolidAssembly.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolSolidInstance.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolSolidOfLinearExtrusion.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolSolidOfRevolution.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolSphere.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolSphericalSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolToroidalSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolTorus.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToolVertexList.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_TopoBuilder.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_ToroidalSurface.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_Torus.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSolid\IGESSolid_VertexList.hxx">
+      <Filter>Header files\IGESSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_Array1OfTabularData.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_AssociativityDef.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_AttributeDef.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_AttributeTable.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_GeneralModule.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_GenericData.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_HArray1OfHArray1OfTextDisplayTemplate.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_HArray1OfTabularData.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_MacroDef.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_Protocol.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_ReadWriteModule.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_SpecificModule.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_TabularData.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_ToolAssociativityDef.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_ToolAttributeDef.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_ToolAttributeTable.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_ToolGenericData.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_ToolMacroDef.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_ToolTabularData.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_ToolUnitsData.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESDefs\IGESDefs_UnitsData.hxx">
+      <Filter>Header files\IGESDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_Array1OfFiniteElement.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_Array1OfFlow.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_Array1OfNode.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_DrilledHole.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ElementResults.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_FiniteElement.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_Flow.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_FlowLineSpec.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_GeneralModule.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_HArray1OfFiniteElement.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_HArray1OfFlow.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_HArray1OfNode.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_LevelFunction.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_LevelToPWBLayerMap.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_LineWidening.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_NodalConstraint.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_NodalDisplAndRot.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_NodalResults.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_Node.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_PWBArtworkStackup.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_PWBDrilledHole.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_PartNumber.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_PinNumber.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_PipingFlow.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_Protocol.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ReadWriteModule.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ReferenceDesignator.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_RegionRestriction.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_SpecificModule.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolDrilledHole.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolElementResults.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolFiniteElement.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolFlow.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolFlowLineSpec.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolLevelFunction.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolLevelToPWBLayerMap.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolLineWidening.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolNodalConstraint.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolNodalDisplAndRot.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolNodalResults.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolNode.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolPWBArtworkStackup.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolPWBDrilledHole.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolPartNumber.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolPinNumber.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolPipingFlow.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolReferenceDesignator.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESAppli\IGESAppli_ToolRegionRestriction.hxx">
+      <Filter>Header files\IGESAppli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESConvGeom\IGESConvGeom.hxx">
+      <Filter>Header files\IGESConvGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESConvGeom\IGESConvGeom_GeomBuilder.hxx">
+      <Filter>Header files\IGESConvGeom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_Activator.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_AddFileComment.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_AddGroup.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_AutoCorrect.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_ChangeLevelList.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_ChangeLevelNumber.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_ComputeStatus.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_CounterOfLevelNumber.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_DispPerDrawing.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_DispPerSingleView.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_Dumper.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_EditDirPart.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_EditHeader.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_FileModifier.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_FloatFormat.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_IGESName.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_IGESTypeForm.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_ModelModifier.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_RebuildDrawings.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_RebuildGroups.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_RemoveCurves.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectBasicGeom.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectBypassGroup.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectBypassSubfigure.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectDrawingFrom.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectFaces.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectFromDrawing.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectFromSingleView.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectLevelNumber.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectName.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectPCurves.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectSingleViewFrom.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectSubordinate.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SelectVisibleStatus.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SetGlobalParameter.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SetLabel.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SetVersion5.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SignColor.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SignLevelNumber.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SignStatus.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_SplineToBSpline.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_UpdateCreationDate.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_UpdateFileName.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_UpdateLastChange.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_ViewSorter.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESSelect\IGESSelect_WorkLibrary.hxx">
+      <Filter>Header files\IGESSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_Actor.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_AlgoContainer.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_AlgoContainer.lxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_BRepEntity.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_BasicCurve.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_BasicSurface.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_CurveAndSurface.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_CurveAndSurface.lxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_IGESBoundary.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_IGESBoundary.lxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_Reader.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_ToolContainer.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_TopoCurve.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESToBRep\IGESToBRep_TopoSurface.hxx">
+      <Filter>Header files\IGESToBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomCurve.hxx">
+      <Filter>Header files\GeomToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomEntity.hxx">
+      <Filter>Header files\GeomToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomPoint.hxx">
+      <Filter>Header files\GeomToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomSurface.hxx">
+      <Filter>Header files\GeomToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomToIGES\GeomToIGES_GeomVector.hxx">
+      <Filter>Header files\GeomToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dToIGES\Geom2dToIGES_Geom2dCurve.hxx">
+      <Filter>Header files\Geom2dToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dToIGES\Geom2dToIGES_Geom2dEntity.hxx">
+      <Filter>Header files\Geom2dToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dToIGES\Geom2dToIGES_Geom2dPoint.hxx">
+      <Filter>Header files\Geom2dToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dToIGES\Geom2dToIGES_Geom2dVector.hxx">
+      <Filter>Header files\Geom2dToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepToIGES\BRepToIGES_BREntity.hxx">
+      <Filter>Header files\BRepToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepToIGES\BRepToIGES_BRShell.hxx">
+      <Filter>Header files\BRepToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepToIGES\BRepToIGES_BRSolid.hxx">
+      <Filter>Header files\BRepToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepToIGES\BRepToIGES_BRWire.hxx">
+      <Filter>Header files\BRepToIGES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepToIGESBRep\BRepToIGESBRep_Entity.hxx">
+      <Filter>Header files\BRepToIGESBRep</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESControl\IGESControl_ActorWrite.hxx">
+      <Filter>Header files\IGESControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESControl\IGESControl_AlgoContainer.hxx">
+      <Filter>Header files\IGESControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESControl\IGESControl_Controller.hxx">
+      <Filter>Header files\IGESControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESControl\IGESControl_IGESBoundary.hxx">
+      <Filter>Header files\IGESControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESControl\IGESControl_Reader.hxx">
+      <Filter>Header files\IGESControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESControl\IGESControl_Reader.lxx">
+      <Filter>Header files\IGESControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESControl\IGESControl_ToolContainer.hxx">
+      <Filter>Header files\IGESControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IGESControl\IGESControl_Writer.hxx">
+      <Filter>Header files\IGESControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKIGES.rc" />
+  </ItemGroup>
+</Project>

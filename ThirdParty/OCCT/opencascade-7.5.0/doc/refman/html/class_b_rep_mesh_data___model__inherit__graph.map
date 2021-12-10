@@ -1,0 +1,5 @@
+<map id="BRepMeshData_Model" name="BRepMeshData_Model">
+<area shape="rect" id="node2" href="$class_i_mesh_data___model.html" title="Interface class representing discrete model of a shape. " alt="" coords="19,155,146,181"/>
+<area shape="rect" id="node3" href="$class_i_mesh_data___shape.html" title="Interface class representing model with associated TopoDS_Shape. Intended for inheritance by structur..." alt="" coords="19,80,147,107"/>
+<area shape="rect" id="node4" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="15,5,150,32"/>
+</map>

@@ -1,0 +1,24 @@
+﻿  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+gzread.c(319,20): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+gzread.c(400,35): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+gzread.c(472,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  gzwrite.c
+gzwrite.c(212,27): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+gzwrite.c(232,24): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+gzwrite.c(371,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+     Creating library C:\Projects\KernelCAD\ThirdParty\Ogre\build_x32\lib\x64\Debug\zlibd.lib and object C:\Projects\KernelCAD\ThirdParty\Ogre\build_x32\lib\x64\Debug\zlibd.exp
+  zlib.vcxproj -> C:\Projects\KernelCAD\Bin\x64\Debug\zlibd.dll

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{BF8C0D88-05CC-0572-101A-90A6C2B42CB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{E26DF7FA-0632-0696-0375-77FB701C9283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2d">
+      <UniqueIdentifier>{D6EA0139-0286-10C2-0FDC-804EDFBA470B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LProp">
+      <UniqueIdentifier>{8E5D81F9-0AEC-152F-01E6-2FB54024B6CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Adaptor2d">
+      <UniqueIdentifier>{5D87C9D7-0C69-08C9-16FF-5D94ACCBAB77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2dLProp">
+      <UniqueIdentifier>{6647E47F-15BA-02DB-0388-1582DA41D276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2dAdaptor">
+      <UniqueIdentifier>{6074E989-0187-0DAC-0A53-94BA625882FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2dEvaluator">
+      <UniqueIdentifier>{006025EA-0849-0068-17CF-CD87516EEA3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Geom2d">
+      <UniqueIdentifier>{D3B331B9-111D-12FF-18E6-D560E6CCD6F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LProp">
+      <UniqueIdentifier>{333241C2-1552-1519-132F-AE5317D11205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TColGeom2d">
+      <UniqueIdentifier>{F61EC985-00CD-0F9D-0C4D-44A160BEDA97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Adaptor2d">
+      <UniqueIdentifier>{0115D774-019C-0F5F-16F9-271C7DBF6285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Geom2dLProp">
+      <UniqueIdentifier>{DD2AF8A3-0AB3-131E-0E74-B58F18C5AE91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Geom2dAdaptor">
+      <UniqueIdentifier>{47DE9BE6-151A-09FD-1197-B5CCC195CC33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Geom2dEvaluator">
+      <UniqueIdentifier>{912CAC40-02FE-03AE-0994-FE30350EFA09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_AxisPlacement.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_BSplineCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_BSplineCurve_1.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_BezierCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_BoundedCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_CartesianPoint.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Circle.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Conic.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Curve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Direction.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Ellipse.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Geometry.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Hyperbola.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Line.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_OffsetCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Parabola.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Point.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Transformation.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_TrimmedCurve.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_Vector.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2d\Geom2d_VectorWithMagnitude.cxx">
+      <Filter>Source files\Geom2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LProp\LProp_AnalyticCurInf.cxx">
+      <Filter>Source files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\LProp\LProp_CurAndInf.cxx">
+      <Filter>Source files\LProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_Curve2d.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_HCurve2d.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_HLine2d_0.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_HOffsetCurve_0.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_Line2d.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Adaptor2d\Adaptor2d_OffsetCurve.cxx">
+      <Filter>Source files\Adaptor2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dLProp\Geom2dLProp_CLProps2d_0.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dLProp\Geom2dLProp_CurAndInf2d.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dLProp\Geom2dLProp_Curve2dTool.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dLProp\Geom2dLProp_FuncCurExt.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dLProp\Geom2dLProp_FuncCurNul.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dLProp\Geom2dLProp_NumericCurInf2d.cxx">
+      <Filter>Source files\Geom2dLProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor.cxx">
+      <Filter>Source files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_Curve.cxx">
+      <Filter>Source files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_GHCurve_0.cxx">
+      <Filter>Source files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_HCurve.cxx">
+      <Filter>Source files\Geom2dAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dEvaluator\Geom2dEvaluator.cxx">
+      <Filter>Source files\Geom2dEvaluator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dEvaluator\Geom2dEvaluator_OffsetCurve.cxx">
+      <Filter>Source files\Geom2dEvaluator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_AxisPlacement.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_BSplineCurve.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_BezierCurve.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_BoundedCurve.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_CartesianPoint.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Circle.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Conic.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Curve.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Direction.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Ellipse.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Geometry.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Hyperbola.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Line.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_OffsetCurve.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Parabola.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Point.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Transformation.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_TrimmedCurve.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_UndefinedDerivative.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_UndefinedValue.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_Vector.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2d\Geom2d_VectorWithMagnitude.hxx">
+      <Filter>Header files\Geom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_AnalyticCurInf.hxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_BadContinuity.hxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_CIType.hxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_CLProps.gxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_CurAndInf.hxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_NotDefined.hxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_SLProps.gxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_SequenceOfCIType.hxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\LProp\LProp_Status.hxx">
+      <Filter>Header files\LProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_Array1OfBSplineCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_Array1OfBezierCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_Array1OfCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_HArray1OfBSplineCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_HArray1OfBezierCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_HArray1OfCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_HSequenceOfBoundedCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_HSequenceOfCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_SequenceOfBoundedCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_SequenceOfCurve.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TColGeom2d\TColGeom2d_SequenceOfGeometry.hxx">
+      <Filter>Header files\TColGeom2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_Curve2d.hxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_GenHCurve2d.gxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_GenHCurve2d.lxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_HCurve2d.hxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_HCurve2d.lxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_HLine2d.hxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_HOffsetCurve.hxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_Line2d.hxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_OffsetCurve.hxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Adaptor2d\Adaptor2d_OffsetCurve.lxx">
+      <Filter>Header files\Adaptor2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dLProp\Geom2dLProp_CLProps2d.hxx">
+      <Filter>Header files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dLProp\Geom2dLProp_CurAndInf2d.hxx">
+      <Filter>Header files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dLProp\Geom2dLProp_Curve2dTool.hxx">
+      <Filter>Header files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dLProp\Geom2dLProp_FuncCurExt.hxx">
+      <Filter>Header files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dLProp\Geom2dLProp_FuncCurNul.hxx">
+      <Filter>Header files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dLProp\Geom2dLProp_NumericCurInf2d.hxx">
+      <Filter>Header files\Geom2dLProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor.hxx">
+      <Filter>Header files\Geom2dAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_Curve.hxx">
+      <Filter>Header files\Geom2dAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_Curve.lxx">
+      <Filter>Header files\Geom2dAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_GHCurve.hxx">
+      <Filter>Header files\Geom2dAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dAdaptor\Geom2dAdaptor_HCurve.hxx">
+      <Filter>Header files\Geom2dAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dEvaluator\Geom2dEvaluator.hxx">
+      <Filter>Header files\Geom2dEvaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dEvaluator\Geom2dEvaluator_Curve.hxx">
+      <Filter>Header files\Geom2dEvaluator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dEvaluator\Geom2dEvaluator_OffsetCurve.hxx">
+      <Filter>Header files\Geom2dEvaluator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKG2d.rc" />
+  </ItemGroup>
+</Project>

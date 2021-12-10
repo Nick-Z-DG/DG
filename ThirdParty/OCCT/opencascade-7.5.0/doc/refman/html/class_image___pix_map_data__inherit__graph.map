@@ -1,0 +1,9 @@
+<map id="Image_PixMapData" name="Image_PixMapData">
+<area shape="rect" id="node4" href="$class_image___pix_map_typed_data.html" title="Structure to manage image buffer with predefined pixel type. " alt="" coords="562,5,733,47"/>
+<area shape="rect" id="node5" href="$class_image___pix_map_typed_data.html" title="Image_PixMapTypedData\l\&lt; float \&gt;" alt="" coords="562,71,733,112"/>
+<area shape="rect" id="node6" href="$class_image___pix_map_typed_data.html" title="Image_PixMapTypedData\l\&lt; int \&gt;" alt="" coords="562,136,733,177"/>
+<area shape="rect" id="node7" href="$class_image___pix_map_typed_data.html" title="Image_PixMapTypedData\l\&lt; NCollection_Vec2\&lt; Standard\l_Integer \&gt; \&gt;" alt="" coords="547,202,748,258"/>
+<area shape="rect" id="node8" href="$class_image___pix_map_typed_data.html" title="Image_PixMapTypedData\l\&lt; unsigned int \&gt;" alt="" coords="562,283,733,324"/>
+<area shape="rect" id="node2" href="$class_n_collection___buffer.html" title="Low&#45;level buffer object. " alt="" coords="188,143,316,170"/>
+<area shape="rect" id="node3" href="$class_standard___transient.html" title="Abstract class which forms the root of the entire Transient class hierarchy. " alt="" coords="5,143,140,170"/>
+</map>

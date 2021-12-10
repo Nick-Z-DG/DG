@@ -1,0 +1,4 @@
+<map id="BRepMesh_NodeInsertionMeshAlgo&lt; RangeSplitter, BaseAlgo &gt;" name="BRepMesh_NodeInsertionMeshAlgo&lt; RangeSplitter, BaseAlgo &gt;">
+<area shape="rect" id="node3" href="$class_b_rep_mesh___delaunay_node_insertion_mesh_algo.html" title="Extends base Delaunay meshing algo in order to enable possibility of addition of free vertices and in..." alt="" coords="5,169,232,225"/>
+<area shape="rect" id="node4" href="$class_b_rep_mesh___delaunay_deflection_control_mesh_algo.html" title="Extends node insertion Delaunay meshing algo in order to control deflection of generated trianges..." alt="" coords="11,273,226,329"/>
+</map>

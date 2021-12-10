@@ -1,0 +1,17 @@
+<map id="Prs3d_Root" name="Prs3d_Root">
+<area shape="rect" id="node2" href="$class_dsg_prs___datum_prs.html" title="A framework for displaying an XYZ trihedron. " alt="" coords="196,5,327,32"/>
+<area shape="rect" id="node3" href="$class_prs3d___bnd_box.html" title="Tool for computing bounding box presentation. " alt="" coords="207,56,316,83"/>
+<area shape="rect" id="node4" href="$class_std_prs___curve.html" title="A framework to define display of lines, arcs of circles and conic sections. This is done with a fixed..." alt="" coords="211,107,312,133"/>
+<area shape="rect" id="node5" href="$class_std_prs___deflection_curve.html" title="A framework to provide display of any curve with respect to the maximal chordal deviation defined in ..." alt="" coords="182,157,341,184"/>
+<area shape="rect" id="node6" href="$class_std_prs___isolines.html" title="Tool for computing isoline representation for a face or surface. Depending on a flags set to the give..." alt="" coords="205,208,318,235"/>
+<area shape="rect" id="node7" href="$class_std_prs___plane.html" title="A framework to display infinite planes. " alt="" coords="210,259,313,285"/>
+<area shape="rect" id="node8" href="$class_std_prs___pole_curve.html" title="A framework to provide display of Bezier or BSpline curves (by drawing a broken line linking the pole..." alt="" coords="198,309,325,336"/>
+<area shape="rect" id="node9" href="$class_std_prs___shaded_shape.html" title="Auxiliary procedures to prepare Shaded presentation of specified shape. " alt="" coords="186,360,337,387"/>
+<area shape="rect" id="node10" href="$class_std_prs___shaded_surface.html" title="Computes the shading presentation of surfaces. Draws a surface by drawing the isoparametric curves wi..." alt="" coords="183,411,340,437"/>
+<area shape="rect" id="node11" href="$class_std_prs___w_f_deflection_restricted_face.html" title="A framework to provide display of U and V isoparameters of faces, while allowing you to impose a defl..." alt="" coords="144,461,379,488"/>
+<area shape="rect" id="node12" href="$class_std_prs___w_f_deflection_surface.html" title="Draws a surface by drawing the isoparametric curves with respect to a maximal chordial deviation..." alt="" coords="166,512,357,539"/>
+<area shape="rect" id="node13" href="$class_std_prs___w_f_pole_surface.html" title="Computes the presentation of surfaces by drawing a double network of lines linking the poles of the s..." alt="" coords="181,563,341,589"/>
+<area shape="rect" id="node14" href="$class_std_prs___w_f_restricted_face.html" title="StdPrs_WFRestrictedFace" alt="" coords="172,613,351,640"/>
+<area shape="rect" id="node15" href="$class_std_prs___w_f_shape.html" title="Tool for computing wireframe presentation of a TopoDS_Shape. " alt="" coords="198,664,325,691"/>
+<area shape="rect" id="node16" href="$class_std_prs___w_f_surface.html" title="Computes the wireframe presentation of surfaces by displaying a given number of U and/or V isoparamet..." alt="" coords="194,715,329,741"/>
+</map>

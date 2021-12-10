@@ -1,0 +1,23 @@
+digraph schema_TKRWMesh
+{
+	TKRWMesh [ URL = "toolkit_tkrwmesh.html", shape = box ]
+	TKernel [ URL = "toolkit_tkernel.html" , shape = box ]
+	TKRWMesh -> TKernel [ color = "midnightblue", style = "solid" ]
+	TKMath [ URL = "toolkit_tkmath.html" , shape = box ]
+	TKRWMesh -> TKMath [ color = "midnightblue", style = "solid" ]
+	TKMesh [ URL = "toolkit_tkmesh.html" , shape = box ]
+	TKRWMesh -> TKMesh [ color = "midnightblue", style = "solid" ]
+	TKXCAF [ URL = "toolkit_tkxcaf.html" , shape = box ]
+	TKRWMesh -> TKXCAF [ color = "midnightblue", style = "solid" ]
+	TKLCAF [ URL = "toolkit_tklcaf.html" , shape = box ]
+	TKRWMesh -> TKLCAF [ color = "midnightblue", style = "solid" ]
+	TKV3d [ URL = "toolkit_tkv3d.html" , shape = box ]
+	TKRWMesh -> TKV3d [ color = "midnightblue", style = "solid" ]
+	TKBRep [ URL = "toolkit_tkbrep.html" , shape = box ]
+	TKRWMesh -> TKBRep [ color = "midnightblue", style = "solid" ]
+	TKG3d [ URL = "toolkit_tkg3d.html" , shape = box ]
+	TKRWMesh -> TKG3d [ color = "midnightblue", style = "solid" ]
+	TKService [ URL = "toolkit_tkservice.html" , shape = box ]
+	TKRWMesh -> TKService [ color = "midnightblue", style = "solid" ]
+	aspect = 1
+}
