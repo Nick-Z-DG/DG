@@ -1,0 +1,238 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LAYERS_DIALOG DIALOGEX 0, 0, 460, 361
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Layers"
+MENU IDR_MENU
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,403,340,50,14
+    CONTROL         "Wire Frame",IDC_C_WIREFRAME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,363,18,65,12
+    LTEXT           "All Objects:",IDC_STATIC,367,45,46,8
+    LISTBOX         IDC_LIST_OBJECTS,367,59,82,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Selected Object",IDC_STATIC,365,127,88,82
+    CONTROL         "Visible",IDC_CHECK_VISIBLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,373,139,47,12
+    LTEXT           "Layer (Tab to enter)",IDC_STATIC,373,154,64,8
+    EDITTEXT        IDC_EDIT_LAYER,374,164,74,13,ES_AUTOHSCROLL
+    LTEXT           "User Data:",IDC_STATIC,374,182,52,8
+    EDITTEXT        IDC_EDIT_USERDATA,373,192,53,12,ES_RIGHT | ES_AUTOHSCROLL
+    LTEXT           "All Layers",IDC_STATIC,369,217,55,10
+    LISTBOX         IDC_LIST_LAYERS,367,227,86,63,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Selected Layer",IDC_GROUP_SEL_LAYER,368,299,85,29
+    PUSHBUTTON      "Hide",IDC_BUTT_HIDE,377,312,29,12
+    PUSHBUTTON      "Show",IDC_BUTT_SHOW,414,312,29,12
+    CONTROL         "",IDC_KERNELCADCTRL1,
+                    "{1BF74BAF-DAB3-4A68-A6EC-409E7AAA24BB}",WS_TABSTOP,7,7,347,347
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "Layers MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Layers"
+            VALUE "LegalCopyright", "Copyright (C) 2007"
+            VALUE "OriginalFilename", "Layers.EXE"
+            VALUE "ProductName", "Layers Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_LAYERS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 453
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 354
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_LAYERS_DIALOG DLGINIT
+BEGIN
+    IDC_KERNELCADCTRL1, 0x376, 201, 0
+0x0034, 0x0000, 0x0041, 0x0053, 0x0044, 0x0048, 0x004b, 0x0041, 0x004a, 
+0x0053, 0x0044, 0x0048, 0x004a, 0x004c, 0x0041, 0x0053, 0x0048, 0x0044, 
+0x004a, 0x0048, 0x0041, 0x0053, 0x0044, 0x0046, 0x004a, 0x004c, 0x0041, 
+0x0053, 0x0044, 0x0048, 0x0046, 0x0055, 0x0059, 0x0051, 0x0051, 0x0050, 
+0x0045, 0x0045, 0x004f, 0x0045, 0x004f, 0x004f, 0x004f, 0x0045, 0x0045, 
+0x004e, 0x004e, 0x0043, 0x004d, 0x0043, 0x004d, 0x0043, 0x004d, 0x004e, 
+0x0003, 0x0004, 0x35d9, 0x0000, 0x3a4b, 0x0000, 0x0000, 0x0000, 0x4d19, 
+0x646f, 0x6c65, 0x5c73, 0x6153, 0x706d, 0x656c, 0x5c73, 0x7254, 0x6e61, 
+0x6673, 0x6d2e, 0x6764, 0x0000, 0xffcc, 0x00cc, 0x0c01, 0x7250, 0x706f, 
+0x6353, 0x6568, 0x616d, 0x3620, 0x0014, 0x0000, 0xc625, 0xbc02, 0x623d, 
+0x6b5f, 0xbf56, 0x7ad4, 0x320e, 0x0591, 0x1861, 0xbaf7, 0x0000, 0x0000, 
+0x0006, "\000" 
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Layers.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Layers.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Open",                        ID_LR_FILE_OPEN
+        MENUITEM "Save",                        ID_LRFILE_SAVE
+        MENUITEM "Save As",                     IDC_LRFILE_SAVEAS
+        MENUITEM "Exit",                        IDC_FILE_EXIT
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "Show Topic",                  IDC_HELP_TOPIC
+    END
+END
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Layers.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

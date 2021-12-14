@@ -1,0 +1,244 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_USERDATA_DIALOG DIALOGEX 0, 0, 554, 373
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "UserData"
+MENU IDR_MENU1
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,465,336,50,14
+    CONTROL         "",IDC_KERNELCADCTRL1,
+                    "{1BF74BAF-DAB3-4A68-A6EC-409E7AAA24BB}",WS_TABSTOP,7,7,418,357
+    CONTROL         "Wire Frame",IDC_CHECK_WIREFRAME,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,442,7,59,10
+    LTEXT           "All Objects:",IDC_STATIC,444,22,60,9
+    LISTBOX         IDC_LIST_OBJECTS,440,34,101,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Selected Object",IDC_STATIC,435,100,106,157
+    CONTROL         "Visible",IDC_CHECK_VISIBLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,455,112,65,11
+    LTEXT           "User Data:",IDC_STATIC,455,125,52,12
+    EDITTEXT        IDC_EDIT_USER_DATA,453,138,62,12,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_DESCRIPT,449,160,89,46,ES_MULTILINE | ES_AUTOVSCROLL
+    LTEXT           "Weight:",IDC_STATIC,451,209,48,9
+    EDITTEXT        IDC_EDIT_WEIGHT,451,221,64,12,ES_RIGHT | ES_AUTOHSCROLL
+    PUSHBUTTON      "Enter",IDC_BUTT_ENTER,473,240,52,13
+    GROUPBOX        "Unformatted User Data",IDC_STATIC,435,265,106,37
+    LTEXT           "Size (bytes):",IDC_STATIC,450,280,38,9
+    LTEXT           "200",IDC_TXT_RAWDATA_SIZE,497,280,40,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "UserData MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "UserData"
+            VALUE "LegalCopyright", "Copyright (C) 2005"
+            VALUE "OriginalFilename", "UserData.EXE"
+            VALUE "ProductName", "UserData Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_USERDATA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 547
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 366
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_USERDATA_DIALOG DLGINIT
+BEGIN
+    IDC_KERNELCADCTRL1, 0x376, 194, 0
+0x0034, 0x0000, 0x0041, 0x0053, 0x0044, 0x0048, 0x004b, 0x0041, 0x004a, 
+0x0053, 0x0044, 0x0048, 0x004a, 0x004c, 0x0041, 0x0053, 0x0048, 0x0044, 
+0x004a, 0x0048, 0x0041, 0x0053, 0x0044, 0x0046, 0x004a, 0x004c, 0x0041, 
+0x0053, 0x0044, 0x0048, 0x0046, 0x0055, 0x0059, 0x0051, 0x0051, 0x0050, 
+0x0045, 0x0045, 0x004f, 0x0045, 0x004f, 0x004f, 0x004f, 0x0045, 0x0045, 
+0x004e, 0x004e, 0x0043, 0x004d, 0x0043, 0x004d, 0x0043, 0x004d, 0x004e, 
+0x0000, 0x0002, 0x40cd, 0x0000, 0x3bf2, 0x0000, 0x0000, 0x0000, 0x4d13, 
+0x646f, 0x6c65, 0x5c73, 0x6154, 0x6c62, 0x4665, 0x4754, 0x672e, 0x6d6c, 
+0x0000, 0xffcc, 0x00cc, 0x0c01, 0x7250, 0x706f, 0x6353, 0x6568, 0x616d, 
+0x3520, 0x0014, 0x0000, 0xcc5a, 0x6eca, 0x0aab, 0x071e, 0x3c49, 0x7ad4, 
+0x2a61, 0x04d1, 0xea51, 0x8bcd, 0x0000, 0x0000, 0x0004, 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\UserData.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\UserData.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       IDC_FILE_OPEN
+        MENUITEM "&Save",                       IDC_FILE_SAVE
+        MENUITEM "Save &As",                    IDC_FILE_SAVE_AS
+        MENUITEM "&Exit",                       IDC_FILE_EXIT
+    END
+    POPUP "Raw Data"
+    BEGIN
+        MENUITEM "Load",                        ID_RAWDATA_LOAD
+        MENUITEM "&Save As",                    ID_RAWDATA_SAVEAS
+        MENUITEM "&Delete",                     ID_RAWDATA_DELETE
+    END
+    MENUITEM "&Help",                       IDC_UD_HELP
+END
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\UserData.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

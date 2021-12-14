@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D087B366-E80A-4C31-891E-464C8C3514CA}</ProjectGuid>
+    <RootNamespace>MeshOps</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>OcctBridge</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\..\..\Bin\Debug\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Utilities\bin\x86</ExecutablePath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(DXSDK_DIR)Include;C:\Program Files (x86)\boost\boost_1_55_0</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(DXSDK_DIR)Lib\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\..\..\Bin\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WNT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\..\..\..\Include; ..\..\..\..\..\KC\Include; ..\..\..\..\..\KC\KC_OCC\KC_OCC_App; ..\..\..\..\..\ThirdParty\OCCT\inc; ..\..\..\..\..\ThirdParty\OCCT\src\FSD; ..\..\..\..\..\ThirdParty\OCCT\src\MMgt; ..\..\..\..\..\ThirdParty\OCCT\src\OSD; ..\..\..\..\..\ThirdParty\OCCT\src\Plugin; ..\..\..\..\..\ThirdParty\OCCT\src\Quantity; ..\..\..\..\..\ThirdParty\OCCT\src\Resource; ..\..\..\..\..\ThirdParty\OCCT\src\SortTools; ..\..\..\..\..\ThirdParty\OCCT\src\Standard; ..\..\..\..\..\ThirdParty\OCCT\src\StdFail; ..\..\..\..\..\ThirdParty\OCCT\src\Storage; ..\..\..\..\..\ThirdParty\OCCT\src\TColStd; ..\..\..\..\..\ThirdParty\OCCT\src\TCollection; ..\..\..\..\..\ThirdParty\OCCT\src\TShort; ..\..\..\..\..\ThirdParty\OCCT\src\Units; ..\..\..\..\..\ThirdParty\OCCT\src\UnitsAPI; ..\..\..\..\..\ThirdParty\OCCT\src\IncludeLibrary; ..\..\..\..\..\ThirdParty\OCCT\src\Dico; ..\..\..\..\..\ThirdParty\OCCT\src\NCollection; ..\..\..\..\..\ThirdParty\OCCT\src\Message; ..\..\..\..\..\ThirdParty\OCCT\src\Graphic3d; ..\..\..\..\..\ThirdParty\OCCT\src\InterfaceGraphic; ..\..\..\..\..\ThirdParty\OCCT\src\Aspect; ..\..\..\..\..\ThirdParty\OCCT\src\Image; ..\..\..\..\..\ThirdParty\OCCT\src\WNT; ..\..\..\..\..\ThirdParty\OCCT\src\BRepPrim; ..\..\..\..\..\ThirdParty\OCCT\src\Extrema; ..\..\..\..\..\ThirdParty\OCCT\src\BRepSweep; ..\..\..\..\..\ThirdParty\OCCT\src\BRepExtrema; ..\..\..\..\..\ThirdParty\OCCT\src\TDF; ..\..\..\..\..\ThirdParty\OCCT\src; ..\..\..\..\..\ThirdParty\OCCT\src\Interface; ..\..\..\..\..\ThirdParty\OCCT\src\VrmlData; ..\..\..\..\..\ThirdParty\OCCT\src\MoniTool; % (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm364 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\..\..\..\..\ThirdParty\OCCT\win32\vc12\lib; ..\..\..\..\..\ThirdParty\OCCT\win32\vc12\bin; % (AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TKVrml.lib; TKStl.lib; TKBrep.lib; TKIGES.lib; TKShHealing.lib; TKStep.lib; TKXSBase.lib; TKShapeSchema.lib; FWOSPlugin.lib; PTKernel.lib; TKBool.lib; TKCAF.lib; TKCDF.lib; TKernel.lib; TKFeat.lib; TKFillet.lib; TKG2d.lib; TKG3d.lib; TKGeomAlgo.lib; TKGeomBase.lib; TKHLR.lib; TKMath.lib; TKOffset.lib; TKPCAF.lib; TKPrim.lib; TKPShape.lib; TKService.lib; TKTopAlgo.lib; TKMesh.lib; TKV3d.lib; TKBO.lib; TKLCAF.lib; TKOpenGl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;WNT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\..\..\..\Include; ..\..\..\..\..\KC\Include; ..\..\..\..\..\KC\KC_OCC\KC_OCC_App; ..\..\..\..\..\ThirdParty\OCCT\inc; ..\..\..\..\..\ThirdParty\OCCT\src\FSD; ..\..\..\..\..\ThirdParty\OCCT\src\MMgt; ..\..\..\..\..\ThirdParty\OCCT\src\OSD; ..\..\..\..\..\ThirdParty\OCCT\src\Plugin; ..\..\..\..\..\ThirdParty\OCCT\src\Quantity; ..\..\..\..\..\ThirdParty\OCCT\src\Resource; ..\..\..\..\..\ThirdParty\OCCT\src\SortTools; ..\..\..\..\..\ThirdParty\OCCT\src\Standard; ..\..\..\..\..\ThirdParty\OCCT\src\StdFail; ..\..\..\..\..\ThirdParty\OCCT\src\Storage; ..\..\..\..\..\ThirdParty\OCCT\src\TColStd; ..\..\..\..\..\ThirdParty\OCCT\src\TCollection; ..\..\..\..\..\ThirdParty\OCCT\src\TShort; ..\..\..\..\..\ThirdParty\OCCT\src\Units; ..\..\..\..\..\ThirdParty\OCCT\src\UnitsAPI; ..\..\..\..\..\ThirdParty\OCCT\src\IncludeLibrary; ..\..\..\..\..\ThirdParty\OCCT\src\Dico; ..\..\..\..\..\ThirdParty\OCCT\src\NCollection; ..\..\..\..\..\ThirdParty\OCCT\src\Message; ..\..\..\..\..\ThirdParty\OCCT\src\Graphic3d; ..\..\..\..\..\ThirdParty\OCCT\src\InterfaceGraphic; ..\..\..\..\..\ThirdParty\OCCT\src\Aspect; ..\..\..\..\..\ThirdParty\OCCT\src\Image; ..\..\..\..\..\ThirdParty\OCCT\src\WNT; ..\..\..\..\..\ThirdParty\OCCT\src\BRepPrim; ..\..\..\..\..\ThirdParty\OCCT\src\Extrema; ..\..\..\..\..\ThirdParty\OCCT\src\BRepSweep; ..\..\..\..\..\ThirdParty\OCCT\src\BRepExtrema; ..\..\..\..\..\ThirdParty\OCCT\src\TDF; ..\..\..\..\..\ThirdParty\OCCT\src; ..\..\..\..\..\ThirdParty\OCCT\src\Interface; ..\..\..\..\..\ThirdParty\OCCT\src\VrmlData; ..\..\..\..\..\ThirdParty\OCCT\src\MoniTool; % (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>..\..\..\..\..\ThirdParty\OCCT\win64\vc12\lib; ..\..\..\..\..\ThirdParty\OCCT\win64\vc12\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TKVrml.lib; TKStl.lib; TKBrep.lib; TKIGES.lib; TKShHealing.lib; TKStep.lib; TKXSBase.lib; TKShapeSchema.lib; FWOSPlugin.lib; PTKernel.lib; TKBool.lib; TKCAF.lib; TKCDF.lib; TKernel.lib; TKFeat.lib; TKFillet.lib; TKG2d.lib; TKG3d.lib; TKGeomAlgo.lib; TKGeomBase.lib; TKHLR.lib; TKMath.lib; TKOffset.lib; TKPCAF.lib; TKPrim.lib; TKPShape.lib; TKService.lib; TKTopAlgo.lib; TKMesh.lib; TKV3d.lib; TKBO.lib; TKLCAF.lib; TKOpenGl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WNT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\..\..\..\Include; ..\..\..\..\..\KC\Include; ..\..\..\..\..\KC\KC_OCC\KC_OCC_App; ..\..\..\..\..\ThirdParty\OCCT\inc; ..\..\..\..\..\ThirdParty\OCCT\src\FSD; ..\..\..\..\..\ThirdParty\OCCT\src\MMgt; ..\..\..\..\..\ThirdParty\OCCT\src\OSD; ..\..\..\..\..\ThirdParty\OCCT\src\Plugin; ..\..\..\..\..\ThirdParty\OCCT\src\Quantity; ..\..\..\..\..\ThirdParty\OCCT\src\Resource; ..\..\..\..\..\ThirdParty\OCCT\src\SortTools; ..\..\..\..\..\ThirdParty\OCCT\src\Standard; ..\..\..\..\..\ThirdParty\OCCT\src\StdFail; ..\..\..\..\..\ThirdParty\OCCT\src\Storage; ..\..\..\..\..\ThirdParty\OCCT\src\TColStd; ..\..\..\..\..\ThirdParty\OCCT\src\TCollection; ..\..\..\..\..\ThirdParty\OCCT\src\TShort; ..\..\..\..\..\ThirdParty\OCCT\src\Units; ..\..\..\..\..\ThirdParty\OCCT\src\UnitsAPI; ..\..\..\..\..\ThirdParty\OCCT\src\IncludeLibrary; ..\..\..\..\..\ThirdParty\OCCT\src\Dico; ..\..\..\..\..\ThirdParty\OCCT\src\NCollection; ..\..\..\..\..\ThirdParty\OCCT\src\Message; ..\..\..\..\..\ThirdParty\OCCT\src\Graphic3d; ..\..\..\..\..\ThirdParty\OCCT\src\InterfaceGraphic; ..\..\..\..\..\ThirdParty\OCCT\src\Aspect; ..\..\..\..\..\ThirdParty\OCCT\src\Image; ..\..\..\..\..\ThirdParty\OCCT\src\WNT; ..\..\..\..\..\ThirdParty\OCCT\src\BRepPrim; ..\..\..\..\..\ThirdParty\OCCT\src\Extrema; ..\..\..\..\..\ThirdParty\OCCT\src\BRepSweep; ..\..\..\..\..\ThirdParty\OCCT\src\BRepExtrema; ..\..\..\..\..\ThirdParty\OCCT\src\TDF; ..\..\..\..\..\ThirdParty\OCCT\src; ..\..\..\..\..\ThirdParty\OCCT\src\Interface; ..\..\..\..\..\ThirdParty\OCCT\src\VrmlData; ..\..\..\..\..\ThirdParty\OCCT\src\MoniTool; % (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>..\..\..\..\..\Bin\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\..\..\..\..\ThirdParty\OCCT\win32\vc12\lib; ..\..\..\..\..\ThirdParty\OCCT\win32\vc12\bin; % (AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TKVrml.lib; TKStl.lib; TKBrep.lib; TKIGES.lib; TKShHealing.lib; TKStep.lib; TKXSBase.lib; TKShapeSchema.lib; FWOSPlugin.lib; PTKernel.lib; TKBool.lib; TKCAF.lib; TKCDF.lib; TKernel.lib; TKFeat.lib; TKFillet.lib; TKG2d.lib; TKG3d.lib; TKGeomAlgo.lib; TKGeomBase.lib; TKHLR.lib; TKMath.lib; TKOffset.lib; TKPCAF.lib; TKPrim.lib; TKPShape.lib; TKService.lib; TKTopAlgo.lib; TKMesh.lib; TKV3d.lib; TKBO.lib; TKLCAF.lib; TKOpenGl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WNT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\..\..\..\Include; ..\..\..\..\..\KC\Include; ..\..\..\..\..\KC\KC_OCC\KC_OCC_App; ..\..\..\..\..\ThirdParty\OCCT\inc; ..\..\..\..\..\ThirdParty\OCCT\src\FSD; ..\..\..\..\..\ThirdParty\OCCT\src\MMgt; ..\..\..\..\..\ThirdParty\OCCT\src\OSD; ..\..\..\..\..\ThirdParty\OCCT\src\Plugin; ..\..\..\..\..\ThirdParty\OCCT\src\Quantity; ..\..\..\..\..\ThirdParty\OCCT\src\Resource; ..\..\..\..\..\ThirdParty\OCCT\src\SortTools; ..\..\..\..\..\ThirdParty\OCCT\src\Standard; ..\..\..\..\..\ThirdParty\OCCT\src\StdFail; ..\..\..\..\..\ThirdParty\OCCT\src\Storage; ..\..\..\..\..\ThirdParty\OCCT\src\TColStd; ..\..\..\..\..\ThirdParty\OCCT\src\TCollection; ..\..\..\..\..\ThirdParty\OCCT\src\TShort; ..\..\..\..\..\ThirdParty\OCCT\src\Units; ..\..\..\..\..\ThirdParty\OCCT\src\UnitsAPI; ..\..\..\..\..\ThirdParty\OCCT\src\IncludeLibrary; ..\..\..\..\..\ThirdParty\OCCT\src\Dico; ..\..\..\..\..\ThirdParty\OCCT\src\NCollection; ..\..\..\..\..\ThirdParty\OCCT\src\Message; ..\..\..\..\..\ThirdParty\OCCT\src\Graphic3d; ..\..\..\..\..\ThirdParty\OCCT\src\InterfaceGraphic; ..\..\..\..\..\ThirdParty\OCCT\src\Aspect; ..\..\..\..\..\ThirdParty\OCCT\src\Image; ..\..\..\..\..\ThirdParty\OCCT\src\WNT; ..\..\..\..\..\ThirdParty\OCCT\src\BRepPrim; ..\..\..\..\..\ThirdParty\OCCT\src\Extrema; ..\..\..\..\..\ThirdParty\OCCT\src\BRepSweep; ..\..\..\..\..\ThirdParty\OCCT\src\BRepExtrema; ..\..\..\..\..\ThirdParty\OCCT\src\TDF; ..\..\..\..\..\ThirdParty\OCCT\src; ..\..\..\..\..\ThirdParty\OCCT\src\Interface; ..\..\..\..\..\ThirdParty\OCCT\src\VrmlData; ..\..\..\..\..\ThirdParty\OCCT\src\MoniTool; % (AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>..\..\..\..\..\Bin\$(Platform)\$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>..\..\..\..\..\ThirdParty\OCCT\win64\vc12\lib; ..\..\..\..\..\ThirdParty\OCCT\win64\vc12\bin; % (AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TKVrml.lib; TKStl.lib; TKBrep.lib; TKIGES.lib; TKShHealing.lib; TKStep.lib; TKXSBase.lib; TKShapeSchema.lib; FWOSPlugin.lib; PTKernel.lib; TKBool.lib; TKCAF.lib; TKCDF.lib; TKernel.lib; TKFeat.lib; TKFillet.lib; TKG2d.lib; TKG3d.lib; TKGeomAlgo.lib; TKGeomBase.lib; TKHLR.lib; TKMath.lib; TKOffset.lib; TKPCAF.lib; TKPrim.lib; TKPShape.lib; TKService.lib; TKTopAlgo.lib; TKMesh.lib; TKV3d.lib; TKBO.lib; TKLCAF.lib; TKOpenGl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\DIHelp.cpp" />
+    <ClCompile Include="DlgBar.cpp" />
+    <ClCompile Include="kernelcad.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OcctBridge.cpp" />
+    <ClCompile Include="OcctBridgeDoc.cpp" />
+    <ClCompile Include="OcctBridgeView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgBar.h" />
+    <ClInclude Include="kernelcad.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OcctBridge.h" />
+    <ClInclude Include="OcctBridgeDoc.h" />
+    <ClInclude Include="OcctBridgeView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OcctBridge.ico" />
+    <Image Include="res\OcctBridgeDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OcctBridge.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OcctBridge.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

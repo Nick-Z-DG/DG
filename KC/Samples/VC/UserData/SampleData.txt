@@ -1,0 +1,2 @@
+This file represents a sample data to be embedded into the TableFTG.glm model of the application. 
+The data can be text or binary of any sturucture or size.

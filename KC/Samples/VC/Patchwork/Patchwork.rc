@@ -1,0 +1,287 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Patchwork"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Patchwork Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_PATCHWORK_DIALOG DIALOGEX 0, 0, 522, 395
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Patchwork"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Current Object",IDC_STATIC,411,8,96,45
+    EDITTEXT        IDC_EDIT_OBJECT,434,22,25,13,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_SPIN_OBJECT,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ,462,22,24,13
+    LTEXT           "Type:",IDC_STATIC,417,40,19,8
+    LTEXT           "Mesh Section",IDC_TXT_TYPE,441,40,58,8
+    GROUPBOX        "Surface",IDC_STATIC,410,59,96,60
+    LTEXT           "Patches:",IDC_STATIC,431,75,25,11
+    LTEXT           "0",IDC_TXT_PATCHES,479,75,10,8
+    LTEXT           "Edges:",IDC_STATIC,431,90,31,11
+    LTEXT           "0",IDC_TXT_EDGES,479,89,10,8
+    LTEXT           "Vertices:",IDC_STATIC,431,104,30,11
+    LTEXT           "0",IDC_TXT_VERTICES,479,104,10,8
+    GROUPBOX        "Current Element",IDC_STATIC,412,125,96,149
+    GROUPBOX        "Type",IDC_STATIC,420,135,82,70
+    CONTROL         "Vertex",IDC_RB_TYPE_VERTEX,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,428,148,54,11
+    CONTROL         "Edge",IDC_RB_TYPE_EDGE,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,428,163,54,11
+    CONTROL         "Patch",IDC_RB_TYPE_PATCH,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,428,177,54,11
+    CONTROL         "Edge Component",IDC_RB_COMPONENT,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,428,191,67,11
+    GROUPBOX        "Browse Vertices",IDC_GROUP_BROWSE,421,211,80,40
+    CONTROL         "All",IDC_RB_BROWSE_ALL,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,435,224,42,8
+    CONTROL         "Current Patch",IDC_RB_BROWSE_PATCH,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,435,238,60,8
+    PUSHBUTTON      "Previous",IDC_BUTT_PREV,423,257,36,13,WS_GROUP
+    PUSHBUTTON      "Next",IDC_BUTT_NEXT,465,257,36,13
+    GROUPBOX        "Current Patch",IDC_STATIC,413,280,94,89
+    LTEXT           "Edge Components:",IDC_STATIC,422,292,65,8
+    LTEXT           "1",IDC_TXT_PATCH_COMPONENTS,493,291,8,8
+    LTEXT           "Current Component:",IDC_STATIC,422,303,66,8
+    LTEXT           "0",IDC_TXT_PATCH_CUR_COMP,493,303,9,9
+    LTEXT           "Edges:",IDC_STATIC,422,317,31,8
+    LTEXT           "0",IDC_TXT_PATCH_EDGES,493,318,10,8
+    LTEXT           "Current Edge:",IDC_LABEL_CUR_EDGE,422,328,45,8
+    LTEXT           "0",IDC_TXT_CUR_EDGE,493,330,11,8
+    LTEXT           "Vertices:",IDC_STATIC,423,342,30,8
+    LTEXT           "0",IDC_TXT_PATCH_VERTICES,493,342,10,8
+    LTEXT           "Current Vertex",IDC_LABEL_CUR_VERTEX,423,355,49,9
+    LTEXT           "0",IDC_TXT_CUR_VERTEX,493,355,9,8
+    DEFPUSHBUTTON   "OK",IDOK,449,372,50,16
+    CONTROL         "",IDC_KERNELCADCTRL1,
+                    "{1BF74BAF-DAB3-4A68-A6EC-409E7AAA24BB}",WS_TABSTOP,7,7,392,381
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "DInsight"
+            VALUE "FileDescription", "Patchwork C++ DG Kernel Sample"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "PtchWork.exe"
+            VALUE "LegalCopyright", "(c) DInsight 2008 - 2010.  All rights reserved."
+            VALUE "LegalTrademarks", "DG Kernel"
+            VALUE "OriginalFilename", "PtchWork.exe"
+            VALUE "ProductName", "DG Kernel"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PATCHWORK_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 515
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 388
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PATCHWORK_DIALOG DLGINIT
+BEGIN
+    IDC_KERNELCADCTRL1, 0x376, 204, 0
+0x0034, 0x0000, 0x0041, 0x0053, 0x0044, 0x0048, 0x004b, 0x0041, 0x004a, 
+0x0053, 0x0044, 0x0048, 0x004a, 0x004c, 0x0041, 0x0053, 0x0048, 0x0044, 
+0x004a, 0x0048, 0x0041, 0x0053, 0x0044, 0x0046, 0x004a, 0x004c, 0x0041, 
+0x0053, 0x0044, 0x0048, 0x0046, 0x0055, 0x0059, 0x0051, 0x0051, 0x0050, 
+0x0045, 0x0045, 0x004f, 0x0045, 0x004f, 0x004f, 0x004f, 0x0045, 0x0045, 
+0x004e, 0x004e, 0x0043, 0x004d, 0x0043, 0x004d, 0x0043, 0x004d, 0x004e, 
+0x0003, 0x0004, 0x3cc6, 0x0000, 0x3ffa, 0x0000, 0x0000, 0x0000, 0x4d1c, 
+0x646f, 0x6c65, 0x5c73, 0x6153, 0x706d, 0x656c, 0x5c73, 0x6150, 0x6374, 
+0x5768, 0x726f, 0x2e6b, 0x646d, 0x0167, 0xcc00, 0xccff, 0x0000, 0x500c, 
+0x6f72, 0x5370, 0x6863, 0x6d65, 0x2061, 0x1436, 0x0000, 0x2500, 0x02c6, 
+0x3dbc, 0x5f62, 0x566b, 0xd4bf, 0x0e7a, 0x9132, 0x6105, 0xf718, 0x00ba, 
+0x0000, 0x0600, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About P A T C H W O R K ..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Patchwork.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Patchwork.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       ID_FILE_OPEN
+        MENUITEM "&Exit",                       ID_FILE_EXIT
+        MENUITEM "Save &As",                    32774
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "&Show Topic",                 ID_HELP_SHOWTOPIC
+    END
+END
+
+#endif    // English (Australia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Patchwork.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
