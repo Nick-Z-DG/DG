@@ -1,7 +1,0 @@
-REM = This file is generated from Makefile.vc 
-TCL_VERSION_REQ = \
-8.5
-TCL_VERSION_DESIRED = \
-8.6
-TCLOO_VERSION_REQ = \
-1.0

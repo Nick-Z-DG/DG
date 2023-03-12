@@ -1,1 +1,0 @@
-C:\Projects\KernelCAD\ThirdParty\OCCT\freeimage-3.17.0-vc14-32\Source\LibJPEG\Win32\Release\LibJPEG.lib
