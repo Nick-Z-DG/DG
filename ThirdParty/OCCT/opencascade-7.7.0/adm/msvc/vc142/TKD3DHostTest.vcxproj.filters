@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{919132CD-0250-0B07-0FEF-6541DDC74B40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{1D7A06F3-0561-007D-16B1-56915C615211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\D3DHostTest">
+      <UniqueIdentifier>{52E1FA77-0A60-16A6-0D9D-AEB415B0E727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\D3DHostTest">
+      <UniqueIdentifier>{17EE51B1-14F5-1638-13AE-F2DA32D31D1B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\D3DHostTest\D3DHostTest.cxx">
+      <Filter>Source files\D3DHostTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\D3DHostTest\D3DHostTest.hxx">
+      <Filter>Header files\D3DHostTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKD3DHostTest.rc" />
+  </ItemGroup>
+</Project>

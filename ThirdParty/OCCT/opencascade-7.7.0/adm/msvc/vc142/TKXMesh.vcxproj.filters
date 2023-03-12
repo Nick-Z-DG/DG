@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{DD2152FB-0E59-00FD-1007-CC1F922CDD6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{7D579D80-18B3-08A3-100E-498602FD2D0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\XBRepMesh">
+      <UniqueIdentifier>{98D0C9BB-1377-12A1-14DB-41058AD2D343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\XBRepMesh">
+      <UniqueIdentifier>{2BF8087A-017A-08D3-1039-B0037EB55FB4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\XBRepMesh\XBRepMesh.cxx">
+      <Filter>Source files\XBRepMesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\XBRepMesh\XBRepMesh.hxx">
+      <Filter>Header files\XBRepMesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKXMesh.rc" />
+  </ItemGroup>
+</Project>

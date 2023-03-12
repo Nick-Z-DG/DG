@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{08645FFF-0614-0AD8-1153-BE202A31BCDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{661E7D55-0995-183F-17A1-3B556B64FB00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TDataXtd">
+      <UniqueIdentifier>{9AC66F45-037A-13A4-0CE3-A92B144B503C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\TNaming">
+      <UniqueIdentifier>{80CCBCC0-0C76-0117-1743-2843E48162A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AppStd">
+      <UniqueIdentifier>{7340F29A-07C6-0EC0-0523-F01E405203EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TDataXtd">
+      <UniqueIdentifier>{7FAAD16A-0981-07AA-08BA-60F895601CA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\TNaming">
+      <UniqueIdentifier>{F946CF09-03A8-026D-17E2-68836C8C47F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AppStd">
+      <UniqueIdentifier>{C9610800-131D-0C13-1905-2C7221F8DF63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Axis.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Constraint.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Geometry.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Pattern.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_PatternStd.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Placement.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Plane.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Point.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Position.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Presentation.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Shape.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TDataXtd\TDataXtd_Triangulation.cxx">
+      <Filter>Source files\TDataXtd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_CopyShape.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_DeltaOnModification.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_DeltaOnRemoval.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Identifier.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Localizer.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Name.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_NamedShape.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Naming.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_NamingTool.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Scope.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Selector.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_ShapesSet.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Tool.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_TranslateTool.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_Translator.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\TNaming\TNaming_UsedShapes.cxx">
+      <Filter>Source files\TNaming</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppStd\AppStd_Application.cxx">
+      <Filter>Source files\AppStd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Array1OfTrsf.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Axis.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Constraint.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_ConstraintEnum.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Geometry.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_GeometryEnum.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_HArray1OfTrsf.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Pattern.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_PatternStd.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_PatternStd.lxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Placement.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Plane.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Point.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Position.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Presentation.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Shape.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TDataXtd\TDataXtd_Triangulation.hxx">
+      <Filter>Header files\TDataXtd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Builder.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_CopyShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DataMapIteratorOfDataMapOfShapePtrRefShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DataMapIteratorOfDataMapOfShapeShapesSet.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DataMapOfShapePtrRefShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DataMapOfShapeShapesSet.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DeltaOnModification.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_DeltaOnRemoval.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Evolution.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Identifier.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Iterator.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Iterator.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_IteratorOnShapesSet.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_IteratorOnShapesSet.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListIteratorOfListOfIndexedDataMapOfShapeListOfShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListIteratorOfListOfMapOfShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListIteratorOfListOfNamedShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListOfIndexedDataMapOfShapeListOfShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListOfMapOfShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ListOfNamedShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Localizer.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_MapIteratorOfMapOfNamedShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_MapOfNamedShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NCollections.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Name.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NameType.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NamedShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NamedShape.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NamedShapeHasher.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Naming.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NamingTool.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NewShapeIterator.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_NewShapeIterator.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_OldShapeIterator.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_OldShapeIterator.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_PtrAttribute.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_PtrNode.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_PtrRefShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_RefShape.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_RefShape.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_SameShapeIterator.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_SameShapeIterator.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Scope.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Selector.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ShapesSet.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_ShapesSet.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Tool.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_TranslateTool.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_Translator.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_UsedShapes.hxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\TNaming\TNaming_UsedShapes.lxx">
+      <Filter>Header files\TNaming</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppStd\AppStd_Application.hxx">
+      <Filter>Header files\AppStd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKCAF.rc" />
+  </ItemGroup>
+</Project>

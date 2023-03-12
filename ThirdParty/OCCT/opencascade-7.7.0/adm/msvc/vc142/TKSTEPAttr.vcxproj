@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AFEA1002-05F6-023E-1776-9C683B7F0ED4}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\..\Bin\x86\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\win32\vc14\obj\TKSTEPAttr\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\..\..\KernelCAD\Bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\win32\vc14\objd\TKSTEPAttr\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\..\..\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\win64\vc14\obj\TKSTEPAttr\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\..\..\..\KernelCAD\Bin\x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\win64\vc14\objd\TKSTEPAttr\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bin\TKSTEPAttr.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\obj\TKSTEPAttr/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\obj\TKSTEPAttr/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\obj\TKSTEPAttr/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKXSBase.lib;TKSTEPBase.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKSTEPAttr.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\lib;$(CSF_OPT_LIB32);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKSTEPAttr.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\lib\TKSTEPAttr.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bind\TKSTEPAttr.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\objd\TKSTEPAttr/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\objd\TKSTEPAttr/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\objd\TKSTEPAttr/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKXSBase.lib;TKSTEPBase.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKSTEPAttr.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\libd;$(CSF_OPT_LIB32D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKSTEPAttr.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\libd\TKSTEPAttr.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bin\TKSTEPAttr.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\obj\TKSTEPAttr/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\obj\TKSTEPAttr/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\obj\TKSTEPAttr/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKXSBase.lib;TKSTEPBase.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKSTEPAttr.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\lib;$(CSF_OPT_LIB64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKSTEPAttr.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\lib\TKSTEPAttr.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bind\TKSTEPAttr.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\objd\TKSTEPAttr/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\objd\TKSTEPAttr/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\objd\TKSTEPAttr/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKXSBase.lib;TKSTEPBase.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKSTEPAttr.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\libd;$(CSF_OPT_LIB64D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKSTEPAttr.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\libd\TKSTEPAttr.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationCurveOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationCurveOccurrenceAndGeomReprItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationFillArea.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationFillAreaOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationPlane.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationPlaneElement.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationText.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AnnotationTextOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AreaInSet.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_AreaOrView.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_BackgroundColour.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_BoxCharacteristicSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraImage.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraImage2dWithScale.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraImage3dWithScale.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraModel.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraModelD2.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClipping.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClippingInterectionSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClippingIntersection.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClippingUnion.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClippingUnionSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CameraUsage.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CharacterizedObjAndRepresentationAndDraughtingModel.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_Colour.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ColourRgb.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ColourSpecification.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ComplexTriangulatedFace.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ComplexTriangulatedSurfaceSet.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CompositeText.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CompositeTextWithExtent.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ContextDependentInvisibility.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ContextDependentOverRidingStyledItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CoordinatesList.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CubicBezierTessellatedEdge.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CubicBezierTriangulatedFace.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CurveStyle.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CurveStyleFont.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CurveStyleFontPattern.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_CurveStyleFontSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_DirectionCountSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_DraughtingAnnotationOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_DraughtingCallout.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_DraughtingCalloutElement.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_DraughtingModel.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_DraughtingPreDefinedColour.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_DraughtingPreDefinedCurveFont.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_EdgeOrCurve.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ExternallyDefinedCurveFont.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ExternallyDefinedTextFont.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_FaceOrSurface.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_FillAreaStyle.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_FillAreaStyleColour.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_FillStyleSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_FontSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_Invisibility.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_InvisibilityContext.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_InvisibleItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_LayeredItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_MarkerMember.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_MarkerSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_MechanicalDesignGeometricPresentationArea.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_MechanicalDesignGeometricPresentationRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_NullStyleMember.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_OverRidingStyledItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PathOrCompositeCurve.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PlanarBox.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PlanarExtent.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PointStyle.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PreDefinedColour.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PreDefinedCurveFont.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PreDefinedItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PreDefinedTextFont.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationArea.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationLayerAssignment.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationLayerUsage.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationRepresentationSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationSet.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationSize.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationSizeAssignmentSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationStyleAssignment.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationStyleByContext.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationStyleSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentationView.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentedItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_PresentedItemRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_RenderingPropertiesSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_RepositionedTessellatedGeometricSet.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_RepositionedTessellatedItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_StyleContextSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_StyledItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_StyledItemTarget.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceSideStyle.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleBoundary.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleControlGrid.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleElementSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleFillArea.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleParameterLine.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleReflectanceAmbient.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleRendering.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleRenderingWithProperties.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleSegmentationCurve.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleSilhouette.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleTransparent.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleUsage.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_Template.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TemplateInstance.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedAnnotationOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedConnectingEdge.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedCurveSet.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedEdge.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedEdgeOrVertex.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedFace.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedGeometricSet.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedPointSet.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedShapeRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedShapeRepresentationWithAccuracyParameters.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedShell.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedSolid.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedStructuredItem.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedSurfaceSet.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedVertex.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TessellatedWire.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TextLiteral.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TextOrCharacter.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TextStyle.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TextStyleForDefinedFont.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TextStyleWithBoxCharacteristics.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_TriangulatedFace.cxx" />
+    <ClCompile Include="..\..\..\src\StepVisual\StepVisual_ViewVolume.cxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationCurveOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationCurveOccurrenceAndGeomReprItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationFillArea.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationFillAreaOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationPlane.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationPlaneElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationText.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AnnotationTextOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AreaInSet.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_AreaOrView.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfAnnotationPlaneElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfBoxCharacteristicSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfCameraModelD3MultiClippingInterectionSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfCameraModelD3MultiClippingUnionSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfCurveStyleFontPattern.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfDirectionCountSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfDraughtingCalloutElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfFillStyleSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfInvisibleItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfLayeredItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfPresentationStyleAssignment.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfPresentationStyleSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfRenderingPropertiesSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfStyleContextSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfSurfaceStyleElementSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfTessellatedEdgeOrVertex.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfTessellatedStructuredItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Array1OfTextOrCharacter.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_BackgroundColour.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_BoxCharacteristicSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraImage.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraImage2dWithScale.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraImage3dWithScale.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraModel.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraModelD2.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClipping.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClippingInterectionSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClippingIntersection.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClippingUnion.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraModelD3MultiClippingUnionSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CameraUsage.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CentralOrParallel.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CharacterizedObjAndRepresentationAndDraughtingModel.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Colour.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ColourRgb.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ColourSpecification.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ComplexTriangulatedFace.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ComplexTriangulatedSurfaceSet.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CompositeText.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CompositeTextWithExtent.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ContextDependentInvisibility.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ContextDependentOverRidingStyledItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CoordinatesList.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CubicBezierTessellatedEdge.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CubicBezierTriangulatedFace.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CurveStyle.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CurveStyleFont.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CurveStyleFontPattern.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_CurveStyleFontSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_DirectionCountSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_DraughtingAnnotationOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_DraughtingCallout.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_DraughtingCalloutElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_DraughtingModel.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_DraughtingPreDefinedColour.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_DraughtingPreDefinedCurveFont.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_EdgeOrCurve.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ExternallyDefinedCurveFont.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ExternallyDefinedTextFont.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_FaceOrSurface.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_FillAreaStyle.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_FillAreaStyleColour.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_FillStyleSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_FontSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfAnnotationPlaneElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfBoxCharacteristicSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfCameraModelD3MultiClippingInterectionSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfCameraModelD3MultiClippingUnionSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfCurveStyleFontPattern.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfDirectionCountSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfDraughtingCalloutElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfFillStyleSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfInvisibleItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfLayeredItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfPresentationStyleAssignment.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfPresentationStyleSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfRenderingPropertiesSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfStyleContextSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfSurfaceStyleElementSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfTessellatedEdgeOrVertex.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfTessellatedStructuredItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_HArray1OfTextOrCharacter.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Invisibility.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_InvisibilityContext.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_InvisibleItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_LayeredItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_MarkerMember.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_MarkerSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_MarkerType.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_MechanicalDesignGeometricPresentationArea.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_MechanicalDesignGeometricPresentationRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_NullStyle.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_NullStyleMember.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_OverRidingStyledItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PathOrCompositeCurve.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PlanarBox.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PlanarExtent.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PointStyle.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PreDefinedColour.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PreDefinedCurveFont.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PreDefinedItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PreDefinedTextFont.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationArea.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationLayerAssignment.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationLayerUsage.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationRepresentationSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationSet.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationSize.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationSizeAssignmentSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationStyleAssignment.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationStyleByContext.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationStyleSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentationView.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentedItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_PresentedItemRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_RenderingPropertiesSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_RepositionedTessellatedGeometricSet.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_RepositionedTessellatedItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ShadingSurfaceMethod.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_StyleContextSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_StyledItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_StyledItemTarget.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceSide.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceSideStyle.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleBoundary.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleControlGrid.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleElementSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleFillArea.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleParameterLine.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleReflectanceAmbient.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleRendering.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleRenderingWithProperties.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleSegmentationCurve.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleSilhouette.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleTransparent.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_SurfaceStyleUsage.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_Template.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TemplateInstance.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedAnnotationOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedConnectingEdge.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedCurveSet.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedEdge.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedEdgeOrVertex.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedFace.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedGeometricSet.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedPointSet.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedShapeRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedShapeRepresentationWithAccuracyParameters.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedShell.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedSolid.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedStructuredItem.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedSurfaceSet.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedVertex.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TessellatedWire.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TextLiteral.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TextOrCharacter.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TextPath.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TextStyle.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TextStyleForDefinedFont.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TextStyleWithBoxCharacteristics.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_TriangulatedFace.hxx" />
+    <ClInclude Include="..\..\..\src\StepVisual\StepVisual_ViewVolume.hxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationCurveOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationCurveOccurrenceAndGeomReprItem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationFillArea.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationFillAreaOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationPlane.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAreaInSet.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWBackgroundColour.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraImage.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModel.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD2.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD3.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD3MultiClipping.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD3MultiClippingIntersection.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD3MultiClippingUnion.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraUsage.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCharacterizedObjAndRepresentationAndDraughtingModel.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWColour.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWColourRgb.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWColourSpecification.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWComplexTriangulatedFace.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWComplexTriangulatedSurfaceSet.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCompositeText.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCompositeTextWithExtent.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWContextDependentInvisibility.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWContextDependentOverRidingStyledItem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCoordinatesList.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCubicBezierTessellatedEdge.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCubicBezierTriangulatedFace.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCurveStyle.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCurveStyleFont.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCurveStyleFontPattern.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWDraughtingCallout.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWDraughtingModel.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWDraughtingPreDefinedColour.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWDraughtingPreDefinedCurveFont.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWExternallyDefinedCurveFont.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWFillAreaStyle.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWFillAreaStyleColour.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWInvisibility.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWMechanicalDesignGeometricPresentationArea.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWMechanicalDesignGeometricPresentationRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWOverRidingStyledItem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPlanarBox.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPlanarExtent.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPointStyle.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPreDefinedColour.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPreDefinedCurveFont.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPreDefinedItem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationArea.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationLayerAssignment.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationLayerUsage.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationSet.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationSize.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationStyleAssignment.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationStyleByContext.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationView.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentedItemRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWRepositionedTessellatedGeometricSet.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWRepositionedTessellatedItem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWStyledItem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceSideStyle.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleBoundary.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleControlGrid.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleFillArea.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleParameterLine.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleReflectanceAmbient.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleRendering.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleRenderingWithProperties.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleSegmentationCurve.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleSilhouette.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleTransparent.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleUsage.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTemplate.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTemplateInstance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedAnnotationOccurrence.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedConnectingEdge.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedCurveSet.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedEdge.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedGeometricSet.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedItem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedPointSet.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedShapeRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedShapeRepresentationWithAccuracyParameters.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedShell.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedSolid.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedStructuredItem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedVertex.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedWire.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTextLiteral.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTextStyle.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTextStyleForDefinedFont.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTextStyleWithBoxCharacteristics.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTriangulatedFace.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepVisual\RWStepVisual_RWViewVolume.cxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationCurveOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationCurveOccurrenceAndGeomReprItem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationFillArea.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationFillAreaOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAnnotationPlane.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWAreaInSet.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWBackgroundColour.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraImage.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModel.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD2.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD3.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD3MultiClipping.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD3MultiClippingIntersection.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraModelD3MultiClippingUnion.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCameraUsage.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCharacterizedObjAndRepresentationAndDraughtingModel.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWColour.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWColourRgb.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWColourSpecification.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWComplexTriangulatedFace.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWComplexTriangulatedSurfaceSet.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCompositeText.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCompositeTextWithExtent.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWContextDependentInvisibility.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWContextDependentOverRidingStyledItem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCoordinatesList.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCubicBezierTessellatedEdge.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCubicBezierTriangulatedFace.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCurveStyle.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCurveStyleFont.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWCurveStyleFontPattern.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWDraughtingCallout.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWDraughtingModel.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWDraughtingPreDefinedColour.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWDraughtingPreDefinedCurveFont.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWExternallyDefinedCurveFont.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWFillAreaStyle.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWFillAreaStyleColour.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWInvisibility.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWMechanicalDesignGeometricPresentationArea.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWMechanicalDesignGeometricPresentationRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWOverRidingStyledItem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPlanarBox.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPlanarExtent.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPointStyle.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPreDefinedColour.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPreDefinedCurveFont.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPreDefinedItem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationArea.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationLayerAssignment.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationLayerUsage.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationSet.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationSize.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationStyleAssignment.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationStyleByContext.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentationView.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWPresentedItemRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWRepositionedTessellatedGeometricSet.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWRepositionedTessellatedItem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWStyledItem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceSideStyle.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleBoundary.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleControlGrid.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleFillArea.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleParameterLine.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleReflectanceAmbient.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleRendering.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleRenderingWithProperties.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleSegmentationCurve.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleSilhouette.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleTransparent.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWSurfaceStyleUsage.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTemplate.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTemplateInstance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedAnnotationOccurrence.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedConnectingEdge.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedCurveSet.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedEdge.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedGeometricSet.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedItem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedPointSet.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedShapeRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedShapeRepresentationWithAccuracyParameters.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedShell.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedSolid.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedStructuredItem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedVertex.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTessellatedWire.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTextLiteral.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTextStyle.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTextStyleForDefinedFont.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTextStyleWithBoxCharacteristics.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWTriangulatedFace.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepVisual\RWStepVisual_RWViewVolume.hxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_AngularityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_CircularRunoutTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_CoaxialityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_CommonDatum.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ConcentricityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_CylindricityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_Datum.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumFeature.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumOrCommonDatum.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumReference.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceCompartment.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceElement.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceModifier.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceModifierWithValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumSystem.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumSystemOrReference.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_DatumTarget.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_FlatnessTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeneralDatumReference.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRef.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRefAndGeoTolWthMaxTol.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRefAndGeoTolWthMod.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRefAndUneqDisGeoTol.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthMaxTol.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthMod.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeometricTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceRelationship.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceTarget.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithDatumReference.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithDefinedAreaUnit.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithDefinedUnit.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithMaximumTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithModifiers.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_LineProfileTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ModifiedGeometricTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_NonUniformZoneDefinition.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ParallelismTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_PerpendicularityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_PlacedDatumTargetFeature.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_PositionTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ProjectedZoneDefinition.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_RoundnessTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_RunoutZoneDefinition.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_RunoutZoneOrientation.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ShapeToleranceSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_SimpleDatumReferenceModifierMember.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_StraightnessTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_SurfaceProfileTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_SymmetryTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ToleranceZone.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ToleranceZoneDefinition.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ToleranceZoneForm.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_ToleranceZoneTarget.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_TotalRunoutTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\StepDimTol\StepDimTol_UnequallyDisposedGeometricTolerance.cxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_AngularityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_AreaUnitType.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_Array1OfDatumReference.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_Array1OfDatumReferenceCompartment.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_Array1OfDatumReferenceElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_Array1OfDatumReferenceModifier.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_Array1OfDatumSystemOrReference.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_Array1OfGeometricToleranceModifier.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_Array1OfToleranceZoneTarget.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_CircularRunoutTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_CoaxialityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_CommonDatum.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ConcentricityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_CylindricityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_Datum.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumFeature.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumOrCommonDatum.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumReference.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceCompartment.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceModifier.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceModifierType.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumReferenceModifierWithValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumSystem.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumSystemOrReference.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_DatumTarget.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_FlatnessTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeneralDatumReference.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRef.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRefAndGeoTolWthMaxTol.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRefAndGeoTolWthMod.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthDatRefAndUneqDisGeoTol.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthMaxTol.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeoTolAndGeoTolWthMod.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceModifier.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceRelationship.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceTarget.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceType.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithDatumReference.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithDefinedAreaUnit.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithDefinedUnit.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithMaximumTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_GeometricToleranceWithModifiers.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_HArray1OfDatumReference.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_HArray1OfDatumReferenceCompartment.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_HArray1OfDatumReferenceElement.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_HArray1OfDatumReferenceModifier.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_HArray1OfDatumSystemOrReference.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_HArray1OfGeometricToleranceModifier.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_HArray1OfToleranceZoneTarget.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_LimitCondition.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_LineProfileTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ModifiedGeometricTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_NonUniformZoneDefinition.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ParallelismTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_PerpendicularityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_PlacedDatumTargetFeature.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_PositionTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ProjectedZoneDefinition.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_RoundnessTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_RunoutZoneDefinition.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_RunoutZoneOrientation.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ShapeToleranceSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_SimpleDatumReferenceModifier.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_SimpleDatumReferenceModifierMember.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_StraightnessTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_SurfaceProfileTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_SymmetryTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ToleranceZone.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ToleranceZoneDefinition.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ToleranceZoneForm.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_ToleranceZoneTarget.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_TotalRunoutTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\StepDimTol\StepDimTol_UnequallyDisposedGeometricTolerance.hxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWAngularityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWCircularRunoutTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWCoaxialityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWCommonDatum.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWConcentricityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWCylindricityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatum.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumFeature.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumReference.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumReferenceCompartment.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumReferenceElement.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumReferenceModifierWithValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumSystem.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumTarget.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWFlatnessTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeneralDatumReference.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRef.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndGeoTolWthMaxTol.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndGeoTolWthMod.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndUneqDisGeoTol.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthMaxTol.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthMod.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceRelationship.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithDatumReference.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithDefinedAreaUnit.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithDefinedUnit.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithMaximumTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithModifiers.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWLineProfileTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWModifiedGeometricTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWNonUniformZoneDefinition.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWParallelismTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWPerpendicularityTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWPlacedDatumTargetFeature.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWPositionTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWProjectedZoneDefinition.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWRoundnessTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWRunoutZoneDefinition.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWRunoutZoneOrientation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWStraightnessTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWSurfaceProfileTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWSymmetryTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWToleranceZone.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWToleranceZoneDefinition.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWToleranceZoneForm.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWTotalRunoutTolerance.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWUnequallyDisposedGeometricTolerance.cxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWAngularityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWCircularRunoutTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWCoaxialityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWCommonDatum.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWConcentricityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWCylindricityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatum.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumFeature.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumReference.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumReferenceCompartment.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumReferenceElement.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumReferenceModifierWithValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumSystem.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWDatumTarget.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWFlatnessTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeneralDatumReference.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRef.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndGeoTolWthMaxTol.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndGeoTolWthMod.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndModGeoTolAndPosTol.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthDatRefAndUneqDisGeoTol.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthMaxTol.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeoTolAndGeoTolWthMod.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceRelationship.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithDatumReference.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithDefinedAreaUnit.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithDefinedUnit.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithMaximumTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWGeometricToleranceWithModifiers.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWLineProfileTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWModifiedGeometricTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWNonUniformZoneDefinition.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWParallelismTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWPerpendicularityTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWPlacedDatumTargetFeature.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWPositionTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWProjectedZoneDefinition.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWRoundnessTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWRunoutZoneDefinition.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWRunoutZoneOrientation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWStraightnessTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWSurfaceProfileTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWSymmetryTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWToleranceZone.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWToleranceZoneDefinition.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWToleranceZoneForm.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWTotalRunoutTolerance.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepDimTol\RWStepDimTol_RWUnequallyDisposedGeometricTolerance.hxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_ActuatedKinPairAndOrderKinPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_ActuatedKinematicPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_ContextDependentKinematicLinkRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_CylindricalPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_CylindricalPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_CylindricalPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_FullyConstrainedPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_GearPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_GearPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_GearPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_HighOrderKinematicPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_HomokineticPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicJoint.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicLink.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicLinkRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicLinkRepresentationAssociation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicPropertyDefinitionRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicPropertyMechanismRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicTopologyDirectedStructure.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicTopologyNetworkStructure.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicTopologyRepresentationSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_KinematicTopologyStructure.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_LinearFlexibleAndPinionPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_LinearFlexibleAndPlanarCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_LinearFlexibleLinkRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_LowOrderKinematicPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_LowOrderKinematicPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_LowOrderKinematicPairWithMotionCoupling.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_LowOrderKinematicPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_MechanismRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_MechanismStateRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_OrientedJoint.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PairRepresentationRelationship.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PlanarCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PlanarCurvePairRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PlanarPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PlanarPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PlanarPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PointOnPlanarCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PointOnPlanarCurvePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PointOnPlanarCurvePairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PointOnSurfacePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PointOnSurfacePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PointOnSurfacePairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PrismaticPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PrismaticPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_PrismaticPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_ProductDefinitionKinematics.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_ProductDefinitionRelationshipKinematics.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RackAndPinionPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RackAndPinionPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RackAndPinionPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RevolutePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RevolutePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RevolutePairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RigidLinkRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RigidPlacement.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RollingCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RollingCurvePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RollingSurfacePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RollingSurfacePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_RotationAboutDirection.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_ScrewPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_ScrewPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_ScrewPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SlidingCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SlidingCurvePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SlidingSurfacePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SlidingSurfacePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SpatialRotation.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairSelect.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairWithPin.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairWithPinAndRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SurfacePair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_SurfacePairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_UnconstrainedPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_UnconstrainedPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_UniversalPair.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_UniversalPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\StepKinematics\StepKinematics_UniversalPairWithRange.cxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ActuatedDirection.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ActuatedKinPairAndOrderKinPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ActuatedKinematicPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ContextDependentKinematicLinkRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_CylindricalPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_CylindricalPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_CylindricalPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_FullyConstrainedPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_GearPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_GearPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_GearPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_HighOrderKinematicPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_HomokineticPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicJoint.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicLink.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicLinkRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicLinkRepresentationAssociation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicPropertyDefinitionRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicPropertyMechanismRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicTopologyDirectedStructure.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicTopologyNetworkStructure.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicTopologyRepresentationSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_KinematicTopologyStructure.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_LinearFlexibleAndPinionPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_LinearFlexibleAndPlanarCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_LinearFlexibleLinkRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_LowOrderKinematicPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_LowOrderKinematicPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_LowOrderKinematicPairWithMotionCoupling.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_LowOrderKinematicPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_MechanismRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_MechanismStateRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_OrientedJoint.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PairRepresentationRelationship.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PlanarCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PlanarCurvePairRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PlanarPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PlanarPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PlanarPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PointOnPlanarCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PointOnPlanarCurvePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PointOnPlanarCurvePairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PointOnSurfacePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PointOnSurfacePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PointOnSurfacePairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PrismaticPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PrismaticPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_PrismaticPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ProductDefinitionKinematics.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ProductDefinitionRelationshipKinematics.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RackAndPinionPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RackAndPinionPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RackAndPinionPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RevolutePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RevolutePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RevolutePairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RigidLinkRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RigidPlacement.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RollingCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RollingCurvePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RollingSurfacePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RollingSurfacePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_RotationAboutDirection.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ScrewPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ScrewPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_ScrewPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SlidingCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SlidingCurvePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SlidingSurfacePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SlidingSurfacePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SpatialRotation.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairSelect.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairWithPin.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairWithPinAndRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SphericalPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SurfacePair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_SurfacePairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_UnconstrainedPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_UnconstrainedPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_UniversalPair.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_UniversalPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\StepKinematics\StepKinematics_UniversalPairWithRange.hxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWActuatedKinPairAndOrderKinPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWActuatedKinematicPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWContextDependentKinematicLinkRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWCylindricalPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWCylindricalPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWCylindricalPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWFullyConstrainedPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWGearPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWGearPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWGearPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWHomokineticPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicJoint.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicLink.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicLinkRepresentationAssociation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicPropertyMechanismRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicTopologyDirectedStructure.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicTopologyNetworkStructure.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicTopologyStructure.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLinearFlexibleAndPinionPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLinearFlexibleAndPlanarCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLinearFlexibleLinkRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLowOrderKinematicPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLowOrderKinematicPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLowOrderKinematicPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWMechanismRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWMechanismStateRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWOrientedJoint.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPairRepresentationRelationship.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarCurvePairRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnPlanarCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnPlanarCurvePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnPlanarCurvePairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnSurfacePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnSurfacePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnSurfacePairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPrismaticPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPrismaticPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPrismaticPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWProductDefinitionKinematics.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWProductDefinitionRelationshipKinematics.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRackAndPinionPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRackAndPinionPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRackAndPinionPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRevolutePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRevolutePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRevolutePairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRigidLinkRepresentation.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRollingCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRollingCurvePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRollingSurfacePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRollingSurfacePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRotationAboutDirection.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWScrewPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWScrewPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWScrewPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSlidingCurvePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSlidingCurvePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSlidingSurfacePair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSlidingSurfacePairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPairWithPin.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPairWithPinAndRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSurfacePairWithRange.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUnconstrainedPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUnconstrainedPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUniversalPair.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUniversalPairValue.cxx" />
+    <ClCompile Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUniversalPairWithRange.cxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWActuatedKinPairAndOrderKinPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWActuatedKinematicPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWContextDependentKinematicLinkRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWCylindricalPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWCylindricalPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWCylindricalPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWFullyConstrainedPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWGearPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWGearPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWGearPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWHomokineticPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicJoint.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicLink.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicLinkRepresentationAssociation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicPropertyMechanismRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicTopologyDirectedStructure.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicTopologyNetworkStructure.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWKinematicTopologyStructure.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLinearFlexibleAndPinionPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLinearFlexibleAndPlanarCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLinearFlexibleLinkRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLowOrderKinematicPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLowOrderKinematicPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWLowOrderKinematicPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWMechanismRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWMechanismStateRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWOrientedJoint.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPairRepresentationRelationship.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarCurvePairRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPlanarPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnPlanarCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnPlanarCurvePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnPlanarCurvePairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnSurfacePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnSurfacePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPointOnSurfacePairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPrismaticPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPrismaticPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWPrismaticPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWProductDefinitionKinematics.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWProductDefinitionRelationshipKinematics.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRackAndPinionPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRackAndPinionPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRackAndPinionPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRevolutePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRevolutePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRevolutePairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRigidLinkRepresentation.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRollingCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRollingCurvePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRollingSurfacePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRollingSurfacePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWRotationAboutDirection.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWScrewPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWScrewPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWScrewPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSlidingCurvePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSlidingCurvePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSlidingSurfacePair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSlidingSurfacePairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPairWithPin.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPairWithPinAndRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSphericalPairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWSurfacePairWithRange.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUnconstrainedPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUnconstrainedPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUniversalPair.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUniversalPairValue.hxx" />
+    <ClInclude Include="..\..\..\src\RWStepKinematics\RWStepKinematics_RWUniversalPairWithRange.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKSTEPAttr.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

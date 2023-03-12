@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46CBB308-28F5-3C07-8215-2C6112294DE4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71/zzip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\temp\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -SE:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71 -BE:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71 --check-stamp-file E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71/zzip/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CMakeConfigurableFile.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckFunctionExists.c;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckFunctionExists.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFile.c.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFile.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckSymbolExists.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckTypeSize.c.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckTypeSize.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindZLIB.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\GNUInstallDirs.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\TestBigEndian.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\TestEndianess.c.in;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_BYTESWAP_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRECT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRENT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DLFCN_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_FNMATCH_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_INTTYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_IO_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_MEMORY_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_NDIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDINT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDLIB_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRINGS_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRING_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_DIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_INT_TYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_MMAN_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_NDIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_PARAM_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_STAT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_TYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_UNISTD_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINBASE_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINDOWS_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINNT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_STDC_HEADERS.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_INT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_LONG.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_32.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_64.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_SHORT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeScripts\JoinPaths.cmake;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\_config.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71/zzip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\temp\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -SE:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71 -BE:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71 --check-stamp-file E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71/zzip/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CMakeConfigurableFile.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckFunctionExists.c;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckFunctionExists.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFile.c.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFile.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckSymbolExists.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckTypeSize.c.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckTypeSize.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindZLIB.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\GNUInstallDirs.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\TestBigEndian.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\TestEndianess.c.in;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_BYTESWAP_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRECT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRENT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DLFCN_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_FNMATCH_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_INTTYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_IO_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_MEMORY_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_NDIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDINT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDLIB_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRINGS_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRING_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_DIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_INT_TYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_MMAN_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_NDIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_PARAM_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_STAT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_TYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_UNISTD_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINBASE_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINDOWS_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINNT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_STDC_HEADERS.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_INT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_LONG.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_32.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_64.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_SHORT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeScripts\JoinPaths.cmake;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\_config.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71/zzip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\temp\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -SE:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71 -BE:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71 --check-stamp-file E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71/zzip/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CMakeConfigurableFile.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckFunctionExists.c;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckFunctionExists.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFile.c.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFile.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckSymbolExists.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckTypeSize.c.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckTypeSize.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindZLIB.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\GNUInstallDirs.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\TestBigEndian.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\TestEndianess.c.in;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_BYTESWAP_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRECT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRENT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DLFCN_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_FNMATCH_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_INTTYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_IO_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_MEMORY_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_NDIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDINT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDLIB_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRINGS_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRING_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_DIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_INT_TYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_MMAN_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_NDIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_PARAM_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_STAT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_TYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_UNISTD_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINBASE_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINDOWS_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINNT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_STDC_HEADERS.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_INT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_LONG.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_32.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_64.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_SHORT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeScripts\JoinPaths.cmake;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\_config.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71/zzip/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\temp\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -SE:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71 -BE:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71 --check-stamp-file E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/zziplib-0.13.71/zzip/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CMakeConfigurableFile.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckFunctionExists.c;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckFunctionExists.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFile.c.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFile.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFileCXX.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckIncludeFiles.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckSymbolExists.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckTypeSize.c.in;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\CheckTypeSize.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\FindZLIB.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\GNUInstallDirs.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\SelectLibraryConfigurations.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\TestBigEndian.cmake;C:\temp\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\TestEndianess.c.in;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_BYTESWAP_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRECT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DIRENT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_DLFCN_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_FNMATCH_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_INTTYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_IO_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_MEMORY_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_NDIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDINT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STDLIB_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRINGS_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_STRING_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_DIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_INT_TYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_MMAN_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_NDIR_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_PARAM_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_STAT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_SYS_TYPES_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_UNISTD_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINBASE_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINDOWS_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_HAVE_WINNT_H.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckIncludeFiles\ZZIP_STDC_HEADERS.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_INT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_LONG.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF64_T.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_32.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_OFF_T_64.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeFiles\CheckTypeSize\ZZIP_SIZEOF_SHORT.c;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\CMakeScripts\JoinPaths.cmake;E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\_config.h.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\ZERO_CHECK.vcxproj">
+      <Project>{5E827A7A-82AC-338F-9981-8DB196F32F58}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Repos\DG\KernelCAD\ThirdParty\OgreNew\build_x32\zziplib-0.13.71\zzip\libzzip.vcxproj">
+      <Project>{AC76884B-197D-3193-9281-32F0B13EE35F}</Project>
+      <Name>libzzip</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

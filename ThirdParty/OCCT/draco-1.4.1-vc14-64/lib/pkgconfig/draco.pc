@@ -1,0 +1,11 @@
+prefix=C:\occt-3rdparty\Windows-64-VC14\draco-1.4.1
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: draco
+Description: Draco geometry de(com)pression library.
+Version: 1.4.1
+Cflags: -I${includedir}
+Libs: -L${libdir} -ldraco
+Libs.private: 

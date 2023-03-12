@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDAF72F2-0AF9-03A7-09C6-66A1D80B6EAD}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <Import Project="OCCTDef.vcxproj" Condition="exists('OCCTDef.vcxproj')" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\..\Bin\x86\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\win32\vc14\obj\TKService\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\..\..\KernelCAD\Bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\win32\vc14\objd\TKService\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\..\..\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\win64\vc14\obj\TKService\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\..\..\..\KernelCAD\Bin\x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\win64\vc14\objd\TKService\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bin\TKService.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\obj\TKService/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\obj\TKService/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\obj\TKService/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKMath.lib;user32.lib;comdlg32.lib;advapi32.lib;FreeImage.lib;freetype.lib;avcodec.lib;avformat.lib;swscale.lib;avutil.lib;winmm.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKService.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\lib;$(CSF_OPT_LIB32);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKService.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\lib\TKService.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bind\TKService.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\objd\TKService/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\objd\TKService/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\objd\TKService/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKMath.lib;user32.lib;comdlg32.lib;advapi32.lib;FreeImage.lib;freetype.lib;avcodec.lib;avformat.lib;swscale.lib;avutil.lib;winmm.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKService.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\libd;$(CSF_OPT_LIB32D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKService.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\libd\TKService.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bin\TKService.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\obj\TKService/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\obj\TKService/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\obj\TKService/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKMath.lib;user32.lib;comdlg32.lib;advapi32.lib;FreeImage.lib;freetype.lib;avcodec.lib;avformat.lib;swscale.lib;avutil.lib;winmm.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKService.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\lib;$(CSF_OPT_LIB64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKService.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\lib\TKService.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bind\TKService.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\objd\TKService/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\objd\TKService/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\objd\TKService/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib;TKMath.lib;user32.lib;comdlg32.lib;advapi32.lib;FreeImage.lib;freetype.lib;avcodec.lib;avformat.lib;swscale.lib;avutil.lib;winmm.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKService.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\libd;$(CSF_OPT_LIB64D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKService.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\libd\TKService.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Background.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_CircularGrid.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_DisplayConnection.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GenId.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GradientBackground.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Grid.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_NeutralWindow.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_OpenVRSession.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_RectangularGrid.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_SkydomeBackground.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_VKeySet.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Window.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_WindowInputListener.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_XRSession.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectFillAreaDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectLineDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectMarkerDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Background.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_CircularGrid.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_ColorSpace.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Display.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_DisplayConnection.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_DisplayConnectionDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Drawable.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Eye.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_FBConfig.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_FillMethod.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_FrustumLRBT.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GenId.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GradientBackground.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GradientFillMethod.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GraphicDeviceDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GraphicsLibrary.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Grid.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GridDrawMode.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GridType.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Handle.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_HatchStyle.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_IdentDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_InteriorStyle.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_NeutralWindow.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_OpenVRSession.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_PolygonOffsetMode.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_RectangularGrid.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_RenderingContext.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_ScrollDelta.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_SequenceOfColor.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_SkydomeBackground.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Touch.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TouchMap.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TrackedDevicePose.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScaleData.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScaleOrientation.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScalePosition.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfDeflection.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfDisplayText.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfFacingModel.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfHighlightMethod.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfLine.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfMarker.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfResize.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfStyleText.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfTriedronPosition.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Units.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKey.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKeyFlags.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKeySet.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WidthOfLine.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Window.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WindowDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WindowError.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WindowInputListener.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XAtom.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRAction.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRActionSet.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRActionType.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRAnalogActionData.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRDigitalActionData.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRGenericAction.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRHapticActionData.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRPoseActionData.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRSession.hxx" />
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRTrackedDeviceRole.hxx" />
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPrimitives.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AspectFillArea3d.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AspectLine3d.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AspectMarker3d.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AspectText3d.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Aspects.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AttribBuffer.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_BSDF.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Buffer.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_BvhCStructureSet.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CLight.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CStructure.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CView.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Camera.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CameraTile.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ClipPlane.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CubeMap.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapOrder.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapPacked.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapSeparate.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CullingTool.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_DataStructureManager.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_FrameStats.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_FrameStatsData.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_GraphicDriver.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_GraphicDriverFactory.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Group.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_HatchStyle.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Layer.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_LightSet.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_MarkerImage.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_MaterialAspect.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_MediaTexture.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_MediaTextureSet.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_PBRMaterial.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_PolygonOffset.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_PresentationAttributes.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_RenderingParams.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderAttribute.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderManager.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderObject.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderProgram.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderVariable.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Structure.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_StructureManager.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Text.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture1D.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture1Dmanual.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture1Dsegment.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture2D.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture2Dplane.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture3D.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureEnv.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureMap.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureParams.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureRoot.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureSet.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TransformPers.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TransformPersScaledAbove.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Vertex.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ViewAffinity.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AlphaMode.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayFlags.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPoints.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPolygons.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPolylines.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPrimitives.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfQuadrangleStrips.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfQuadrangles.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfSegments.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfTriangleFans.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfTriangleStrips.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfTriangles.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AspectFillArea3d.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AspectLine3d.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AspectMarker3d.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AspectText3d.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Aspects.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AttribBuffer.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BSDF.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BndBox3d.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BndBox4d.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BndBox4f.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BoundBuffer.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Buffer.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BufferRange.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BufferType.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BvhCStructureSet.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CLight.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CStructure.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CView.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Camera.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CameraTile.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CappingFlags.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ClipPlane.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMap.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapOrder.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapPacked.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapSeparate.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapSide.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CullingTool.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_DataStructureManager.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_DiagnosticInfo.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_DisplayPriority.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_FrameStats.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_FrameStatsCounter.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_FrameStatsData.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_FrameStatsTimer.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GraduatedTrihedron.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GraphicDriver.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GraphicDriverFactory.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Group.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GroupAspect.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GroupDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_HatchStyle.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_HorizontalTextAlignment.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_IndexBuffer.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Layer.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_LevelOfTextureAnisotropy.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_LightSet.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MapIteratorOfMapOfStructure.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MapOfAspectsToAspects.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MapOfObject.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MapOfStructure.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MarkerImage.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MarkerImage.pxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Mat4.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Mat4d.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MaterialAspect.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MaterialDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MediaTexture.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MediaTextureSet.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MutableIndexBuffer.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NMapOfTransient.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfMaterial.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfTexture1D.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfTexture2D.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfTextureEnv.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfTexturePlane.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_PBRMaterial.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_PolygonOffset.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_PresentationAttributes.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_PriorityDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_RenderTransparentMethod.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_RenderingMode.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_RenderingParams.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_SequenceOfGroup.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_SequenceOfStructure.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderAttribute.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderFlags.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderManager.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderObject.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderProgram.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderVariable.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderVariable.lxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_StereoMode.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Structure.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_StructureDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_StructureManager.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Text.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextPath.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture1D.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture1Dmanual.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture1Dsegment.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture2D.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture2Dmanual.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture2Dplane.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture3D.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureEnv.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureMap.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureParams.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureRoot.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureSet.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureSetBits.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureUnit.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ToneMappingMethod.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TransModeFlags.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TransformPers.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TransformPersScaledAbove.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TransformUtils.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfAnswer.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfBackfacingModel.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfBackground.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfConnection.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfLightSource.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfLimit.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfMaterial.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfPrimitiveArray.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfReflection.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfShaderObject.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfShadingModel.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfStructure.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfTexture.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfTextureFilter.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfTextureMode.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfVisualization.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vec.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vec2.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vec3.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vec4.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vertex.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_VerticalTextAlignment.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ViewAffinity.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_WorldViewProjState.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ZLayerId.hxx" />
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ZLayerSettings.hxx" />
+    <ClCompile Include="..\..\..\src\Xw\Xw_Window.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\Xw\Xw_Window.hxx" />
+    <ClCompile Include="..\..\..\src\Image\Image_AlienPixMap.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_DDSParser.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_Diff.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_PixMap.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_SupportedFormats.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_Texture.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_VideoRecorder.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\Image\Image_AlienPixMap.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_Color.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_CompressedFormat.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_CompressedPixMap.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_DDSParser.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_Diff.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_Format.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_PixMap.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_PixMapData.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_PixMapTypedData.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_SupportedFormats.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_Texture.hxx" />
+    <ClInclude Include="..\..\..\src\Image\Image_VideoRecorder.hxx" />
+    <ClCompile Include="..\..\..\src\Media\Media_BufferPool.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_CodecContext.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_FormatContext.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Frame.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Packet.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_PlayerContext.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Scaler.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Timer.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\Media\Media_BufferPool.hxx" />
+    <ClInclude Include="..\..\..\src\Media\Media_CodecContext.hxx" />
+    <ClInclude Include="..\..\..\src\Media\Media_FormatContext.hxx" />
+    <ClInclude Include="..\..\..\src\Media\Media_Frame.hxx" />
+    <ClInclude Include="..\..\..\src\Media\Media_IFrameQueue.hxx" />
+    <ClInclude Include="..\..\..\src\Media\Media_Packet.hxx" />
+    <ClInclude Include="..\..\..\src\Media\Media_PlayerContext.hxx" />
+    <ClInclude Include="..\..\..\src\Media\Media_Scaler.hxx" />
+    <ClInclude Include="..\..\..\src\Media\Media_Timer.hxx" />
+    <ClCompile Include="..\..\..\src\Wasm\Wasm_Window.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\Wasm\Wasm_Window.hxx" />
+    <ClCompile Include="..\..\..\src\WNT\WNT_HIDSpaceMouse.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_WClass.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_Window.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\WNT\WNT_ClassDefinitionError.hxx" />
+    <ClInclude Include="..\..\..\src\WNT\WNT_Dword.hxx" />
+    <ClInclude Include="..\..\..\src\WNT\WNT_HIDSpaceMouse.hxx" />
+    <ClInclude Include="..\..\..\src\WNT\WNT_OrientationType.hxx" />
+    <ClInclude Include="..\..\..\src\WNT\WNT_WClass.hxx" />
+    <ClInclude Include="..\..\..\src\WNT\WNT_Window.hxx" />
+    <ClInclude Include="..\..\..\src\WNT\WNT_WindowPtr.hxx" />
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_LocalPool.hxx" />
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_LocalPool.mm" />
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_Window.hxx" />
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_Window.mm" />
+    <ClCompile Include="..\..\..\src\Font\Font_FTFont.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_FTLibrary.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_FontMgr.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_SystemFont.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_TextFormatter.cxx">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">-D_AFXDLL %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\..\src\Font\Font_BRepFont.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_BRepTextBuilder.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_DejavuSans_Latin_woff.pxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_FTFont.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_FTLibrary.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_FontAspect.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_FontMgr.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_Hinting.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_NListOfSystemFont.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_NameOfFont.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_Rect.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_StrictLevel.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_SystemFont.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_TextFormatter.hxx" />
+    <ClInclude Include="..\..\..\src\Font\Font_UnicodeSubset.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKService.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

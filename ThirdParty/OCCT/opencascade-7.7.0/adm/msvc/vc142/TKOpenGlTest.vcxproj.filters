@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{0B9F3210-160D-1022-0A7B-8EE1F293EC2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{76F31505-04FA-0DA4-148D-9160BC660CC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\OpenGlTest">
+      <UniqueIdentifier>{D184BDF6-1289-0529-0C14-F54CA67B29DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\OpenGlTest">
+      <UniqueIdentifier>{F9132B25-0A1B-1567-084E-0E8D004B2599}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\OpenGlTest\OpenGlTest.cxx">
+      <Filter>Source files\OpenGlTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\OpenGlTest\OpenGlTest_Commands.cxx">
+      <Filter>Source files\OpenGlTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\OpenGlTest\OpenGlTest.hxx">
+      <Filter>Header files\OpenGlTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKOpenGlTest.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B40CBD4B-115B-1968-1386-22ED8E1A08C7}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\..\..\..\Bin\x86\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\win32\vc14\obj\TKCDF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\..\..\KernelCAD\Bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\win32\vc14\objd\TKCDF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\..\..\..\Bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\win64\vc14\obj\TKCDF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\..\..\..\KernelCAD\Bin\x64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\win64\vc14\objd\TKCDF\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bin\TKCDF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\obj\TKCDF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\obj\TKCDF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\obj\TKCDF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKCDF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\lib;$(CSF_OPT_LIB32);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKCDF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\lib\TKCDF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win32\vc14\bind\TKCDF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win32\vc14\objd\TKCDF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win32\vc14\objd\TKCDF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win32\vc14\objd\TKCDF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKCDF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win32\vc14\libd;$(CSF_OPT_LIB32D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKCDF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win32\vc14\libd\TKCDF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bin\TKCDF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\obj\TKCDF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\obj\TKCDF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\obj\TKCDF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;No_Exception;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKCDF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\lib;$(CSF_OPT_LIB64);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>no</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKCDF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\lib\TKCDF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>.\..\..\..\win64\vc14\bind\TKCDF.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AssemblerListingLocation>.\..\..\..\win64\vc14\objd\TKCDF/</AssemblerListingLocation>
+      <ObjectFileName>.\..\..\..\win64\vc14\objd\TKCDF/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\..\..\win64\vc14\objd\TKCDF/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+      <DisableSpecificWarnings>26812</DisableSpecificWarnings>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\inc;$(CSF_OPT_INC);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;;$(CSF_DEFINES);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>TKernel.lib</AdditionalDependencies>
+      <OutputFile>$(OutDir)TKCDF.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\..\win64\vc14\libd;$(CSF_OPT_LIB64D);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TKCDF.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <ImportLibrary>..\..\..\win64\vc14\libd\TKCDF.lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\CDM\CDM_Application.cxx" />
+    <ClCompile Include="..\..\..\src\CDM\CDM_Document.cxx" />
+    <ClCompile Include="..\..\..\src\CDM\CDM_MetaData.cxx" />
+    <ClCompile Include="..\..\..\src\CDM\CDM_Reference.cxx" />
+    <ClCompile Include="..\..\..\src\CDM\CDM_ReferenceIterator.cxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_Application.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_CanCloseStatus.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_DataMapIteratorOfMetaDataLookUpTable.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_Document.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_DocumentHasher.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_DocumentPointer.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_ListIteratorOfListOfDocument.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_ListIteratorOfListOfReferences.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_ListOfDocument.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_ListOfReferences.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_MapIteratorOfMapOfDocument.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_MapOfDocument.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_MetaData.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_MetaDataLookUpTable.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_NamesDirectory.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_Reference.hxx" />
+    <ClInclude Include="..\..\..\src\CDM\CDM_ReferenceIterator.hxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_DOMHeaderParser.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_Document.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_ReadWriter.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_ReadWriter_1.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_Reader.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_ReaderFilter.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_Reference.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_ReferenceIterator.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_RetrievalDriver.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_StorageDriver.cxx" />
+    <ClCompile Include="..\..\..\src\PCDM\PCDM_Writer.cxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_BaseDriverPointer.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_DOMHeaderParser.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Document.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_DriverError.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReadWriter.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReadWriter_1.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Reader.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Reader.lxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReaderFilter.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReaderStatus.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Reference.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_ReferenceIterator.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_RetrievalDriver.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_SequenceOfDocument.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_SequenceOfReference.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_StorageDriver.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_StoreStatus.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_TypeOfFileDriver.hxx" />
+    <ClInclude Include="..\..\..\src\PCDM\PCDM_Writer.hxx" />
+    <ClCompile Include="..\..\..\src\CDF\CDF_Application.cxx" />
+    <ClCompile Include="..\..\..\src\CDF\CDF_Directory.cxx" />
+    <ClCompile Include="..\..\..\src\CDF\CDF_DirectoryIterator.cxx" />
+    <ClCompile Include="..\..\..\src\CDF\CDF_FWOSDriver.cxx" />
+    <ClCompile Include="..\..\..\src\CDF\CDF_MetaDataDriver.cxx" />
+    <ClCompile Include="..\..\..\src\CDF\CDF_MetaDataDriverFactory.cxx" />
+    <ClCompile Include="..\..\..\src\CDF\CDF_Store.cxx" />
+    <ClCompile Include="..\..\..\src\CDF\CDF_StoreList.cxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_Application.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_Directory.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_DirectoryIterator.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_FWOSDriver.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_MetaDataDriver.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_MetaDataDriverFactory.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_Store.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_StoreList.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_StoreSetNameStatus.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_SubComponentStatus.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_TryStoreStatus.hxx" />
+    <ClInclude Include="..\..\..\src\CDF\CDF_TypeOfActivation.hxx" />
+    <ClCompile Include="..\..\..\src\UTL\UTL.cxx" />
+    <ClInclude Include="..\..\..\src\UTL\UTL.hxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOMBasicString.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOMParser.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOMString.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_Attr.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_BasicAttribute.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_BasicElement.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_BasicNode.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_BasicText.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_CharReference.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_CharacterData.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_Document.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_Element.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_LDOMImplementation.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_MemManager.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_Node.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_NodeList.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_OSStream.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_XmlReader.cxx" />
+    <ClCompile Include="..\..\..\src\LDOM\LDOM_XmlWriter.cxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOMBasicString.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOMParser.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOMString.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Attr.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_BasicAttribute.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_BasicElement.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_BasicNode.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_BasicText.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_CDATASection.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_CharReference.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_CharacterData.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Comment.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_DeclareSequence.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Document.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_DocumentType.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Element.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_LDOMImplementation.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_MemManager.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Node.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_NodeList.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_OSStream.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_Text.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_XmlReader.hxx" />
+    <ClInclude Include="..\..\..\src\LDOM\LDOM_XmlWriter.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKCDF.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

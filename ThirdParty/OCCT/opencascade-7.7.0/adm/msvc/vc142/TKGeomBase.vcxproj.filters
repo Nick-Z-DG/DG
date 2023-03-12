@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{458E5288-0313-00BD-1752-97F8522FD570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{65BFA610-161F-0E28-1086-1CA1B3BC1CFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\ProjLib">
+      <UniqueIdentifier>{132D167F-0439-0A33-1951-95FA4A633580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GeomProjLib">
+      <UniqueIdentifier>{4D9F1E60-1840-1752-17DC-3C6908139592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GCPnts">
+      <UniqueIdentifier>{C0C30E54-15D1-001F-14D9-3EAE622AB601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CPnts">
+      <UniqueIdentifier>{1331149F-1748-008E-0C4B-2FF6A4E9A54A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Approx">
+      <UniqueIdentifier>{62B4D284-11BF-0BB5-0AF3-13B7656D748C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AppParCurves">
+      <UniqueIdentifier>{FEBC113E-0494-154E-0039-6E77C2789280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FEmTool">
+      <UniqueIdentifier>{DA393C4E-1121-1160-128D-E9FA1D23A008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AppCont">
+      <UniqueIdentifier>{DF7D30B9-18AD-0743-0F8F-1D4C26727C64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Extrema">
+      <UniqueIdentifier>{44B7A027-0B65-146F-09D5-84394CCDB79D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IntAna">
+      <UniqueIdentifier>{D1B2ADB2-1910-02E5-0EEA-D7A1FCCBDC23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IntAna2d">
+      <UniqueIdentifier>{E1AA59C7-07EF-082A-1520-8D0768E17AAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GeomConvert">
+      <UniqueIdentifier>{3CED206F-07D4-0115-0824-CDC8230E77E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AdvApp2Var">
+      <UniqueIdentifier>{E0D1717D-07B8-0E1E-0F56-E1701F882F45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GeomLib">
+      <UniqueIdentifier>{D77DA647-0E02-0819-0361-0D180EA6791E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Geom2dConvert">
+      <UniqueIdentifier>{59AA22DB-00A4-1341-144F-FB959C1B724E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Hermit">
+      <UniqueIdentifier>{ED726DAF-0FB6-0C70-1675-F3C45CE0A6C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BndLib">
+      <UniqueIdentifier>{E4C844A1-100D-0C4E-0C34-0C6EC73CE70D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\AppDef">
+      <UniqueIdentifier>{650F526D-0496-177C-1383-69D3049CC36A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GeomTools">
+      <UniqueIdentifier>{E17770A6-096A-01EB-0FF2-993D3280A8B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GC">
+      <UniqueIdentifier>{C33DDCA1-06D1-1051-12A7-3B7D25951490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\GCE2d">
+      <UniqueIdentifier>{79301774-16FC-10DB-058B-78F473F8CC1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\gce">
+      <UniqueIdentifier>{208DA613-0286-0F19-173A-05996599CAED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\ProjLib">
+      <UniqueIdentifier>{D9A581E0-0885-1174-08E7-B67E6824E97E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GeomProjLib">
+      <UniqueIdentifier>{5D6345D2-14C9-0107-1000-31E226F65462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GCPnts">
+      <UniqueIdentifier>{1DF0FCDB-0176-0A05-08C8-E794C2D75CEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CPnts">
+      <UniqueIdentifier>{155717F0-1380-01C2-035E-335D4F33193C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Approx">
+      <UniqueIdentifier>{BDC224A1-12BA-079A-0263-A5A81EC0529F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AppParCurves">
+      <UniqueIdentifier>{704E5722-0946-0B56-03CB-71055B16BC77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FEmTool">
+      <UniqueIdentifier>{AF55CF72-0D61-02A1-18F0-5443D330EA6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AppCont">
+      <UniqueIdentifier>{6F133FF5-0908-0A73-02F5-1D506F8BCE73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Extrema">
+      <UniqueIdentifier>{9EEC9C0B-18C4-049E-10F0-191D83E0998F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IntAna">
+      <UniqueIdentifier>{81BBD945-16C5-169C-069F-259CFD65E11A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IntAna2d">
+      <UniqueIdentifier>{9D87B503-05A3-026B-056F-2C8ECC52F7C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GeomConvert">
+      <UniqueIdentifier>{09929DB7-0B62-1050-0523-3820CCF134C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AdvApp2Var">
+      <UniqueIdentifier>{C0314F5E-0770-1573-0397-DFC5E93A576C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GeomLib">
+      <UniqueIdentifier>{4176A5CD-0287-169A-02CB-EB5CE01EAC73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Geom2dConvert">
+      <UniqueIdentifier>{CBE0C171-178E-0588-0A6B-763EC011AFFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Hermit">
+      <UniqueIdentifier>{39CCF53B-1371-0B05-1034-650D31451252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BndLib">
+      <UniqueIdentifier>{B5E56E5E-0D71-1292-0113-1E95BDF8E23C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\AppDef">
+      <UniqueIdentifier>{CCE41A99-1453-14D8-076A-984339657036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GeomTools">
+      <UniqueIdentifier>{A9F3B01B-09F2-0B25-17AC-88EE59D8458B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GC">
+      <UniqueIdentifier>{BDE20AB4-178A-0817-12A6-EDFF1C07C5CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\GCE2d">
+      <UniqueIdentifier>{4B534B84-127F-0DCC-0D89-993AF3ED2E7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\gce">
+      <UniqueIdentifier>{877692F7-1835-1215-0EE2-5F4CF4B550E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_CompProjectedCurve.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_ComputeApprox.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_ComputeApproxOnPolarSurface.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_Cone.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_Cylinder.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_Plane.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_PrjFunc.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_PrjResolve.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_ProjectOnPlane.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_ProjectOnSurface.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_ProjectedCurve.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_Projector.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_Sphere.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ProjLib\ProjLib_Torus.cxx">
+      <Filter>Source files\ProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomProjLib\GeomProjLib.cxx">
+      <Filter>Source files\GeomProjLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCPnts\GCPnts_AbscissaPoint.cxx">
+      <Filter>Source files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCPnts\GCPnts_DistFunction.cxx">
+      <Filter>Source files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCPnts\GCPnts_DistFunction2d.cxx">
+      <Filter>Source files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCPnts\GCPnts_QuasiUniformAbscissa.cxx">
+      <Filter>Source files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCPnts\GCPnts_QuasiUniformDeflection.cxx">
+      <Filter>Source files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCPnts\GCPnts_TangentialDeflection.cxx">
+      <Filter>Source files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCPnts\GCPnts_UniformAbscissa.cxx">
+      <Filter>Source files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCPnts\GCPnts_UniformDeflection.cxx">
+      <Filter>Source files\GCPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CPnts\CPnts_AbscissaPoint.cxx">
+      <Filter>Source files\CPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CPnts\CPnts_MyGaussFunction.cxx">
+      <Filter>Source files\CPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CPnts\CPnts_MyRootFunction.cxx">
+      <Filter>Source files\CPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\CPnts\CPnts_UniformDeflection.cxx">
+      <Filter>Source files\CPnts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_Curve2d.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_Curve3d.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_CurveOnSurface.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_CurvilinearParameter.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_CurvlinFunc.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_FitAndDivide2d_0.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_FitAndDivide_0.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_MCurvesToBSpCurve.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_SameParameter.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_SweepApproximation.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Approx\Approx_SweepFunction.cxx">
+      <Filter>Source files\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppParCurves\AppParCurves.cxx">
+      <Filter>Source files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppParCurves\AppParCurves_ConstraintCouple.cxx">
+      <Filter>Source files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppParCurves\AppParCurves_MultiBSpCurve.cxx">
+      <Filter>Source files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppParCurves\AppParCurves_MultiCurve.cxx">
+      <Filter>Source files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppParCurves\AppParCurves_MultiPoint.cxx">
+      <Filter>Source files\AppParCurves</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_Assembly.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_Curve.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_ElementaryCriterion.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_ElementsOfRefMatrix.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_LinearFlexion.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_LinearJerk.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_LinearTension.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_ProfileMatrix.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\FEmTool\FEmTool_SparseMatrix.cxx">
+      <Filter>Source files\FEmTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppCont\AppCont_ContMatrices.cxx">
+      <Filter>Source files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppCont\AppCont_ContMatrices_1.cxx">
+      <Filter>Source files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppCont\AppCont_ContMatrices_2.cxx">
+      <Filter>Source files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppCont\AppCont_ContMatrices_3.cxx">
+      <Filter>Source files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppCont\AppCont_ContMatrices_4.cxx">
+      <Filter>Source files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppCont\AppCont_LeastSquare.cxx">
+      <Filter>Source files\AppCont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_CCLocFOfLocECC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_CCLocFOfLocECC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_Curve2dTool.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_CurveTool.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ECC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ECC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ELPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ELPCOfLocateExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_EPCOfELPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_EPCOfELPCOfLocateExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_EPCOfExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_EPCOfExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtCC.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtCC2d.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtCS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtElC.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtElC2d.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtElCS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtElSS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtPElC.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtPElC2d.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtPElS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtPExtS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtPRevS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtPS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_ExtSS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_FuncExtCS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_FuncExtSS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_FuncPSDist.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_FuncPSNorm.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GenExtCS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GenExtPS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GenExtSS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GenLocateExtCS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GenLocateExtPS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GenLocateExtSS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GlobOptFuncCC.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GlobOptFuncCQuadric.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GlobOptFuncCS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_GlobOptFuncConicS.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_LocECC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_LocECC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_LocEPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_LocEPCOfLocateExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_LocateExtCC.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_LocateExtCC2d.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_LocateExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_LocateExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_PCFOfEPCOfELPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_PCFOfEPCOfELPCOfLocateExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_PCFOfEPCOfExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_PCFOfEPCOfExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_PCLocFOfLocEPCOfLocateExtPC2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_PCLocFOfLocEPCOfLocateExtPC_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_POnCurv2d_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Extrema\Extrema_POnCurv_0.cxx">
+      <Filter>Source files\Extrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna\IntAna_Curve.cxx">
+      <Filter>Source files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna\IntAna_Int3Pln.cxx">
+      <Filter>Source files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna\IntAna_IntConicQuad.cxx">
+      <Filter>Source files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna\IntAna_IntLinTorus.cxx">
+      <Filter>Source files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna\IntAna_IntQuadQuad.cxx">
+      <Filter>Source files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna\IntAna_QuadQuadGeo.cxx">
+      <Filter>Source files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna\IntAna_Quadric.cxx">
+      <Filter>Source files\IntAna</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection_1.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection_2.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection_3.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection_4.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection_5.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection_6.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection_7.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection_8.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_Conic.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_IntPoint.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntAna2d\IntAna2d_Outils.cxx">
+      <Filter>Source files\IntAna2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_1.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_ApproxCurve.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_ApproxSurface.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_BSplineCurveKnotSplitting.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_BSplineCurveToBezierCurve.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_BSplineSurfaceKnotSplitting.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_BSplineSurfaceToBezierSurface.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_CompBezierSurfacesToBSplineSurface.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_CompCurveToBSplineCurve.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_CurveToAnaCurve.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_FuncConeLSDist.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_FuncCylinderLSDist.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_FuncSphereLSDist.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_SurfToAnaSurf.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomConvert\GeomConvert_Units.cxx">
+      <Filter>Source files\GeomConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_ApproxAFunc2Var.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_ApproxF2var.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Context.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Criterion.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_0.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_1.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_2.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_3.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_4.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_5.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_6.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_7.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Framework.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Iso.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_MathBase.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_MathBase_mathinit.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Network.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Node.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Patch.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_SysBase.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AdvApp2Var\AdvApp2Var_SysBase_baseinit.cxx">
+      <Filter>Source files\AdvApp2Var</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_Check2dBSplineCurve.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_CheckBSplineCurve.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_CheckCurveOnSurface.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_DenominatorMultiplier.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_Interpolate.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_IsPlanarSurface.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_LogSample.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_MakeCurvefromApprox.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_PolyFunc.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomLib\GeomLib_Tool.cxx">
+      <Filter>Source files\GeomLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dConvert\Geom2dConvert.cxx">
+      <Filter>Source files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dConvert\Geom2dConvert_ApproxArcsSegments.cxx">
+      <Filter>Source files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dConvert\Geom2dConvert_ApproxCurve.cxx">
+      <Filter>Source files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dConvert\Geom2dConvert_BSplineCurveKnotSplitting.cxx">
+      <Filter>Source files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dConvert\Geom2dConvert_BSplineCurveToBezierCurve.cxx">
+      <Filter>Source files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dConvert\Geom2dConvert_CompCurveToBSplineCurve.cxx">
+      <Filter>Source files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Geom2dConvert\Geom2dConvert_PPoint.cxx">
+      <Filter>Source files\Geom2dConvert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Hermit\Hermit.cxx">
+      <Filter>Source files\Hermit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BndLib\BndLib.cxx">
+      <Filter>Source files\BndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BndLib\BndLib_Add2dCurve.cxx">
+      <Filter>Source files\BndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BndLib\BndLib_Add3dCurve.cxx">
+      <Filter>Source files\BndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BndLib\BndLib_AddSurface.cxx">
+      <Filter>Source files\BndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_BSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_Compute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_Gradient_BFGSOfMyGradientOfCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_Gradient_BFGSOfTheGradient_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_LinearCriteria.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_MultiLine.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_MultiPointConstraint.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_MyBSplGradientOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_MyGradientOfCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_MyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_MyLineTool.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ParFunctionOfMyGradientOfCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ParFunctionOfMyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ParFunctionOfTheGradient_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ParLeastSquareOfMyGradientOfCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ParLeastSquareOfMyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ParLeastSquareOfTheGradient_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ResConstraintOfMyGradientOfCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ResConstraintOfMyGradientbisOfBSplineCompute_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_ResConstraintOfTheGradient_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_SmoothCriterion.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_TheFunction_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_TheGradient_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_TheLeastSquares_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_TheResol_0.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\AppDef\AppDef_Variational.cxx">
+      <Filter>Source files\AppDef</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomTools\GeomTools.cxx">
+      <Filter>Source files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomTools\GeomTools_Curve2dSet.cxx">
+      <Filter>Source files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomTools\GeomTools_CurveSet.cxx">
+      <Filter>Source files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomTools\GeomTools_Debug.cxx">
+      <Filter>Source files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomTools\GeomTools_SurfaceSet.cxx">
+      <Filter>Source files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GeomTools\GeomTools_UndefinedTypeHandler.cxx">
+      <Filter>Source files\GeomTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeArcOfCircle.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeArcOfEllipse.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeArcOfHyperbola.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeArcOfParabola.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeCircle.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeConicalSurface.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeCylindricalSurface.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeEllipse.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeHyperbola.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeLine.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeMirror.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakePlane.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeRotation.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeScale.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeSegment.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeTranslation.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeTrimmedCone.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GC\GC_MakeTrimmedCylinder.cxx">
+      <Filter>Source files\GC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeArcOfCircle.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeArcOfEllipse.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeArcOfHyperbola.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeArcOfParabola.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeCircle.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeEllipse.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeHyperbola.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeLine.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeMirror.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeParabola.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeRotation.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeScale.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeSegment.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\GCE2d\GCE2d_MakeTranslation.cxx">
+      <Filter>Source files\GCE2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeCirc.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeCirc2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeCone.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeCylinder.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeDir.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeDir2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeElips.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeElips2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeHypr.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeHypr2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeLin.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeLin2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeMirror.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeMirror2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeParab.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeParab2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakePln.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeRotation.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeRotation2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeScale.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeScale2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeTranslation.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_MakeTranslation2d.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gce\gce_Root.cxx">
+      <Filter>Source files\gce</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_CompProjectedCurve.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_ComputeApprox.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_ComputeApproxOnPolarSurface.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_Cone.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_Cylinder.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_HCompProjectedCurve.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_HProjectedCurve.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_HSequenceOfHSequenceOfPnt.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_Plane.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_PrjFunc.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_PrjResolve.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_ProjectOnPlane.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_ProjectOnSurface.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_ProjectedCurve.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_Projector.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_SequenceOfHSequenceOfPnt.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_Sphere.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ProjLib\ProjLib_Torus.hxx">
+      <Filter>Header files\ProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomProjLib\GeomProjLib.hxx">
+      <Filter>Header files\GeomProjLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_AbscissaPoint.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_AbscissaType.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_DeflectionType.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_DistFunction.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_DistFunction2d.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_QuasiUniformAbscissa.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_QuasiUniformDeflection.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_TCurveTypes.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_TangentialDeflection.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_UniformAbscissa.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCPnts\GCPnts_UniformDeflection.hxx">
+      <Filter>Header files\GCPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_AbscissaPoint.hxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_AbscissaPoint.lxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_MyGaussFunction.hxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_MyGaussFunction.lxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_MyRootFunction.hxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_MyRootFunction.lxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_RealFunction.hxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_UniformDeflection.hxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\CPnts\CPnts_UniformDeflection.lxx">
+      <Filter>Header files\CPnts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_Array1OfAdHSurface.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_Array1OfGTrsf2d.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_BSplComputeLine.gxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_ComputeCLine.gxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_ComputeLine.gxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_Curve2d.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_Curve3d.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_CurveOnSurface.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_CurvilinearParameter.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_CurvlinFunc.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_FitAndDivide.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_FitAndDivide2d.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_HArray1OfAdHSurface.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_HArray1OfGTrsf2d.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_MCurvesToBSpCurve.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_ParametrizationType.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_SameParameter.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_SequenceOfHArray1OfReal.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_Status.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_SweepApproximation.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_SweepApproximation.lxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Approx\Approx_SweepFunction.hxx">
+      <Filter>Header files\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_Array1OfConstraintCouple.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_Array1OfMultiBSpCurve.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_Array1OfMultiCurve.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_Array1OfMultiPoint.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_BSpFunction.gxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_BSpGradient.gxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_BSpGradient_BFGS.gxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_Constraint.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_ConstraintCouple.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_Function.gxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_Gradient.gxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_Gradient_BFGS.gxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_HArray1OfConstraintCouple.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_HArray1OfMultiBSpCurve.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_HArray1OfMultiCurve.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_HArray1OfMultiPoint.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_LeastSquare.gxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_MultiBSpCurve.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_MultiCurve.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_MultiPoint.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_MultiPoint.lxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_ResolConstraint.gxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_SequenceOfMultiBSpCurve.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppParCurves\AppParCurves_SequenceOfMultiCurve.hxx">
+      <Filter>Header files\AppParCurves</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_Assembly.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_AssemblyTable.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_Curve.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_ElementaryCriterion.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_ElementsOfRefMatrix.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_HAssemblyTable.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_LinearFlexion.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_LinearJerk.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_LinearTension.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_ListIteratorOfListOfVectors.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_ListOfVectors.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_ProfileMatrix.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_SeqOfLinConstr.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\FEmTool\FEmTool_SparseMatrix.hxx">
+      <Filter>Header files\FEmTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppCont\AppCont_ContMatrices.hxx">
+      <Filter>Header files\AppCont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppCont\AppCont_Function.hxx">
+      <Filter>Header files\AppCont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppCont\AppCont_LeastSquare.hxx">
+      <Filter>Header files\AppCont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Array1OfPOnCurv.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Array1OfPOnCurv2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Array1OfPOnSurf.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Array2OfPOnCurv.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Array2OfPOnCurv2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Array2OfPOnSurf.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Array2OfPOnSurfParams.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_CCLocFOfLocECC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_CCLocFOfLocECC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Curve2dTool.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Curve2dTool.lxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_CurveLocator.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_CurveTool.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_CurveTool.lxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ECC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ECC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ELPCOfLocateExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ELPCOfLocateExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_EPCOfELPCOfLocateExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_EPCOfELPCOfLocateExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_EPCOfExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_EPCOfExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ElementType.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtAlgo.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtCC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtCC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtCS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtElC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtElC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtElCS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtElSS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtFlag.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtPElC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtPElC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtPElS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtPExtS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtPRevS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtPS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_ExtSS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_FuncExtCC.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_FuncExtCC.lxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_FuncExtCS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_FuncExtPC.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_FuncExtSS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_FuncPSDist.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_FuncPSNorm.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GExtPC.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GLocateExtPC.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenExtCC.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenExtCS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenExtPC.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenExtPS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenExtSS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenLocateExtCC.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenLocateExtCS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenLocateExtPC.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenLocateExtPS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GenLocateExtSS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GlobOptFuncCC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GlobOptFuncCQuadric.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GlobOptFuncCS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_GlobOptFuncConicS.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_HArray1OfPOnCurv.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_HArray1OfPOnCurv2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_HArray1OfPOnSurf.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_HArray2OfPOnCurv.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_HArray2OfPOnCurv2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_HArray2OfPOnSurf.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_HUBTreeOfSphere.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_LocECC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_LocECC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_LocEPCOfLocateExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_LocEPCOfLocateExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_LocateExtCC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_LocateExtCC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_LocateExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_LocateExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_PCFOfEPCOfELPCOfLocateExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_PCFOfEPCOfELPCOfLocateExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_PCFOfEPCOfExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_PCFOfEPCOfExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_PCLocFOfLocEPCOfLocateExtPC.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_PCLocFOfLocEPCOfLocateExtPC2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_POnCurv.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_POnCurv2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_POnSurf.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_POnSurf.lxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_POnSurfParams.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_POnSurfParams.lxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Point.gxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_Point.lxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_SequenceOfPOnCurv.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_SequenceOfPOnCurv2d.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Extrema\Extrema_SequenceOfPOnSurf.hxx">
+      <Filter>Header files\Extrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_Curve.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_Int3Pln.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_Int3Pln.lxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_IntConicQuad.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_IntConicQuad.lxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_IntLinTorus.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_IntLinTorus.lxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_IntQuadQuad.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_IntQuadQuad.lxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_ListIteratorOfListOfCurve.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_ListOfCurve.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_QuadQuadGeo.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_QuadQuadGeo.lxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_Quadric.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna\IntAna_ResultType.hxx">
+      <Filter>Header files\IntAna</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection.hxx">
+      <Filter>Header files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna2d\IntAna2d_AnaIntersection.lxx">
+      <Filter>Header files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna2d\IntAna2d_Conic.hxx">
+      <Filter>Header files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna2d\IntAna2d_IntPoint.hxx">
+      <Filter>Header files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna2d\IntAna2d_IntPoint.lxx">
+      <Filter>Header files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntAna2d\IntAna2d_Outils.hxx">
+      <Filter>Header files\IntAna2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_ApproxCurve.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_ApproxSurface.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_BSplineCurveKnotSplitting.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_BSplineCurveToBezierCurve.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_BSplineSurfaceKnotSplitting.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_BSplineSurfaceToBezierSurface.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_CompBezierSurfacesToBSplineSurface.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_CompBezierSurfacesToBSplineSurface.lxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_CompCurveToBSplineCurve.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_ConvType.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_CurveToAnaCurve.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_FuncConeLSDist.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_FuncCylinderLSDist.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_FuncSphereLSDist.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_SurfToAnaSurf.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomConvert\GeomConvert_Units.hxx">
+      <Filter>Header files\GeomConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_ApproxAFunc2Var.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_ApproxAFunc2Var.lxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_ApproxF2var.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Context.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Criterion.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_CriterionRepartition.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_CriterionType.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Data_f2c.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_EvaluatorFunc2Var.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Framework.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Iso.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_MathBase.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Network.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Node.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Patch.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_SequenceOfNode.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_SequenceOfPatch.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_SequenceOfStrip.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_Strip.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AdvApp2Var\AdvApp2Var_SysBase.hxx">
+      <Filter>Header files\AdvApp2Var</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_Array1OfMat.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_Check2dBSplineCurve.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_Check2dBSplineCurve.lxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_CheckBSplineCurve.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_CheckBSplineCurve.lxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_CheckCurveOnSurface.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_DenominatorMultiplier.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_DenominatorMultiplierPtr.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_Interpolate.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_Interpolate.lxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_InterpolationErrors.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_IsPlanarSurface.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_LogSample.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_MakeCurvefromApprox.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_MakeCurvefromApprox.lxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_PolyFunc.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomLib\GeomLib_Tool.hxx">
+      <Filter>Header files\GeomLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dConvert\Geom2dConvert.hxx">
+      <Filter>Header files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dConvert\Geom2dConvert_ApproxArcsSegments.hxx">
+      <Filter>Header files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dConvert\Geom2dConvert_ApproxCurve.hxx">
+      <Filter>Header files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dConvert\Geom2dConvert_BSplineCurveKnotSplitting.hxx">
+      <Filter>Header files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dConvert\Geom2dConvert_BSplineCurveToBezierCurve.hxx">
+      <Filter>Header files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dConvert\Geom2dConvert_CompCurveToBSplineCurve.hxx">
+      <Filter>Header files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dConvert\Geom2dConvert_PPoint.hxx">
+      <Filter>Header files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Geom2dConvert\Geom2dConvert_SequenceOfPPoint.hxx">
+      <Filter>Header files\Geom2dConvert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Hermit\Hermit.hxx">
+      <Filter>Header files\Hermit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BndLib\BndLib.hxx">
+      <Filter>Header files\BndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BndLib\BndLib_Add2dCurve.hxx">
+      <Filter>Header files\BndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BndLib\BndLib_Add3dCurve.hxx">
+      <Filter>Header files\BndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BndLib\BndLib_AddSurface.hxx">
+      <Filter>Header files\BndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_Array1OfMultiPointConstraint.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_BSpGradient_BFGSOfMyBSplGradientOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_BSpParFunctionOfMyBSplGradientOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_BSpParLeastSquareOfMyBSplGradientOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_BSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_Compute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_Gradient_BFGSOfMyGradientOfCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_Gradient_BFGSOfMyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_Gradient_BFGSOfTheGradient.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_HArray1OfMultiPointConstraint.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_LinearCriteria.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_MultiLine.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_MultiPointConstraint.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_MyBSplGradientOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_MyGradientOfCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_MyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_MyLineTool.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ParFunctionOfMyGradientOfCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ParFunctionOfMyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ParFunctionOfTheGradient.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ParLeastSquareOfMyGradientOfCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ParLeastSquareOfMyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ParLeastSquareOfTheGradient.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ResConstraintOfMyGradientOfCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ResConstraintOfMyGradientbisOfBSplineCompute.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_ResConstraintOfTheGradient.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_SmoothCriterion.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_TheFunction.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_TheGradient.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_TheLeastSquares.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_TheResol.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\AppDef\AppDef_Variational.hxx">
+      <Filter>Header files\AppDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomTools\GeomTools.hxx">
+      <Filter>Header files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomTools\GeomTools_Curve2dSet.hxx">
+      <Filter>Header files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomTools\GeomTools_CurveSet.hxx">
+      <Filter>Header files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomTools\GeomTools_SurfaceSet.hxx">
+      <Filter>Header files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GeomTools\GeomTools_UndefinedTypeHandler.hxx">
+      <Filter>Header files\GeomTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeArcOfCircle.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeArcOfEllipse.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeArcOfHyperbola.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeArcOfParabola.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeCircle.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeConicalSurface.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeCylindricalSurface.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeEllipse.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeHyperbola.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeLine.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeMirror.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakePlane.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeRotation.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeScale.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeSegment.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeTranslation.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeTrimmedCone.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_MakeTrimmedCylinder.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_Root.hxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GC\GC_Root.lxx">
+      <Filter>Header files\GC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeArcOfCircle.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeArcOfEllipse.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeArcOfHyperbola.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeArcOfParabola.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeCircle.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeEllipse.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeHyperbola.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeLine.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeMirror.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeParabola.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeRotation.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeScale.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeSegment.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_MakeTranslation.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_Root.hxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\GCE2d\GCE2d_Root.lxx">
+      <Filter>Header files\GCE2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_ErrorType.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeCirc.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeCirc2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeCone.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeCylinder.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeDir.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeDir2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeElips.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeElips2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeHypr.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeHypr2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeLin.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeLin2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeMirror.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeMirror2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeParab.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeParab2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakePln.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeRotation.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeRotation2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeScale.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeScale2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeTranslation.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_MakeTranslation2d.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_Root.hxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gce\gce_Root.lxx">
+      <Filter>Header files\gce</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKGeomBase.rc" />
+  </ItemGroup>
+</Project>

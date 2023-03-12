@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{9A9D119B-14F8-16B6-069A-74F8635F44F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{A7A894D2-0D19-0682-0141-BB1EEFEC033D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IntCurvesFace">
+      <UniqueIdentifier>{C8BC1E2B-0A59-11C0-0CA0-39AFD0458985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MAT">
+      <UniqueIdentifier>{47AD2A8B-1110-1890-0AF8-112B372C550C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\MAT2d">
+      <UniqueIdentifier>{83AF6FC7-0317-0174-140D-AC996189EE32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Bisector">
+      <UniqueIdentifier>{75428AD6-0904-0571-0F08-5FA2ADB110A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepMAT2d">
+      <UniqueIdentifier>{BCFB6791-17C6-1881-08F5-BF1BCAB983C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepCheck">
+      <UniqueIdentifier>{7A66982E-154C-0DF5-0996-E6919A614CCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepBndLib">
+      <UniqueIdentifier>{F95F586E-009E-0355-0916-63C42EE4DD8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepExtrema">
+      <UniqueIdentifier>{8D4AB192-18A7-082E-17EB-CE4066E61616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepClass">
+      <UniqueIdentifier>{B425CB21-11FE-0F86-14A6-EA703D6EF666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepClass3d">
+      <UniqueIdentifier>{F2E04F76-0D4E-02C6-045D-4614A3F4E858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepLib">
+      <UniqueIdentifier>{C21CACCE-0382-0373-0E24-2361E7F0AC41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepGProp">
+      <UniqueIdentifier>{BD0760E2-027F-06BD-0815-4CBEF68D0F4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepIntCurveSurface">
+      <UniqueIdentifier>{E75BE3D4-0E9A-10A1-0666-1BC05AF17AB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepTopAdaptor">
+      <UniqueIdentifier>{AFF94B01-04E7-07BB-14D6-5ABCBD1D43F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepBuilderAPI">
+      <UniqueIdentifier>{594ED704-157A-09CB-18F8-94B22F3E49B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\BRepApprox">
+      <UniqueIdentifier>{59061889-159B-0246-153B-F8ED309C2BF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IntCurvesFace">
+      <UniqueIdentifier>{0976F065-0F0E-0859-0F4E-8DFA27224252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MAT">
+      <UniqueIdentifier>{3044BF9F-1543-1897-0EFC-5611A7A10C73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\MAT2d">
+      <UniqueIdentifier>{38906779-193E-0289-0C99-BF6602C21FA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Bisector">
+      <UniqueIdentifier>{AB3D16D3-1957-0DD7-06E6-CBB3D68BD7BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepMAT2d">
+      <UniqueIdentifier>{00939E2D-0253-1967-0705-5025DAE53B12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepCheck">
+      <UniqueIdentifier>{8937ECAB-15D0-0513-09F2-44AAFA350A67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepBndLib">
+      <UniqueIdentifier>{3E101919-0EDD-0DEB-05CF-54C58E7618E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepExtrema">
+      <UniqueIdentifier>{5BE3EF5D-0642-09A2-066A-D9167E53DBDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepClass">
+      <UniqueIdentifier>{87F2F826-047B-00D7-174A-A93FEDA3E612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepClass3d">
+      <UniqueIdentifier>{55DFFA4E-059F-118B-0E19-64CB796A8CBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepLib">
+      <UniqueIdentifier>{3D36396B-1712-0D1A-0040-748957E4DFB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepGProp">
+      <UniqueIdentifier>{1B54DC16-15AF-1608-17EF-B2BEEB146D8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepIntCurveSurface">
+      <UniqueIdentifier>{23918772-1502-0F6E-07FE-5F7E66637EA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepTopAdaptor">
+      <UniqueIdentifier>{0ED1E1EF-192A-160E-0106-FCC240351477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepBuilderAPI">
+      <UniqueIdentifier>{D2AAE4CD-0CD3-076B-1069-E5AD75DEFC95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\BRepApprox">
+      <UniqueIdentifier>{98C7C826-09C5-0D94-10D4-3FC003571372}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\IntCurvesFace\IntCurvesFace_Intersector.cxx">
+      <Filter>Source files\IntCurvesFace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\IntCurvesFace\IntCurvesFace_ShapeIntersector.cxx">
+      <Filter>Source files\IntCurvesFace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_Arc.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_BasicElt.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_Bisector.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_Edge.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_Graph.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_ListOfBisector_0.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_ListOfEdge_0.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_Node.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_TListNodeOfListOfBisector_0.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_TListNodeOfListOfEdge_0.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT\MAT_Zone.cxx">
+      <Filter>Source files\MAT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT2d\MAT2d_BiInt.cxx">
+      <Filter>Source files\MAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT2d\MAT2d_Circuit.cxx">
+      <Filter>Source files\MAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT2d\MAT2d_Connexion.cxx">
+      <Filter>Source files\MAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT2d\MAT2d_CutCurve.cxx">
+      <Filter>Source files\MAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT2d\MAT2d_Mat2d.cxx">
+      <Filter>Source files\MAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT2d\MAT2d_MiniPath.cxx">
+      <Filter>Source files\MAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\MAT2d\MAT2d_Tool2d.cxx">
+      <Filter>Source files\MAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_Bisec.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_BisecAna.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_BisecCC.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_BisecPC.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_Curve.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_FunctionH.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_FunctionInter.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_Inter.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_PointOnBis.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Bisector\Bisector_PolyBis.cxx">
+      <Filter>Source files\Bisector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMAT2d\BRepMAT2d_BisectingLocus.cxx">
+      <Filter>Source files\BRepMAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMAT2d\BRepMAT2d_Explorer.cxx">
+      <Filter>Source files\BRepMAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepMAT2d\BRepMAT2d_LinkTopoBilo.cxx">
+      <Filter>Source files\BRepMAT2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck_Analyzer.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck_Edge.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck_Face.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck_Result.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck_Shell.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck_Solid.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck_Vertex.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepCheck\BRepCheck_Wire.cxx">
+      <Filter>Source files\BRepCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBndLib\BRepBndLib.cxx">
+      <Filter>Source files\BRepBndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBndLib\BRepBndLib_1.cxx">
+      <Filter>Source files\BRepBndLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_DistShapeShape.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_DistanceSS.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtCC.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtCF.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtFF.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtPC.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtPF.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_OverlapTool.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_Poly.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_ProximityDistTool.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_ProximityValueTool.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_SelfIntersection.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_ShapeProximity.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepExtrema\BRepExtrema_TriangleSet.cxx">
+      <Filter>Source files\BRepExtrema</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass\BRepClass_Edge.cxx">
+      <Filter>Source files\BRepClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass\BRepClass_FClass2dOfFClassifier_0.cxx">
+      <Filter>Source files\BRepClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass\BRepClass_FClassifier_0.cxx">
+      <Filter>Source files\BRepClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass\BRepClass_FaceClassifier.cxx">
+      <Filter>Source files\BRepClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass\BRepClass_FaceExplorer.cxx">
+      <Filter>Source files\BRepClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass\BRepClass_FacePassiveClassifier_0.cxx">
+      <Filter>Source files\BRepClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass\BRepClass_Intersector.cxx">
+      <Filter>Source files\BRepClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass3d\BRepClass3d.cxx">
+      <Filter>Source files\BRepClass3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass3d\BRepClass3d_BndBoxTree.cxx">
+      <Filter>Source files\BRepClass3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass3d\BRepClass3d_Intersector3d.cxx">
+      <Filter>Source files\BRepClass3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass3d\BRepClass3d_SClassifier.cxx">
+      <Filter>Source files\BRepClass3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass3d\BRepClass3d_SolidClassifier.cxx">
+      <Filter>Source files\BRepClass3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass3d\BRepClass3d_SolidExplorer.cxx">
+      <Filter>Source files\BRepClass3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepClass3d\BRepClass3d_SolidPassiveClassifier_0.cxx">
+      <Filter>Source files\BRepClass3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_1.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_CheckCurveOnSurface.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_Command.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_FindSurface.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_FuseEdges.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeEdge.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeEdge2d.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeFace.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakePolygon.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeShape.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeShell.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeSolid.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeVertex.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeWire.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_MakeWire_1.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_PointCloudShape.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_ToolTriangulatedShape.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepLib\BRepLib_ValidateEdge.cxx">
+      <Filter>Source files\BRepLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_Cinert.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_Domain.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_EdgeTool.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_Face.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_Gauss.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_MeshCinert.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_MeshProps.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_Sinert.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_TFunction.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_UFunction.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_Vinert.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepGProp\BRepGProp_VinertGK.cxx">
+      <Filter>Source files\BRepGProp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepIntCurveSurface\BRepIntCurveSurface_Inter.cxx">
+      <Filter>Source files\BRepIntCurveSurface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_FClass2d.cxx">
+      <Filter>Source files\BRepTopAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_HVertex.cxx">
+      <Filter>Source files\BRepTopAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_Tool.cxx">
+      <Filter>Source files\BRepTopAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_TopolTool.cxx">
+      <Filter>Source files\BRepTopAdaptor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Collect.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Command.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Copy.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_FastSewing.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_FindPlane.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_GTransform.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeEdge.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeEdge2d.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeFace.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakePolygon.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeShape.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeShapeOnMesh.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeShell.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeSolid.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeVertex.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeWire.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_ModifyShape.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_NurbsConvert.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Sewing.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Transform.cxx">
+      <Filter>Source files\BRepBuilderAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_ApproxLine.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_Approx_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_Gradient_BFGSOfMyGradientOfTheComputeLineBezierOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_MyBSplGradientOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_MyGradientOfTheComputeLineBezierOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_MyGradientbisOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_ParFunctionOfMyGradientOfTheComputeLineBezierOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_ResConstraintOfMyGradientOfTheComputeLineBezierOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_SurfaceTool.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_TheComputeLineBezierOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_TheComputeLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_TheImpPrmSvSurfacesOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_TheMultiLineOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_ThePrmPrmSvSurfacesOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\BRepApprox\BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox_0.cxx">
+      <Filter>Source files\BRepApprox</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\IntCurvesFace\IntCurvesFace_Intersector.hxx">
+      <Filter>Header files\IntCurvesFace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntCurvesFace\IntCurvesFace_Intersector.lxx">
+      <Filter>Header files\IntCurvesFace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\IntCurvesFace\IntCurvesFace_ShapeIntersector.hxx">
+      <Filter>Header files\IntCurvesFace</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_Arc.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_BasicElt.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_Bisector.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_DataMapIteratorOfDataMapOfIntegerArc.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_DataMapIteratorOfDataMapOfIntegerBasicElt.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_DataMapIteratorOfDataMapOfIntegerBisector.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_DataMapIteratorOfDataMapOfIntegerNode.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_DataMapOfIntegerArc.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_DataMapOfIntegerBasicElt.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_DataMapOfIntegerBisector.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_DataMapOfIntegerNode.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_Edge.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_Graph.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_ListOfBisector.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_ListOfEdge.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_Node.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_SequenceOfArc.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_SequenceOfBasicElt.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_Side.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_TList.gxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_TList.lxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_TListNode.gxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_TListNode.lxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_TListNodeOfListOfBisector.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_TListNodeOfListOfEdge.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT\MAT_Zone.hxx">
+      <Filter>Header files\MAT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_Array2OfConnexion.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_BiInt.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_Circuit.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_Connexion.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_CutCurve.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfBiIntInteger.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfBiIntSequenceOfInteger.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerBisec.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerConnexion.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerPnt2d.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerSequenceOfConnexion.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapIteratorOfDataMapOfIntegerVec2d.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapOfBiIntInteger.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapOfBiIntSequenceOfInteger.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapOfIntegerBisec.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapOfIntegerConnexion.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapOfIntegerPnt2d.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapOfIntegerSequenceOfConnexion.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_DataMapOfIntegerVec2d.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_MapBiIntHasher.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_MapBiIntHasher.lxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_Mat2d.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_MiniPath.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_SequenceOfConnexion.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_SequenceOfSequenceOfCurve.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_SequenceOfSequenceOfGeometry.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\MAT2d\MAT2d_Tool2d.hxx">
+      <Filter>Header files\MAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_Bisec.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_BisecAna.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_BisecCC.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_BisecPC.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_Curve.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_FunctionH.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_FunctionInter.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_Inter.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_PointOnBis.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Bisector\Bisector_PolyBis.hxx">
+      <Filter>Header files\Bisector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMAT2d\BRepMAT2d_BisectingLocus.hxx">
+      <Filter>Header files\BRepMAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMAT2d\BRepMAT2d_DataMapIteratorOfDataMapOfBasicEltShape.hxx">
+      <Filter>Header files\BRepMAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMAT2d\BRepMAT2d_DataMapIteratorOfDataMapOfShapeSequenceOfBasicElt.hxx">
+      <Filter>Header files\BRepMAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMAT2d\BRepMAT2d_DataMapOfBasicEltShape.hxx">
+      <Filter>Header files\BRepMAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMAT2d\BRepMAT2d_DataMapOfShapeSequenceOfBasicElt.hxx">
+      <Filter>Header files\BRepMAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMAT2d\BRepMAT2d_Explorer.hxx">
+      <Filter>Header files\BRepMAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepMAT2d\BRepMAT2d_LinkTopoBilo.hxx">
+      <Filter>Header files\BRepMAT2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Analyzer.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_DataMapOfShapeListOfStatus.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Edge.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Face.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_IndexedDataMapOfShapeResult.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_ListIteratorOfListOfStatus.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_ListOfStatus.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Result.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Shell.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Solid.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Status.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Vertex.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepCheck\BRepCheck_Wire.hxx">
+      <Filter>Header files\BRepCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBndLib\BRepBndLib.hxx">
+      <Filter>Header files\BRepBndLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_DistShapeShape.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_DistanceSS.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ElementFilter.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtCC.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtCF.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtFF.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtPC.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ExtPF.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_MapOfIntegerPackedMapOfInteger.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_OverlapTool.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_Poly.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ProximityDistTool.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ProximityValueTool.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_SelfIntersection.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_SeqOfSolution.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_ShapeProximity.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_SolutionElem.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_SupportType.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_TriangleSet.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepExtrema\BRepExtrema_UnCompatibleShape.hxx">
+      <Filter>Header files\BRepExtrema</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_Edge.hxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_Edge.lxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_FClass2dOfFClassifier.hxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_FClassifier.hxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_FaceClassifier.hxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_FaceExplorer.hxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_FaceExplorer.lxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_FacePassiveClassifier.hxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass\BRepClass_Intersector.hxx">
+      <Filter>Header files\BRepClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_BndBoxTree.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_DataMapIteratorOfMapOfInter.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_Intersector3d.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_Intersector3d.lxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_MapOfInter.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_SClassifier.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_SolidClassifier.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_SolidExplorer.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepClass3d\BRepClass3d_SolidPassiveClassifier.hxx">
+      <Filter>Header files\BRepClass3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_CheckCurveOnSurface.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_Command.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_EdgeError.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_FaceError.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_FindSurface.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_FuseEdges.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakeEdge.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakeEdge2d.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakeFace.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakePolygon.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakeShape.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakeShell.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakeSolid.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakeVertex.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_MakeWire.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_PointCloudShape.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_ShapeModification.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_ShellError.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_ToolTriangulatedShape.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_ValidateEdge.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepLib\BRepLib_WireError.hxx">
+      <Filter>Header files\BRepLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_Cinert.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_Domain.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_Domain.lxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_EdgeTool.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_Face.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_Face.lxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_Gauss.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_MeshCinert.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_MeshProps.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_Sinert.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_TFunction.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_TFunction.lxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_UFunction.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_UFunction.lxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_Vinert.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepGProp\BRepGProp_VinertGK.hxx">
+      <Filter>Header files\BRepGProp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepIntCurveSurface\BRepIntCurveSurface_Inter.hxx">
+      <Filter>Header files\BRepIntCurveSurface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_DataMapIteratorOfMapOfShapeTool.hxx">
+      <Filter>Header files\BRepTopAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_FClass2d.hxx">
+      <Filter>Header files\BRepTopAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_HVertex.hxx">
+      <Filter>Header files\BRepTopAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_HVertex.lxx">
+      <Filter>Header files\BRepTopAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_MapOfShapeTool.hxx">
+      <Filter>Header files\BRepTopAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_SeqOfPtr.hxx">
+      <Filter>Header files\BRepTopAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_Tool.hxx">
+      <Filter>Header files\BRepTopAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepTopAdaptor\BRepTopAdaptor_TopolTool.hxx">
+      <Filter>Header files\BRepTopAdaptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_BndBoxTreeSelector.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_CellFilter.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Collect.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Command.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Copy.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_EdgeError.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_FaceError.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_FastSewing.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_FindPlane.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_GTransform.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeEdge.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeEdge2d.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeFace.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakePolygon.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeShape.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeShapeOnMesh.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeShell.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeSolid.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeVertex.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_MakeWire.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_ModifyShape.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_NurbsConvert.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_PipeError.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Sewing.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Sewing.lxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_ShapeModification.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_ShellError.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_Transform.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_TransitionMode.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_VertexInspector.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepBuilderAPI\BRepBuilderAPI_WireError.hxx">
+      <Filter>Header files\BRepBuilderAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_Approx.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_ApproxLine.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_BSpGradient_BFGSOfMyBSplGradientOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_BSpParFunctionOfMyBSplGradientOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_BSpParLeastSquareOfMyBSplGradientOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_Gradient_BFGSOfMyGradientOfTheComputeLineBezierOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_Gradient_BFGSOfMyGradientbisOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_MyBSplGradientOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_MyGradientOfTheComputeLineBezierOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_MyGradientbisOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_ParFunctionOfMyGradientOfTheComputeLineBezierOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_ParFunctionOfMyGradientbisOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_ParLeastSquareOfMyGradientOfTheComputeLineBezierOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_ParLeastSquareOfMyGradientbisOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_ResConstraintOfMyGradientOfTheComputeLineBezierOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_ResConstraintOfMyGradientbisOfTheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_SurfaceTool.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_SurfaceTool.lxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_TheComputeLineBezierOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_TheComputeLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_TheFunctionOfTheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_TheImpPrmSvSurfacesOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_TheInt2SOfThePrmPrmSvSurfacesOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_TheMultiLineOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_TheMultiLineToolOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_ThePrmPrmSvSurfacesOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\BRepApprox\BRepApprox_TheZerImpFuncOfTheImpPrmSvSurfacesOfApprox.hxx">
+      <Filter>Header files\BRepApprox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKTopAlgo.rc" />
+  </ItemGroup>
+</Project>

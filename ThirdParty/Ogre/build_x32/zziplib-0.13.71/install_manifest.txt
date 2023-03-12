@@ -1,0 +1,16 @@
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/lib.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/zzip.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/format.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/types.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/conf.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/_msvc.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/file.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/info.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/plugin.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/write.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/fetch.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/stdint.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/zzip32.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/autoconf.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/include/zzip/_config.h
+E:/Repos/DG/KernelCAD/ThirdParty/OgreNew/build_x32/Dependencies/lib/zzip.lib

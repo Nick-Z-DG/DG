@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{D274E25F-16EC-084F-0D40-6E91F32FFDC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{BD9DF18C-143F-01A9-0B1B-F1EA6D55C736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Aspect">
+      <UniqueIdentifier>{89D0DDDE-020D-03A7-0B21-6A6A8D795452}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Graphic3d">
+      <UniqueIdentifier>{8EFCC497-178A-12FF-0BAE-228DBE87CFAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Xw">
+      <UniqueIdentifier>{540F5C9B-0E51-0056-0E73-F0DE7C9ED1A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Image">
+      <UniqueIdentifier>{D53ECEF0-1978-148B-0553-B816E0E5FB2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Media">
+      <UniqueIdentifier>{CCCDBE7D-124A-0EAD-1023-B4299E186020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Wasm">
+      <UniqueIdentifier>{4F0D580F-07E7-0FF5-1647-C19359B0C752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\WNT">
+      <UniqueIdentifier>{EDE08A33-0619-0D3F-07DC-330EC40EA0F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Font">
+      <UniqueIdentifier>{687EC555-0C55-0985-0728-84929EB5FABA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Aspect">
+      <UniqueIdentifier>{6004AF6D-02B1-04C8-16BA-604677B246ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Graphic3d">
+      <UniqueIdentifier>{4E9F9C8D-189C-071E-09C5-DF08579C8E5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Xw">
+      <UniqueIdentifier>{45FBC129-0A24-12A4-0531-1D4EDF2536F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Image">
+      <UniqueIdentifier>{3A7589FF-142B-154E-15EA-2DB45C9C093C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Media">
+      <UniqueIdentifier>{226240E6-110E-0458-1155-E1CB39E51B05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Wasm">
+      <UniqueIdentifier>{5123C860-00E5-0791-0E32-CE02E7209A77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\WNT">
+      <UniqueIdentifier>{7D078457-0C01-0667-038C-4C7D3CB1F4F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Cocoa">
+      <UniqueIdentifier>{494F249E-1804-17DD-1263-CD1C53FE8D8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Font">
+      <UniqueIdentifier>{FF72F72D-00C2-1259-0C56-6E96434B4366}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Background.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_CircularGrid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_DisplayConnection.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GenId.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_GradientBackground.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Grid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_NeutralWindow.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_OpenVRSession.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_RectangularGrid.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_SkydomeBackground.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_VKeySet.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_Window.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_WindowInputListener.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Aspect\Aspect_XRSession.cxx">
+      <Filter>Source files\Aspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPrimitives.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AspectFillArea3d.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AspectLine3d.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AspectMarker3d.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AspectText3d.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Aspects.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_AttribBuffer.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_BSDF.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Buffer.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_BvhCStructureSet.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CLight.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CStructure.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CView.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Camera.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CameraTile.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ClipPlane.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CubeMap.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapOrder.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapPacked.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapSeparate.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_CullingTool.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_DataStructureManager.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_FrameStats.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_FrameStatsData.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_GraphicDriver.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_GraphicDriverFactory.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Group.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_HatchStyle.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Layer.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_LightSet.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_MarkerImage.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_MaterialAspect.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_MediaTexture.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_MediaTextureSet.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_PBRMaterial.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_PolygonOffset.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_PresentationAttributes.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_RenderingParams.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderAttribute.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderManager.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderObject.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderProgram.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ShaderVariable.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Structure.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_StructureManager.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Text.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture1D.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture1Dmanual.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture1Dsegment.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture2D.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture2Dplane.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Texture3D.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureEnv.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureMap.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureParams.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureRoot.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TextureSet.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TransformPers.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_TransformPersScaledAbove.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_Vertex.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Graphic3d\Graphic3d_ViewAffinity.cxx">
+      <Filter>Source files\Graphic3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Xw\Xw_Window.cxx">
+      <Filter>Source files\Xw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_AlienPixMap.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_DDSParser.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_Diff.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_PixMap.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_SupportedFormats.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_Texture.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Image\Image_VideoRecorder.cxx">
+      <Filter>Source files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_BufferPool.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_CodecContext.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_FormatContext.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Frame.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Packet.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_PlayerContext.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Scaler.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Media\Media_Timer.cxx">
+      <Filter>Source files\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Wasm\Wasm_Window.cxx">
+      <Filter>Source files\Wasm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_HIDSpaceMouse.cxx">
+      <Filter>Source files\WNT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_WClass.cxx">
+      <Filter>Source files\WNT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\WNT\WNT_Window.cxx">
+      <Filter>Source files\WNT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_FTFont.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_FTLibrary.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_FontMgr.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_SystemFont.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\Font\Font_TextFormatter.cxx">
+      <Filter>Source files\Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectFillAreaDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectLineDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_AspectMarkerDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Background.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_CircularGrid.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_ColorSpace.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Display.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_DisplayConnection.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_DisplayConnectionDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Drawable.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Eye.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_FBConfig.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_FillMethod.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_FrustumLRBT.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GenId.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GradientBackground.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GradientFillMethod.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GraphicDeviceDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GraphicsLibrary.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Grid.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GridDrawMode.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_GridType.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Handle.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_HatchStyle.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_IdentDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_InteriorStyle.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_NeutralWindow.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_OpenVRSession.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_PolygonOffsetMode.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_RectangularGrid.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_RenderingContext.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_ScrollDelta.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_SequenceOfColor.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_SkydomeBackground.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Touch.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TouchMap.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TrackedDevicePose.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScaleData.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScaleOrientation.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfColorScalePosition.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfDeflection.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfDisplayText.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfFacingModel.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfHighlightMethod.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfLine.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfMarker.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfResize.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfStyleText.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_TypeOfTriedronPosition.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Units.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKey.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKeyFlags.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_VKeySet.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WidthOfLine.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_Window.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WindowDefinitionError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WindowError.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_WindowInputListener.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XAtom.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRAction.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRActionSet.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRActionType.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRAnalogActionData.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRDigitalActionData.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRGenericAction.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRHapticActionData.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRPoseActionData.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRSession.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Aspect\Aspect_XRTrackedDeviceRole.hxx">
+      <Filter>Header files\Aspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AlphaMode.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayFlags.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPoints.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPolygons.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPolylines.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfPrimitives.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfQuadrangleStrips.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfQuadrangles.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfSegments.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfTriangleFans.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfTriangleStrips.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ArrayOfTriangles.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AspectFillArea3d.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AspectLine3d.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AspectMarker3d.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AspectText3d.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Aspects.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_AttribBuffer.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BSDF.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BndBox3d.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BndBox4d.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BndBox4f.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BoundBuffer.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Buffer.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BufferRange.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BufferType.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BvhCStructureSet.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_BvhCStructureSetTrsfPers.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CLight.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CStructure.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CView.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Camera.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CameraTile.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CappingFlags.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ClipPlane.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMap.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapOrder.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapPacked.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapSeparate.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CubeMapSide.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_CullingTool.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_DataStructureManager.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_DiagnosticInfo.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_DisplayPriority.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_FrameStats.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_FrameStatsCounter.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_FrameStatsData.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_FrameStatsTimer.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GraduatedTrihedron.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GraphicDriver.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GraphicDriverFactory.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Group.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GroupAspect.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_GroupDefinitionError.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_HatchStyle.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_HorizontalTextAlignment.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_IndexBuffer.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Layer.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_LevelOfTextureAnisotropy.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_LightSet.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MapIteratorOfMapOfStructure.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MapOfAspectsToAspects.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MapOfObject.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MapOfStructure.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MarkerImage.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MarkerImage.pxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Mat4.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Mat4d.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MaterialAspect.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MaterialDefinitionError.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MediaTexture.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MediaTextureSet.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_MutableIndexBuffer.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NMapOfTransient.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfMaterial.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfTexture1D.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfTexture2D.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfTextureEnv.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_NameOfTexturePlane.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_PBRMaterial.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_PolygonOffset.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_PresentationAttributes.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_PriorityDefinitionError.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_RenderTransparentMethod.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_RenderingMode.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_RenderingParams.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_SequenceOfGroup.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_SequenceOfHClipPlane.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_SequenceOfStructure.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderAttribute.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderFlags.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderManager.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderObject.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderProgram.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderVariable.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ShaderVariable.lxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_StereoMode.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Structure.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_StructureDefinitionError.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_StructureManager.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Text.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextPath.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture1D.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture1Dmanual.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture1Dsegment.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture2D.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture2Dmanual.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture2Dplane.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Texture3D.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureEnv.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureMap.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureParams.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureRoot.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureSet.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureSetBits.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TextureUnit.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ToneMappingMethod.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TransModeFlags.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TransformPers.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TransformPersScaledAbove.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TransformUtils.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfAnswer.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfBackfacingModel.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfBackground.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfConnection.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfLightSource.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfLimit.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfMaterial.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfPrimitiveArray.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfReflection.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfShaderObject.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfShadingModel.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfStructure.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfTexture.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfTextureFilter.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfTextureMode.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_TypeOfVisualization.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vec.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vec2.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vec3.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vec4.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_Vertex.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_VerticalTextAlignment.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ViewAffinity.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_WorldViewProjState.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ZLayerId.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Graphic3d\Graphic3d_ZLayerSettings.hxx">
+      <Filter>Header files\Graphic3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Xw\Xw_Window.hxx">
+      <Filter>Header files\Xw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_AlienPixMap.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_Color.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_CompressedFormat.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_CompressedPixMap.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_DDSParser.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_Diff.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_Format.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_PixMap.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_PixMapData.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_PixMapTypedData.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_SupportedFormats.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_Texture.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Image\Image_VideoRecorder.hxx">
+      <Filter>Header files\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_BufferPool.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_CodecContext.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_FormatContext.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_Frame.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_IFrameQueue.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_Packet.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_PlayerContext.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_Scaler.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Media\Media_Timer.hxx">
+      <Filter>Header files\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Wasm\Wasm_Window.hxx">
+      <Filter>Header files\Wasm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_ClassDefinitionError.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_Dword.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_HIDSpaceMouse.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_OrientationType.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_WClass.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_Window.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\WNT\WNT_WindowPtr.hxx">
+      <Filter>Header files\WNT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_LocalPool.hxx">
+      <Filter>Header files\Cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_LocalPool.mm">
+      <Filter>Header files\Cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_Window.hxx">
+      <Filter>Header files\Cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Cocoa\Cocoa_Window.mm">
+      <Filter>Header files\Cocoa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_BRepFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_BRepTextBuilder.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_DejavuSans_Latin_woff.pxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_FTFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_FTLibrary.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_FontAspect.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_FontMgr.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_Hinting.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_NListOfSystemFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_NameOfFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_Rect.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_StrictLevel.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_SystemFont.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_TextFormatter.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\Font\Font_UnicodeSubset.hxx">
+      <Filter>Header files\Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TKService.rc" />
+  </ItemGroup>
+</Project>
